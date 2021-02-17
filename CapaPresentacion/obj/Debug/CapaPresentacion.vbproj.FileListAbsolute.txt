@@ -20,3 +20,7 @@ c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPre
 c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.pdb
 c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.xml
 c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
