@@ -1,0 +1,12 @@
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.xml

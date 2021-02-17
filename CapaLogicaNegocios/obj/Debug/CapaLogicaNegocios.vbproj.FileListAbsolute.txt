@@ -1,0 +1,15 @@
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.xml
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.xml
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.vbprojResolveAssemblyReference.cache
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.Resources.resources
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.vbproj.GenerateResource.Cache
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.xml
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaEntidad.dll
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaEntidad.pdb
+c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaEntidad.xml
