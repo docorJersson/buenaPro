@@ -12,7 +12,7 @@ Public Class Form1
         If txtUsuario.Text <> "" And txtPassword.Text <> "" Then
             Dim user As entUser
             user = usuario.Login(txtUsuario.Text, txtPassword.Text)
-            Session.Instance.setSession(user)
+            session.Instance.setSession(user)
             If session.Instance.Estado = session._OK Then
                 Me.Hide()
                 Dim frmprincipal As New frmPrincipal()

@@ -22,5 +22,995 @@ CapaPresentacion
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.aprobacionPublicaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.calificacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.categoriaFinancieraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.categoriaPreguntaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.ciudadanoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.consultaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.consultoraObraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contratistaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contratoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contribuyenteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.convocatoriaPublicaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.creacionConvocatoriaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.cronogramaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.departamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.distritoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.eFinanciera_ePublicaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.entidadFinancieraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.entidadPublicaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.especialidadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.especialidadProveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.estudioTecnicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.eValorReferencialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.evaluacionPostulanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.expedienteTecnicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.funcionarioEntidadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.funcionarioOSCEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.ganadorConvocatoriaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.garantiaContratoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.integranteProveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.itemContratoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.itemPorpuestoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.modoDeberDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.modoProveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.postulanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.postulanteIntegranteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.procedimientoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.propuestaPostulanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.proveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.proveedorDepartamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.provinciaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.representantePostorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.respuestaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.terrenoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.terrenoExpeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.tipoGarantiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.tipoResolucionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.usuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.aprobacionPublicaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.calificacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.categoriaFinancieraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.categoriaPreguntaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.ciudadanoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.consultaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.consultoraObraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contratistaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contratoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contribuyenteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.convocatoriaPublicaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.creacionConvocatoriaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.cronogramaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.departamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.distritoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.eFinanciera_ePublicaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.entidadFinancieraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.entidadPublicaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.especialidadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.especialidadProveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.estudioTecnicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.eValorReferencialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.evaluacionPostulanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.expedienteTecnicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.funcionarioEntidadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.funcionarioOSCERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.ganadorConvocatoriaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.garantiaContratoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.integranteProveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.itemContratoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.itemPorpuestoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.modoDeberRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.modoProveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.postulanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.postulanteIntegranteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.procedimientoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.propuestaPostulanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.proveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.proveedorDepartamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.provinciaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.representantePostorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.respuestaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.terrenoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.terrenoExpeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.tipoGarantiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.tipoResolucionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.usuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.aprobacionPublicaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.calificacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.categoriaFinancieraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.categoriaPreguntaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.ciudadanoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.consultaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.consultoraObraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contratistaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contratoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.contribuyenteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.convocatoriaPublicaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.creacionConvocatoriaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.cronogramaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.departamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.distritoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.eFinanciera_ePublicaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.entidadFinancieraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.entidadPublicaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.especialidadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.especialidadProveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.estudioTecnicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.eValorReferencialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.evaluacionPostulanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.expedienteTecnicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.funcionarioEntidadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.funcionarioOSCERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.ganadorConvocatoriaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.garantiaContratoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.integranteProveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.itemContratoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.itemPorpuestoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.modoDeberRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.modoProveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.postulanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.postulanteIntegranteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.procedimientoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.propuestaPostulanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.proveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.proveedorDepartamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.provinciaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.representantePostorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.respuestaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.terrenoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.terrenoExpeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.tipoGarantiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.tipoResolucionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSet.usuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.aprobacionPublicaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.calificacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.categoriaFinancieraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.categoriaPreguntaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.ciudadanoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.consultaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.consultoraObraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.contratistaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.contratoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.contribuyenteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.convocatoriaPublicaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.creacionConvocatoriaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.cronogramaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.departamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.distritoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.eFinanciera_ePublicaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.entidadFinancieraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.entidadPublicaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.especialidadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.especialidadProveedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.estudioTecnicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.eValorReferencialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.evaluacionPostulanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.expedienteTecnicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.funcionarioEntidadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.funcionarioOSCETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.ganadorConvocatoriaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.garantiaContratoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.integranteProveedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.itemContratoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.itemPorpuestoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.modoDeberTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.modoProveedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.postulanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.postulanteIntegranteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.procedimientoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.propuestaPostulanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.proveedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.proveedorDepartamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.provinciaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.representantePostorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.respuestaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.terrenoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.terrenoExpeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.tipoGarantiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.tipoResolucionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.usuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CapaPresentacion.BD_BUENAPRODataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CapaPresentacion.BD_BUENAPRODataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CapaPresentacion.BD_BUENAPRODataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.UpdateAll(CapaPresentacion.BD_BUENAPRODataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CapaPresentacion.BD_BUENAPRODataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
