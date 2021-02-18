@@ -10,3 +10,17 @@ c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAcc
 c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
 c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
 c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.CodeAnalysisLog.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.lastcodeanalysissucceeded
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

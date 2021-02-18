@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.exe">
+   <Modules>
+    <Module Name="capapresentacion.exe">
+     <Namespaces>
+      <Namespace Name="CapaPresentacion">
+       <Types>
+        <Type Name="BD_BUENAPRODataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+aprobacionPublicaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.aprobacionPublicaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+calificacionDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.calificacionDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+categoriaFinancieraDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.categoriaFinancieraDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+categoriaPreguntaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.categoriaPreguntaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+ciudadanoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.ciudadanoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+consultaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.consultaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+consultoraObraDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.consultoraObraDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+contratistaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.contratistaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+contratoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.contratoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+contribuyenteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.contribuyenteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+convocatoriaPublicaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.convocatoriaPublicaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+creacionConvocatoriaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.creacionConvocatoriaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+cronogramaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.cronogramaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+departamentoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.departamentoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+distritoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.distritoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+eFinanciera_ePublicaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.eFinanciera_ePublicaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+entidadFinancieraDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.entidadFinancieraDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+entidadPublicaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.entidadPublicaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+especialidadDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.especialidadDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+especialidadProveedorDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.especialidadProveedorDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+estudioTecnicoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.estudioTecnicoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+eValorReferencialDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.eValorReferencialDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+evaluacionPostulanteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.evaluacionPostulanteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+expedienteTecnicoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.expedienteTecnicoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+funcionarioEntidadDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.funcionarioEntidadDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+funcionarioOSCEDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.funcionarioOSCEDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+ganadorConvocatoriaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.ganadorConvocatoriaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+garantiaContratoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.garantiaContratoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+integranteProveedorDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.integranteProveedorDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+itemContratoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.itemContratoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+itemPorpuestoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.itemPorpuestoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+modoDeberDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.modoDeberDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+modoProveedorDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.modoProveedorDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+postulanteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.postulanteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+postulanteIntegranteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.postulanteIntegranteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+procedimientoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.procedimientoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+propuestaPostulanteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.propuestaPostulanteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+proveedorDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.proveedorDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+proveedorDepartamentoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.proveedorDepartamentoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+provinciaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.provinciaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+representantePostorDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.representantePostorDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+respuestaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.respuestaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+terrenoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.terrenoDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+terrenoExpeDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.terrenoExpeDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+tipoGarantiaDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.tipoGarantiaDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+tipoResolucionDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.tipoResolucionDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BD_BUENAPRODataSet+usuariosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-02-17 23:59:16Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'BD_BUENAPRODataSet.usuariosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
