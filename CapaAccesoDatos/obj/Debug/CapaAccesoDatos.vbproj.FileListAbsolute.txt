@@ -13,8 +13,6 @@ c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAcc
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.CodeAnalysisLog.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.lastcodeanalysissucceeded
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
@@ -24,3 +22,4 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\Ca
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\MaterialSkin.dll

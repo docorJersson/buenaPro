@@ -16,8 +16,6 @@ c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaLog
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll.CodeAnalysisLog.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll.lastcodeanalysissucceeded
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaEntidad.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.pdb
@@ -30,3 +28,4 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\MaterialSkin.dll

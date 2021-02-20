@@ -10,11 +10,10 @@ c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaEnt
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\CapaEntidad.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\CapaEntidad.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\CapaEntidad.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\CapaEntidad.dll.CodeAnalysisLog.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\CapaEntidad.dll.lastcodeanalysissucceeded
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\MaterialSkin.dll

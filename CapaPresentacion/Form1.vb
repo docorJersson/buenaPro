@@ -4,7 +4,7 @@ Imports CapaLogicaNegocios
 Public Class Form1
     Private usuario As New negLogin
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
         Close()
     End Sub
 

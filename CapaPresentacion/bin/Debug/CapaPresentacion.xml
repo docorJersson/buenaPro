@@ -22,6 +22,16 @@ CapaPresentacion
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:CapaPresentacion.My.Resources.Resources.LOGO_OSCE_ok">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CapaPresentacion.My.Resources.Resources.maxresdefault">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="T:CapaPresentacion.BD_BUENAPRODataSet">
 <summary>
 Represents a strongly typed in-memory cache of data.
