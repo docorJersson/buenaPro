@@ -22,4 +22,8 @@
     Private Sub TabPage1_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
 End Class
