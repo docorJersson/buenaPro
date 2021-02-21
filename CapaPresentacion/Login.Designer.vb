@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Login
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -34,7 +34,9 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -61,12 +63,12 @@ Partial Class Form1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(117, 405)
+        Me.Button1.Location = New System.Drawing.Point(63, 403)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(143, 35)
+        Me.Button1.Size = New System.Drawing.Size(118, 35)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Ingresar"
         Me.Button1.UseVisualStyleBackColor = False
@@ -162,20 +164,52 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
-        'DateTimePicker1
+        'Button2
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(182, 485)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 14
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Button2.Location = New System.Drawing.Point(203, 403)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(112, 35)
+        Me.Button2.TabIndex = 15
+        Me.Button2.Text = "Cerrar"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'Form1
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label7.Location = New System.Drawing.Point(5, 477)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(364, 13)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "Los procesos registrado en esta plataforma pasan a ser automáticamente de" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label8.Location = New System.Drawing.Point(5, 496)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(372, 13)
+        Me.Label8.TabIndex = 17
+        Me.Label8.Text = " dominio público. En caso de información falsa será aplicada la ley n° 2020-25." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
+    ""
+        '
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(82, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(381, 523)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -190,7 +224,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtUsuario)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = " "
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -210,5 +244,7 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
 End Class
