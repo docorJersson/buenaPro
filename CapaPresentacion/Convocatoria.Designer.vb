@@ -44,6 +44,12 @@ Partial Class Convocatoria
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
@@ -66,12 +72,6 @@ Partial Class Convocatoria
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -135,7 +135,7 @@ Partial Class Convocatoria
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(100, 13)
+        Me.TextBox5.Location = New System.Drawing.Point(102, 13)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(154, 20)
         Me.TextBox5.TabIndex = 9
@@ -145,9 +145,9 @@ Partial Class Convocatoria
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(13, 16)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 13)
+        Me.Label5.Size = New System.Drawing.Size(88, 13)
         Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Nomenclatura:"
+        Me.Label5.Text = "N° Convocatoria:"
         '
         'TextBox4
         '
@@ -305,6 +305,56 @@ Partial Class Convocatoria
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(795, 165)
         Me.Panel3.TabIndex = 10
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(614, 133)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(13, 13)
+        Me.Label12.TabIndex = 26
+        Me.Label12.Text = ".."
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(435, 130)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(160, 20)
+        Me.TextBox9.TabIndex = 25
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(379, 133)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(59, 13)
+        Me.Label11.TabIndex = 24
+        Me.Label11.Text = "N° Cuenta:"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(329, 128)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(31, 23)
+        Me.Button1.TabIndex = 23
+        Me.Button1.Text = "..."
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(14, 133)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(89, 13)
+        Me.Label8.TabIndex = 22
+        Me.Label8.Text = "Entidad de Pago:"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(106, 130)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(217, 20)
+        Me.TextBox8.TabIndex = 21
         '
         'Label21
         '
@@ -488,56 +538,6 @@ Partial Class Convocatoria
         Me.Label31.Size = New System.Drawing.Size(187, 13)
         Me.Label31.TabIndex = 11
         Me.Label31.Text = "Información general del Procedimiento"
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(106, 130)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(217, 20)
-        Me.TextBox8.TabIndex = 21
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(14, 133)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(89, 13)
-        Me.Label8.TabIndex = 22
-        Me.Label8.Text = "Entidad de Pago:"
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(329, 128)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(31, 23)
-        Me.Button1.TabIndex = 23
-        Me.Button1.Text = "..."
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(379, 133)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(59, 13)
-        Me.Label11.TabIndex = 24
-        Me.Label11.Text = "N° Cuenta:"
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(435, 130)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(160, 20)
-        Me.TextBox9.TabIndex = 25
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(614, 133)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(13, 13)
-        Me.Label12.TabIndex = 26
-        Me.Label12.Text = ".."
         '
         'Button3
         '
