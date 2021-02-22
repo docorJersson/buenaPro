@@ -46,3 +46,7 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\C
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\MaterialSkin.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.EntidadesPublicas.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Convocatoria.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Postulantes.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Financiera.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Ciudadano.resources
