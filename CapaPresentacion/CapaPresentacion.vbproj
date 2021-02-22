@@ -88,6 +88,12 @@
     <Compile Include="Ciudadano.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="listaFinancieras.Designer.vb">
+      <DependentUpon>listaFinancieras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listaFinancieras.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Proveedor.Designer.vb">
       <DependentUpon>Proveedor.vb</DependentUpon>
     </Compile>
@@ -205,7 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaAccesoDatos\CapaAccesoDatos.vbproj">
-      <Project>{B6EBF388-E422-4422-92E7-CDD96AB61D38}</Project>
+      <Project>{b6ebf388-e422-4422-92e7-cdd96ab61d38}</Project>
       <Name>CapaAccesoDatos</Name>
     </ProjectReference>
     <ProjectReference Include="..\CapaEntidad\CapaEntidad.vbproj">
