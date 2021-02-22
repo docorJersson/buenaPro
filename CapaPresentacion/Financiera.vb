@@ -4,6 +4,8 @@
     End Sub
 
     Private Sub comboDep_SelectedIndexChanged(sender As Object, e As EventArgs) Handles comboDep.SelectedIndexChanged
+        comboProv.Text = ""
+        comboProv.Items.Clear()
         Dim departamento As String
 
         departamento = comboDep.SelectedItem.ToString
