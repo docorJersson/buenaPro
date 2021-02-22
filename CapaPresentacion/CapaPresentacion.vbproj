@@ -81,6 +81,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD_BUENAPRODataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Proveedor.Designer.vb">
+      <DependentUpon>Proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Postulantes.Designer.vb">
       <DependentUpon>Postulantes.vb</DependentUpon>
     </Compile>
@@ -133,15 +139,12 @@
     <Compile Include="Principal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proveedor.Designer.vb">
-      <DependentUpon>Proveedor.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Proveedor.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="session.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Proveedor.resx">
+      <DependentUpon>Proveedor.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Postulantes.resx">
       <DependentUpon>Postulantes.vb</DependentUpon>
     </EmbeddedResource>
@@ -165,9 +168,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Proveedor.resx">
-      <DependentUpon>Proveedor.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
