@@ -1,13 +1,13 @@
 ﻿Public Class Proveedor
-    Private rucProveedor
-    Private proveedor
-    Private consorcio
-    Private telefono
-    Private email
-    Private cCEASE
-    Private RNP
-    Private estadoProveedor
-    Private condicion
+    Private rucProveedor As String
+    Private proveedor As String
+    Private consorcio As Boolean
+    Private telefono As String
+    Private email As String
+    Private cCEASE As String
+    Private RNP As Boolean
+    Private estadoProveedor As Boolean
+    Private condicion As String
     Public objEntidadContri As Contribuyente
 
     Public Property _rucProveedor As Char

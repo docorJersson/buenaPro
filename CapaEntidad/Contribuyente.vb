@@ -1,9 +1,9 @@
 ﻿Public Class Contribuyente
-    Private idContribuyente
-    Private contribuyente
-    Private abreviatura
-    Private maxImpuesto
-    Private minImpuesto
+    Private idContribuyente As Integer
+    Private contribuyente As String
+    Private abreviatura As String
+    Private maxImpuesto As Decimal
+    Private minImpuesto As Decimal
 
     Public Property _idContribuyente As Integer
         Get
