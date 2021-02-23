@@ -1,5 +1,7 @@
 ﻿Imports System.Data.Sql
 Imports System.Data.SqlClient
+Imports System.Data.OleDb
+Imports System.Data.DataRowView
 Imports System.Windows.Forms
 Imports CapaEntidad
 
@@ -26,13 +28,29 @@ Public Class listCheckBox
             cBuenaPro.Open()
             Using proProv As New SqlCommand("listProv", cBuenaPro)
                 proProv.CommandType = CommandType.StoredProcedure
-                Console.WriteLine(departamento)
                 proProv.Parameters.Add("@departamento", SqlDbType.VarChar, 50).Value = departamento
                 Dim lector As SqlDataReader
                 lector = proProv.ExecuteReader
                 While (lector.Read())
                     comboProv.Items.Add(lector.GetValue(1))
                 End While
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
+    Public Shared Function lisCatFinan(ByVal comboCatFin As ComboBox, sistema As String) As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using proListCatFin As New SqlCommand("lisCateFinan", cBuenaPro)
+                proListCatFin.CommandType = CommandType.StoredProcedure
+                proListCatFin.Parameters.AddWithValue("@sistema", sistema)
+
+                Using daPro As New SqlDataAdapter(proListCatFin)
+                    Using table As New DataTable
+                        daPro.Fill(table)
+                        Return table
+                    End Using
+                End Using
             End Using
             cBuenaPro.Close()
         End Using

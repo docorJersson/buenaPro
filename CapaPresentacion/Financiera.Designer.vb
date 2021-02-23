@@ -38,9 +38,9 @@ Partial Class Financiera
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.comboCategoria = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.comboSistema = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -187,22 +187,22 @@ Partial Class Financiera
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.ComboBox2)
+        Me.Panel2.Controls.Add(Me.comboCategoria)
         Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.ComboBox1)
+        Me.Panel2.Controls.Add(Me.comboSistema)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Location = New System.Drawing.Point(12, 34)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(454, 47)
         Me.Panel2.TabIndex = 1
         '
-        'ComboBox2
+        'comboCategoria
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(273, 11)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(166, 21)
-        Me.ComboBox2.TabIndex = 5
+        Me.comboCategoria.FormattingEnabled = True
+        Me.comboCategoria.Location = New System.Drawing.Point(273, 11)
+        Me.comboCategoria.Name = "comboCategoria"
+        Me.comboCategoria.Size = New System.Drawing.Size(166, 21)
+        Me.comboCategoria.TabIndex = 5
         '
         'Label4
         '
@@ -213,14 +213,14 @@ Partial Class Financiera
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Categoría:"
         '
-        'ComboBox1
+        'comboSistema
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Seleccione", "BANCARIO", "NO BANCARIO"})
-        Me.ComboBox1.Location = New System.Drawing.Point(67, 11)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 3
+        Me.comboSistema.FormattingEnabled = True
+        Me.comboSistema.Items.AddRange(New Object() {"BANCARIA", "NO BANCARIA"})
+        Me.comboSistema.Location = New System.Drawing.Point(67, 11)
+        Me.comboSistema.Name = "comboSistema"
+        Me.comboSistema.Size = New System.Drawing.Size(121, 21)
+        Me.comboSistema.TabIndex = 3
         '
         'Label3
         '
@@ -293,9 +293,9 @@ Partial Class Financiera
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents comboCategoria As ComboBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents comboSistema As ComboBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox5 As TextBox
