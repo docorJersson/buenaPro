@@ -16,7 +16,7 @@ Public Class listCheckBox
                 End Using
             End Using
             cBuenaPro.Close()
-            End Using
+        End Using
     End Function
 
     Public Shared Function lisProv(idDepa As Integer) As DataTable
@@ -73,4 +73,22 @@ Public Class listCheckBox
         End Using
     End Function
 
+    Public Shared Function listResolucion() As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using listReso As New SqlCommand("listResolucion", cBuenaPro)
+                listReso.CommandType = CommandType.StoredProcedure
+
+                Using daRes As New SqlDataAdapter(listReso)
+                    Using table As New DataTable
+                        daRes.Fill(table)
+                        Return table
+                    End Using
+                End Using
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
 End Class
+
+

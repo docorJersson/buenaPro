@@ -22,8 +22,9 @@ Partial Class EntidadesPublicas
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.pnEntidad = New System.Windows.Forms.Panel()
         Me.txtCorreo = New System.Windows.Forms.TextBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.txtWeb = New System.Windows.Forms.TextBox()
@@ -44,13 +45,17 @@ Partial Class EntidadesPublicas
         Me.cboDepar = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.panelFinancieras = New System.Windows.Forms.Panel()
+        Me.dtApertura = New System.Windows.Forms.DateTimePicker()
+        Me.label = New System.Windows.Forms.Label()
         Me.listFinanciera = New System.Windows.Forms.ListView()
-        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.codFinanciera = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.nombre = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.cuenta = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.interbankario = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.saldo = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.seguro = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.fApertura = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ckSeguro = New System.Windows.Forms.CheckBox()
         Me.txtSaldo = New System.Windows.Forms.TextBox()
@@ -66,39 +71,58 @@ Partial Class EntidadesPublicas
         Me.Button1 = New System.Windows.Forms.Button()
         Me.txtCodFinan = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
+        Me.tbDetalles = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.pnEntidad.SuspendLayout()
+        Me.panelFinancieras.SuspendLayout()
+        Me.tbDetalles.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
+        'pnEntidad
         '
-        Me.Panel1.Controls.Add(Me.txtCorreo)
-        Me.Panel1.Controls.Add(Me.Label18)
-        Me.Panel1.Controls.Add(Me.Label10)
-        Me.Panel1.Controls.Add(Me.txtWeb)
-        Me.Panel1.Controls.Add(Me.txtDirecion)
-        Me.Panel1.Controls.Add(Me.Label9)
-        Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Controls.Add(Me.Label7)
-        Me.Panel1.Controls.Add(Me.cboDistrito)
-        Me.Panel1.Controls.Add(Me.cboProvincia)
-        Me.Panel1.Controls.Add(Me.txtRuc)
-        Me.Panel1.Controls.Add(Me.txtUbigeo)
-        Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Controls.Add(Me.txtTeléfono)
-        Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.txtNombre)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.cboDepar)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Location = New System.Drawing.Point(12, 40)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(789, 118)
-        Me.Panel1.TabIndex = 0
+        Me.pnEntidad.Controls.Add(Me.txtCorreo)
+        Me.pnEntidad.Controls.Add(Me.Button5)
+        Me.pnEntidad.Controls.Add(Me.Label18)
+        Me.pnEntidad.Controls.Add(Me.Label10)
+        Me.pnEntidad.Controls.Add(Me.txtWeb)
+        Me.pnEntidad.Controls.Add(Me.txtDirecion)
+        Me.pnEntidad.Controls.Add(Me.Label9)
+        Me.pnEntidad.Controls.Add(Me.Label8)
+        Me.pnEntidad.Controls.Add(Me.Label7)
+        Me.pnEntidad.Controls.Add(Me.cboDistrito)
+        Me.pnEntidad.Controls.Add(Me.cboProvincia)
+        Me.pnEntidad.Controls.Add(Me.txtRuc)
+        Me.pnEntidad.Controls.Add(Me.txtUbigeo)
+        Me.pnEntidad.Controls.Add(Me.Label6)
+        Me.pnEntidad.Controls.Add(Me.Label5)
+        Me.pnEntidad.Controls.Add(Me.txtTeléfono)
+        Me.pnEntidad.Controls.Add(Me.Label4)
+        Me.pnEntidad.Controls.Add(Me.txtNombre)
+        Me.pnEntidad.Controls.Add(Me.Label3)
+        Me.pnEntidad.Controls.Add(Me.cboDepar)
+        Me.pnEntidad.Controls.Add(Me.Label2)
+        Me.pnEntidad.Location = New System.Drawing.Point(12, 40)
+        Me.pnEntidad.Name = "pnEntidad"
+        Me.pnEntidad.Size = New System.Drawing.Size(789, 147)
+        Me.pnEntidad.TabIndex = 0
         '
         'txtCorreo
         '
@@ -106,6 +130,15 @@ Partial Class EntidadesPublicas
         Me.txtCorreo.Name = "txtCorreo"
         Me.txtCorreo.Size = New System.Drawing.Size(193, 20)
         Me.txtCorreo.TabIndex = 18
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(700, 116)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "Cargar"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Label18
         '
@@ -184,7 +217,7 @@ Partial Class EntidadesPublicas
         '
         'txtRuc
         '
-        Me.txtRuc.Location = New System.Drawing.Point(49, 49)
+        Me.txtRuc.Location = New System.Drawing.Point(54, 49)
         Me.txtRuc.Name = "txtRuc"
         Me.txtRuc.Size = New System.Drawing.Size(94, 20)
         Me.txtRuc.TabIndex = 9
@@ -275,66 +308,99 @@ Partial Class EntidadesPublicas
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Información General"
         '
-        'Panel2
+        'panelFinancieras
         '
-        Me.Panel2.Controls.Add(Me.listFinanciera)
-        Me.Panel2.Controls.Add(Me.Button4)
-        Me.Panel2.Controls.Add(Me.ckSeguro)
-        Me.Panel2.Controls.Add(Me.txtSaldo)
-        Me.Panel2.Controls.Add(Me.Label17)
-        Me.Panel2.Controls.Add(Me.txtInterbankario)
-        Me.Panel2.Controls.Add(Me.Label16)
-        Me.Panel2.Controls.Add(Me.Label15)
-        Me.Panel2.Controls.Add(Me.txtCuenta)
-        Me.Panel2.Controls.Add(Me.txtAbreviatura)
-        Me.Panel2.Controls.Add(Me.Label14)
-        Me.Panel2.Controls.Add(Me.txtNomFinan)
-        Me.Panel2.Controls.Add(Me.Label13)
-        Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Controls.Add(Me.txtCodFinan)
-        Me.Panel2.Controls.Add(Me.Label12)
-        Me.Panel2.Location = New System.Drawing.Point(12, 186)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(789, 234)
-        Me.Panel2.TabIndex = 2
+        Me.panelFinancieras.Controls.Add(Me.dtApertura)
+        Me.panelFinancieras.Controls.Add(Me.label)
+        Me.panelFinancieras.Controls.Add(Me.listFinanciera)
+        Me.panelFinancieras.Controls.Add(Me.Button4)
+        Me.panelFinancieras.Controls.Add(Me.ckSeguro)
+        Me.panelFinancieras.Controls.Add(Me.txtSaldo)
+        Me.panelFinancieras.Controls.Add(Me.Label17)
+        Me.panelFinancieras.Controls.Add(Me.txtInterbankario)
+        Me.panelFinancieras.Controls.Add(Me.Label16)
+        Me.panelFinancieras.Controls.Add(Me.Label15)
+        Me.panelFinancieras.Controls.Add(Me.txtCuenta)
+        Me.panelFinancieras.Controls.Add(Me.txtAbreviatura)
+        Me.panelFinancieras.Controls.Add(Me.Label14)
+        Me.panelFinancieras.Controls.Add(Me.txtNomFinan)
+        Me.panelFinancieras.Controls.Add(Me.Label13)
+        Me.panelFinancieras.Controls.Add(Me.Button1)
+        Me.panelFinancieras.Controls.Add(Me.txtCodFinan)
+        Me.panelFinancieras.Controls.Add(Me.Label12)
+        Me.panelFinancieras.Enabled = False
+        Me.panelFinancieras.Location = New System.Drawing.Point(1, 0)
+        Me.panelFinancieras.Name = "panelFinancieras"
+        Me.panelFinancieras.Size = New System.Drawing.Size(775, 234)
+        Me.panelFinancieras.TabIndex = 2
+        '
+        'dtApertura
+        '
+        Me.dtApertura.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtApertura.Location = New System.Drawing.Point(107, 80)
+        Me.dtApertura.Name = "dtApertura"
+        Me.dtApertura.Size = New System.Drawing.Size(117, 20)
+        Me.dtApertura.TabIndex = 17
+        '
+        'label
+        '
+        Me.label.AutoSize = True
+        Me.label.Location = New System.Drawing.Point(13, 84)
+        Me.label.Name = "label"
+        Me.label.Size = New System.Drawing.Size(83, 13)
+        Me.label.TabIndex = 16
+        Me.label.Text = "Fecha Apertura:"
         '
         'listFinanciera
         '
-        Me.listFinanciera.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5})
-        Me.listFinanciera.Location = New System.Drawing.Point(19, 108)
+        Me.listFinanciera.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.codFinanciera, Me.nombre, Me.cuenta, Me.interbankario, Me.saldo, Me.seguro, Me.fApertura})
+        Me.listFinanciera.Location = New System.Drawing.Point(13, 108)
         Me.listFinanciera.Name = "listFinanciera"
         Me.listFinanciera.Size = New System.Drawing.Size(758, 112)
         Me.listFinanciera.TabIndex = 15
         Me.listFinanciera.UseCompatibleStateImageBehavior = False
         Me.listFinanciera.View = System.Windows.Forms.View.Details
         '
-        'ColumnHeader1
+        'codFinanciera
         '
-        Me.ColumnHeader1.Text = "C° Financiera"
-        Me.ColumnHeader1.Width = 80
+        Me.codFinanciera.Text = "C° Financiera"
+        Me.codFinanciera.Width = 80
         '
-        'ColumnHeader2
+        'nombre
         '
-        Me.ColumnHeader2.Text = "Nombre"
-        Me.ColumnHeader2.Width = 250
+        Me.nombre.Text = "Nombre"
+        Me.nombre.Width = 212
         '
-        'ColumnHeader3
+        'cuenta
         '
-        Me.ColumnHeader3.Text = "N° Cuenta"
-        Me.ColumnHeader3.Width = 120
+        Me.cuenta.Text = "N° Cuenta"
+        Me.cuenta.Width = 120
         '
-        'ColumnHeader4
+        'interbankario
         '
-        Me.ColumnHeader4.Text = "N° Interbankario"
-        Me.ColumnHeader4.Width = 200
+        Me.interbankario.Text = "N° Interbankario"
+        Me.interbankario.Width = 107
         '
-        'ColumnHeader5
+        'saldo
         '
-        Me.ColumnHeader5.Text = "Seguro"
+        Me.saldo.DisplayIndex = 6
+        Me.saldo.Text = "Saldo"
+        '
+        'seguro
+        '
+        Me.seguro.DisplayIndex = 4
+        Me.seguro.Text = "Seguro"
+        Me.seguro.Width = 52
+        '
+        'fApertura
+        '
+        Me.fApertura.DisplayIndex = 5
+        Me.fApertura.Text = "Fecha Apertura"
+        Me.fApertura.Width = 120
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(702, 79)
+        Me.Button4.Location = New System.Drawing.Point(696, 79)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 14
@@ -344,7 +410,7 @@ Partial Class EntidadesPublicas
         'ckSeguro
         '
         Me.ckSeguro.AutoSize = True
-        Me.ckSeguro.Location = New System.Drawing.Point(717, 50)
+        Me.ckSeguro.Location = New System.Drawing.Point(711, 52)
         Me.ckSeguro.Name = "ckSeguro"
         Me.ckSeguro.Size = New System.Drawing.Size(60, 17)
         Me.ckSeguro.TabIndex = 13
@@ -353,15 +419,15 @@ Partial Class EntidadesPublicas
         '
         'txtSaldo
         '
-        Me.txtSaldo.Location = New System.Drawing.Point(519, 48)
+        Me.txtSaldo.Location = New System.Drawing.Point(549, 49)
         Me.txtSaldo.Name = "txtSaldo"
-        Me.txtSaldo.Size = New System.Drawing.Size(146, 20)
+        Me.txtSaldo.Size = New System.Drawing.Size(137, 20)
         Me.txtSaldo.TabIndex = 12
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(476, 51)
+        Me.Label17.Location = New System.Drawing.Point(506, 52)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(37, 13)
         Me.Label17.TabIndex = 11
@@ -369,15 +435,15 @@ Partial Class EntidadesPublicas
         '
         'txtInterbankario
         '
-        Me.txtInterbankario.Location = New System.Drawing.Point(290, 48)
+        Me.txtInterbankario.Location = New System.Drawing.Point(284, 48)
         Me.txtInterbankario.Name = "txtInterbankario"
-        Me.txtInterbankario.Size = New System.Drawing.Size(161, 20)
+        Me.txtInterbankario.Size = New System.Drawing.Size(184, 20)
         Me.txtInterbankario.TabIndex = 10
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(197, 51)
+        Me.Label16.Location = New System.Drawing.Point(191, 51)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(87, 13)
         Me.Label16.TabIndex = 9
@@ -386,7 +452,7 @@ Partial Class EntidadesPublicas
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(16, 51)
+        Me.Label15.Location = New System.Drawing.Point(10, 51)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(59, 13)
         Me.Label15.TabIndex = 8
@@ -394,7 +460,7 @@ Partial Class EntidadesPublicas
         '
         'txtCuenta
         '
-        Me.txtCuenta.Location = New System.Drawing.Point(77, 49)
+        Me.txtCuenta.Location = New System.Drawing.Point(71, 49)
         Me.txtCuenta.Name = "txtCuenta"
         Me.txtCuenta.Size = New System.Drawing.Size(108, 20)
         Me.txtCuenta.TabIndex = 7
@@ -402,7 +468,7 @@ Partial Class EntidadesPublicas
         'txtAbreviatura
         '
         Me.txtAbreviatura.Enabled = False
-        Me.txtAbreviatura.Location = New System.Drawing.Point(662, 11)
+        Me.txtAbreviatura.Location = New System.Drawing.Point(656, 11)
         Me.txtAbreviatura.Name = "txtAbreviatura"
         Me.txtAbreviatura.Size = New System.Drawing.Size(115, 20)
         Me.txtAbreviatura.TabIndex = 6
@@ -410,7 +476,7 @@ Partial Class EntidadesPublicas
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(592, 15)
+        Me.Label14.Location = New System.Drawing.Point(586, 15)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(64, 13)
         Me.Label14.TabIndex = 5
@@ -419,7 +485,7 @@ Partial Class EntidadesPublicas
         'txtNomFinan
         '
         Me.txtNomFinan.Enabled = False
-        Me.txtNomFinan.Location = New System.Drawing.Point(293, 12)
+        Me.txtNomFinan.Location = New System.Drawing.Point(287, 12)
         Me.txtNomFinan.Name = "txtNomFinan"
         Me.txtNomFinan.Size = New System.Drawing.Size(284, 20)
         Me.txtNomFinan.TabIndex = 4
@@ -427,7 +493,7 @@ Partial Class EntidadesPublicas
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(242, 15)
+        Me.Label13.Location = New System.Drawing.Point(236, 15)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(47, 13)
         Me.Label13.TabIndex = 3
@@ -435,7 +501,7 @@ Partial Class EntidadesPublicas
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(201, 10)
+        Me.Button1.Location = New System.Drawing.Point(195, 10)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(29, 23)
         Me.Button1.TabIndex = 2
@@ -445,7 +511,7 @@ Partial Class EntidadesPublicas
         'txtCodFinan
         '
         Me.txtCodFinan.Enabled = False
-        Me.txtCodFinan.Location = New System.Drawing.Point(95, 12)
+        Me.txtCodFinan.Location = New System.Drawing.Point(89, 12)
         Me.txtCodFinan.Name = "txtCodFinan"
         Me.txtCodFinan.Size = New System.Drawing.Size(100, 20)
         Me.txtCodFinan.TabIndex = 1
@@ -453,24 +519,15 @@ Partial Class EntidadesPublicas
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(16, 15)
+        Me.Label12.Location = New System.Drawing.Point(10, 15)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(73, 13)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "C° Financiera:"
         '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(9, 170)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(104, 13)
-        Me.Label11.TabIndex = 3
-        Me.Label11.Text = "Financieras Públicas"
-        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(356, 426)
+        Me.Button2.Location = New System.Drawing.Point(355, 452)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 4
@@ -479,36 +536,191 @@ Partial Class EntidadesPublicas
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(440, 426)
+        Me.Button3.Location = New System.Drawing.Point(439, 452)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 5
         Me.Button3.Text = "Cancelar"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'tbDetalles
+        '
+        Me.tbDetalles.Controls.Add(Me.TabPage1)
+        Me.tbDetalles.Controls.Add(Me.TabPage2)
+        Me.tbDetalles.Location = New System.Drawing.Point(12, 193)
+        Me.tbDetalles.Name = "tbDetalles"
+        Me.tbDetalles.SelectedIndex = 0
+        Me.tbDetalles.Size = New System.Drawing.Size(789, 253)
+        Me.tbDetalles.TabIndex = 7
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.panelFinancieras)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(781, 227)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Financieras de Entidad"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.ListView1)
+        Me.TabPage2.Controls.Add(Me.Button7)
+        Me.TabPage2.Controls.Add(Me.ComboBox1)
+        Me.TabPage2.Controls.Add(Me.Label22)
+        Me.TabPage2.Controls.Add(Me.DateTimePicker1)
+        Me.TabPage2.Controls.Add(Me.Label21)
+        Me.TabPage2.Controls.Add(Me.TextBox3)
+        Me.TabPage2.Controls.Add(Me.Label20)
+        Me.TabPage2.Controls.Add(Me.TextBox2)
+        Me.TabPage2.Controls.Add(Me.Label19)
+        Me.TabPage2.Controls.Add(Me.Button6)
+        Me.TabPage2.Controls.Add(Me.TextBox1)
+        Me.TabPage2.Controls.Add(Me.Label11)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(781, 227)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "FuncionarioEntidad"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(15, 17)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(66, 13)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "N° Identidad"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(98, 17)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 1
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(200, 15)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(29, 23)
+        Me.Button6.TabIndex = 2
+        Me.Button6.Text = "..."
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(255, 17)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(52, 13)
+        Me.Label19.TabIndex = 3
+        Me.Label19.Text = "Nombres:"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(315, 18)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(242, 20)
+        Me.TextBox2.TabIndex = 4
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(572, 19)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(38, 13)
+        Me.Label20.TabIndex = 5
+        Me.Label20.Text = "Cargo:"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(616, 18)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(155, 20)
+        Me.TextBox3.TabIndex = 6
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(15, 55)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(96, 13)
+        Me.Label21.TabIndex = 7
+        Me.Label21.Text = "Fecha Resolución:"
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(112, 53)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(98, 20)
+        Me.DateTimePicker1.TabIndex = 8
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(231, 55)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(102, 13)
+        Me.Label22.TabIndex = 9
+        Me.Label22.Text = "Tipo de Resolución:"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(339, 52)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(206, 21)
+        Me.ComboBox1.TabIndex = 10
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(696, 50)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 23)
+        Me.Button7.TabIndex = 11
+        Me.Button7.Text = "Agregar"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'ListView1
+        '
+        Me.ListView1.Location = New System.Drawing.Point(18, 89)
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.Size = New System.Drawing.Size(753, 126)
+        Me.ListView1.TabIndex = 12
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        '
         'EntidadesPublicas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(813, 457)
+        Me.ClientSize = New System.Drawing.Size(813, 483)
+        Me.Controls.Add(Me.tbDetalles)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.pnEntidad)
         Me.Name = "EntidadesPublicas"
         Me.Text = "Form2"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
+        Me.pnEntidad.ResumeLayout(False)
+        Me.pnEntidad.PerformLayout()
+        Me.panelFinancieras.ResumeLayout(False)
+        Me.panelFinancieras.PerformLayout()
+        Me.tbDetalles.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents pnEntidad As Panel
     Friend WithEvents txtDirecion As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
@@ -528,7 +740,7 @@ Partial Class EntidadesPublicas
     Friend WithEvents Label1 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents txtWeb As TextBox
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents panelFinancieras As Panel
     Friend WithEvents ckSeguro As CheckBox
     Friend WithEvents txtSaldo As TextBox
     Friend WithEvents Label17 As Label
@@ -540,7 +752,6 @@ Partial Class EntidadesPublicas
     Friend WithEvents Label13 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label12 As Label
-    Friend WithEvents Label11 As Label
     Friend WithEvents txtCorreo As TextBox
     Friend WithEvents Label18 As Label
     Friend WithEvents Button2 As Button
@@ -549,10 +760,31 @@ Partial Class EntidadesPublicas
     Public WithEvents txtNomFinan As TextBox
     Public WithEvents txtCodFinan As TextBox
     Friend WithEvents listFinanciera As ListView
-    Friend WithEvents ColumnHeader1 As ColumnHeader
-    Friend WithEvents ColumnHeader2 As ColumnHeader
-    Friend WithEvents ColumnHeader3 As ColumnHeader
-    Friend WithEvents ColumnHeader4 As ColumnHeader
-    Friend WithEvents ColumnHeader5 As ColumnHeader
+    Friend WithEvents codFinanciera As ColumnHeader
+    Friend WithEvents nombre As ColumnHeader
+    Friend WithEvents cuenta As ColumnHeader
+    Friend WithEvents interbankario As ColumnHeader
+    Friend WithEvents seguro As ColumnHeader
     Friend WithEvents Button4 As Button
+    Friend WithEvents dtApertura As DateTimePicker
+    Friend WithEvents label As Label
+    Friend WithEvents fApertura As ColumnHeader
+    Friend WithEvents Button5 As Button
+    Friend WithEvents saldo As ColumnHeader
+    Friend WithEvents tbDetalles As TabControl
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents Label22 As Label
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Label21 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label20 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Button6 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents ListView1 As ListView
+    Friend WithEvents Button7 As Button
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
