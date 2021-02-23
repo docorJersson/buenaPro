@@ -158,6 +158,9 @@
     <EmbeddedResource Include="Ciudadano.resx">
       <DependentUpon>Ciudadano.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="listaFinancieras.resx">
+      <DependentUpon>listaFinancieras.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Proveedor.resx">
       <DependentUpon>Proveedor.vb</DependentUpon>
     </EmbeddedResource>

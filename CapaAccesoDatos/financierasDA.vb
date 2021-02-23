@@ -24,4 +24,24 @@ Public Class financierasDA
             cBuenaPro.Close()
         End Using
     End Sub
+
+    Public Shared Function listFinancieras() As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using listFinan As New SqlCommand("listFinan", cBuenaPro)
+                Try
+                    listFinan.CommandType = CommandType.StoredProcedure
+                    Using adapList As New SqlDataAdapter(listFinan)
+                        Using table As New DataTable
+                            adapList.Fill(table)
+                            Return table
+                        End Using
+                    End Using
+                Catch ex As Exception
+                    Console.WriteLine(ex)
+                End Try
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
 End Class

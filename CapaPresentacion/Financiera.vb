@@ -1,4 +1,5 @@
-﻿Public Class Financiera
+﻿Imports CapaEntidad
+Public Class Financiera
     Private codDepa As Integer
     Private codProv As Integer
     Private codCategoria As Integer

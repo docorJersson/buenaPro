@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="ciudadano.vb" />
     <Compile Include="Contribuyente.vb" />
+    <Compile Include="entidadPublica.vb" />
     <Compile Include="entUser.vb" />
     <Compile Include="financieras.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
