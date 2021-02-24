@@ -3,7 +3,6 @@ Imports CapaLogicaNegocios
 
 Public Class Login
     Private usuario As New negLogin
-
     Private Sub Button2_Click(sender As Object, e As EventArgs)
         Close()
     End Sub

@@ -19,7 +19,7 @@ Public Class datUser
                 _usuario = New entUser
                 _usuario._idUser = reader.Item("idUser")
                 _usuario._nameUser = reader.Item("nameUser")
-                _usuario._rol = reader.Item("idRol")
+                _usuario._rol = reader.Item("rol")
                 reader.Close()
             End If
 
@@ -30,4 +30,25 @@ Public Class datUser
         End Try
         Return _usuario
     End Function
+
+    Public Function obtenerCodigo(user As String, rol As String) As String
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using codUser As New SqlCommand("select dbo.usuarioAccion('" & user & "','" & rol & "')", cBuenaPro)
+                Try
+                    codUser.CommandType = CommandType.Text
+                    Dim codigo As String
+                    codigo = codUser.ExecuteScalar()
+                    Return codigo
+                Catch ex As Exception
+                    Console.WriteLine(ex)
+                End Try
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
+
+
+
+
 End Class

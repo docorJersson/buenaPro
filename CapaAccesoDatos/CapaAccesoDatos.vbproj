@@ -74,6 +74,7 @@
     <Compile Include="financierasDA.vb" />
     <Compile Include="Conection\datConexion.vb" />
     <Compile Include="datUser.vb" />
+    <Compile Include="funcionarioOsceDA.vb" />
     <Compile Include="listCheckBox.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
