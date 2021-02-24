@@ -23,6 +23,8 @@ Partial Class Convocatoria
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.cboTiSeleccion = New System.Windows.Forms.ComboBox()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.txtNomenclatura = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtcConvocatoria = New System.Windows.Forms.TextBox()
@@ -37,6 +39,8 @@ Partial Class Convocatoria
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -80,10 +84,6 @@ Partial Class Convocatoria
         Me.dtFin = New System.Windows.Forms.DateTimePicker()
         Me.pnCronograma = New System.Windows.Forms.Panel()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.cboTiSeleccion = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.pnCronograma.SuspendLayout()
@@ -108,6 +108,24 @@ Partial Class Convocatoria
         Me.Panel1.Size = New System.Drawing.Size(795, 85)
         Me.Panel1.TabIndex = 0
         '
+        'cboTiSeleccion
+        '
+        Me.cboTiSeleccion.FormattingEnabled = True
+        Me.cboTiSeleccion.Items.AddRange(New Object() {"POR LA ENTIDAD", "POR LA OSCE", "POR LA CONTRALORÍA", "POR EL CONGRESO", "POR EL GOBIERNO", "POR OTROS MEDIOS"})
+        Me.cboTiSeleccion.Location = New System.Drawing.Point(546, 13)
+        Me.cboTiSeleccion.Name = "cboTiSeleccion"
+        Me.cboTiSeleccion.Size = New System.Drawing.Size(176, 21)
+        Me.cboTiSeleccion.TabIndex = 15
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(705, 49)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 23)
+        Me.Button7.TabIndex = 14
+        Me.Button7.Text = "Generar"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'txtNomenclatura
         '
         Me.txtNomenclatura.Location = New System.Drawing.Point(524, 49)
@@ -126,6 +144,7 @@ Partial Class Convocatoria
         '
         'txtcConvocatoria
         '
+        Me.txtcConvocatoria.Enabled = False
         Me.txtcConvocatoria.Location = New System.Drawing.Point(102, 13)
         Me.txtcConvocatoria.Name = "txtcConvocatoria"
         Me.txtcConvocatoria.Size = New System.Drawing.Size(154, 20)
@@ -256,6 +275,22 @@ Partial Class Convocatoria
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(795, 165)
         Me.Panel3.TabIndex = 10
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(289, 130)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(220, 20)
+        Me.TextBox1.TabIndex = 28
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(237, 133)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(47, 13)
+        Me.Label2.TabIndex = 27
+        Me.Label2.Text = "Nombre:"
         '
         'Label12
         '
@@ -530,14 +565,17 @@ Partial Class Convocatoria
         'ColumnHeader2
         '
         Me.ColumnHeader2.Text = "Procedimiento"
+        Me.ColumnHeader2.Width = 270
         '
         'ColumnHeader3
         '
         Me.ColumnHeader3.Text = "Fecha Inicio"
+        Me.ColumnHeader3.Width = 120
         '
         'ColumnHeader4
         '
         Me.ColumnHeader4.Text = "Fecha Fin"
+        Me.ColumnHeader4.Width = 120
         '
         'Label13
         '
@@ -612,40 +650,6 @@ Partial Class Convocatoria
         Me.Button6.TabIndex = 23
         Me.Button6.Text = "Agregar"
         Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(705, 49)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 23)
-        Me.Button7.TabIndex = 14
-        Me.Button7.Text = "Generar"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'cboTiSeleccion
-        '
-        Me.cboTiSeleccion.FormattingEnabled = True
-        Me.cboTiSeleccion.Items.AddRange(New Object() {"POR LA ENTIDAD", "POR LA OSCE", "POR LA CONTRALORÍA", "POR EL CONGRESO", "POR EL GOBIERNO", "POR OTROS MEDIOS"})
-        Me.cboTiSeleccion.Location = New System.Drawing.Point(546, 13)
-        Me.cboTiSeleccion.Name = "cboTiSeleccion"
-        Me.cboTiSeleccion.Size = New System.Drawing.Size(176, 21)
-        Me.cboTiSeleccion.TabIndex = 15
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(237, 133)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 13)
-        Me.Label2.TabIndex = 27
-        Me.Label2.Text = "Nombre:"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(289, 130)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(220, 20)
-        Me.TextBox1.TabIndex = 28
         '
         'Convocatoria
         '

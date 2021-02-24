@@ -41,6 +41,10 @@ Partial Class frmPrincipal
         Me.AgregarGarantíaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConvocatoriasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdministracionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PostulantesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RegistrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultarToolStripMenuItem9 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistaConsultaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbsoluciónDeConsultasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -71,10 +75,6 @@ Partial Class frmPrincipal
         Me.MunicipalidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AgregarMunicipalidadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PostulantesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RegistrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConsultarToolStripMenuItem9 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -203,6 +203,31 @@ Partial Class frmPrincipal
         Me.AdministracionesToolStripMenuItem.Size = New System.Drawing.Size(102, 20)
         Me.AdministracionesToolStripMenuItem.Text = "Procedimientos"
         '
+        'PostulantesToolStripMenuItem
+        '
+        Me.PostulantesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistrarToolStripMenuItem, Me.ModificarToolStripMenuItem1, Me.ConsultarToolStripMenuItem9})
+        Me.PostulantesToolStripMenuItem.Name = "PostulantesToolStripMenuItem"
+        Me.PostulantesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PostulantesToolStripMenuItem.Text = "Postulantes"
+        '
+        'RegistrarToolStripMenuItem
+        '
+        Me.RegistrarToolStripMenuItem.Name = "RegistrarToolStripMenuItem"
+        Me.RegistrarToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.RegistrarToolStripMenuItem.Text = "Registrar Nuevo"
+        '
+        'ModificarToolStripMenuItem1
+        '
+        Me.ModificarToolStripMenuItem1.Name = "ModificarToolStripMenuItem1"
+        Me.ModificarToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.ModificarToolStripMenuItem1.Text = "Modificar"
+        '
+        'ConsultarToolStripMenuItem9
+        '
+        Me.ConsultarToolStripMenuItem9.Name = "ConsultarToolStripMenuItem9"
+        Me.ConsultarToolStripMenuItem9.Size = New System.Drawing.Size(158, 22)
+        Me.ConsultarToolStripMenuItem9.Text = "Consultar"
+        '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistaConsultaToolStripMenuItem, Me.AbsoluciónDeConsultasToolStripMenuItem})
@@ -232,13 +257,13 @@ Partial Class frmPrincipal
         'PresentarNuevaToolStripMenuItem
         '
         Me.PresentarNuevaToolStripMenuItem.Name = "PresentarNuevaToolStripMenuItem"
-        Me.PresentarNuevaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PresentarNuevaToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.PresentarNuevaToolStripMenuItem.Text = "Registrar "
         '
         'ConsultarToolStripMenuItem7
         '
         Me.ConsultarToolStripMenuItem7.Name = "ConsultarToolStripMenuItem7"
-        Me.ConsultarToolStripMenuItem7.Size = New System.Drawing.Size(152, 22)
+        Me.ConsultarToolStripMenuItem7.Size = New System.Drawing.Size(125, 22)
         Me.ConsultarToolStripMenuItem7.Text = "Consultar"
         '
         'EvaluacionesToolStripMenuItem
@@ -392,31 +417,6 @@ Partial Class frmPrincipal
         Me.ConsultarToolStripMenuItem3.Name = "ConsultarToolStripMenuItem3"
         Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(195, 22)
         Me.ConsultarToolStripMenuItem3.Text = "Consultar "
-        '
-        'PostulantesToolStripMenuItem
-        '
-        Me.PostulantesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistrarToolStripMenuItem, Me.ModificarToolStripMenuItem1, Me.ConsultarToolStripMenuItem9})
-        Me.PostulantesToolStripMenuItem.Name = "PostulantesToolStripMenuItem"
-        Me.PostulantesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PostulantesToolStripMenuItem.Text = "Postulantes"
-        '
-        'RegistrarToolStripMenuItem
-        '
-        Me.RegistrarToolStripMenuItem.Name = "RegistrarToolStripMenuItem"
-        Me.RegistrarToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
-        Me.RegistrarToolStripMenuItem.Text = "Registrar Nuevo"
-        '
-        'ModificarToolStripMenuItem1
-        '
-        Me.ModificarToolStripMenuItem1.Name = "ModificarToolStripMenuItem1"
-        Me.ModificarToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
-        Me.ModificarToolStripMenuItem1.Text = "Modificar"
-        '
-        'ConsultarToolStripMenuItem9
-        '
-        Me.ConsultarToolStripMenuItem9.Name = "ConsultarToolStripMenuItem9"
-        Me.ConsultarToolStripMenuItem9.Size = New System.Drawing.Size(158, 22)
-        Me.ConsultarToolStripMenuItem9.Text = "Consultar"
         '
         'frmPrincipal
         '
