@@ -44,4 +44,24 @@ Public Class financierasDA
             cBuenaPro.Close()
         End Using
     End Function
+    Public Function listFinanEntidad(ubigeo As String) As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using listFinanEnt As New SqlCommand("listEnti_Financiera", cBuenaPro)
+                Try
+                    listFinanEnt.CommandType = CommandType.StoredProcedure
+                    listFinanEnt.Parameters.AddWithValue("@ubigeo", ubigeo)
+                    Using adapList As New SqlDataAdapter(listFinanEnt)
+                        Using table As New DataTable
+                            adapList.Fill(table)
+                            Return table
+                        End Using
+                    End Using
+                Catch ex As Exception
+                    Console.WriteLine(ex)
+                End Try
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
 End Class

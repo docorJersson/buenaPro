@@ -100,6 +100,12 @@
     <Compile Include="listaFinancieras.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="listFinancierta_Entidad.Designer.vb">
+      <DependentUpon>listFinancierta_Entidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listFinancierta_Entidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Proveedor.Designer.vb">
       <DependentUpon>Proveedor.vb</DependentUpon>
     </Compile>
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="listaFinancieras.resx">
       <DependentUpon>listaFinancieras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listFinancierta_Entidad.resx">
+      <DependentUpon>listFinancierta_Entidad.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proveedor.resx">
       <DependentUpon>Proveedor.vb</DependentUpon>

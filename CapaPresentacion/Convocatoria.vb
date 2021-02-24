@@ -1,9 +1,13 @@
-﻿Public Class Convocatoria
+﻿Imports CapaLogicaNegocios
+Public Class Convocatoria
+    Dim finanFl As New financieraDL()
+    Dim listboxDL As New listBoxDL()
+    Dim convoDL As New convocatoriaDL()
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtnConvocatoria.TextChanged
 
     End Sub
 
@@ -11,7 +15,7 @@
 
     End Sub
 
-    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel1.Paint
+    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
@@ -26,4 +30,50 @@
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
+
+    Private Sub Panel2_Paint_1(sender As Object, e As PaintEventArgs) Handles pnCronograma.Paint
+
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim table As DataTable
+        table = listboxDL.listResolucion()
+        cboProcedimiento.DisplayMember = "procedimiento"
+        cboProcedimiento.ValueMember = "idProcedimiento"
+        cboProcedimiento.DataSource = table
+        cboProcedimiento.Text = "Seleccione"
+    End Sub
+
+    Private Sub cboGenerar_CheckedChanged(sender As Object, e As EventArgs) Handles ckGenerar.CheckedChanged
+        If ckGenerar.Checked = True Then
+            Dim fActual As DateTime = DateTime.Now.Date
+            pnCronograma.Enabled = False
+            lstCronograma.Enabled = False
+            Dim table As DataTable = convoDL.bocetoCronograma()
+            Try
+                For Each row As DataRow In table.Rows
+                    Dim crono As ListViewItem
+                    crono = New ListViewItem(Trim(row("procedimiento")))
+                    crono.SubItems.Add((row("fInicio").ToString))
+                    crono.SubItems.Add((row("fFin").ToString))
+                    lstCronograma.Items.Add(crono)
+                Next
+
+            Catch ex As Exception
+                Console.WriteLine(ex)
+            End Try
+
+
+        Else
+            pnCronograma.Enabled = True
+            lstCronograma.Enabled = False
+
+        End If
+
+    End Sub
+
 End Class
