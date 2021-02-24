@@ -51,3 +51,34 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\C
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaFinancieras.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaCiudadano.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listFinancierta_Entidad.resources
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.xml
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.xml
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaAccesoDatos.dll
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaLogicaNegocios.dll
+C:\BuenaPro\CapaPresentacion\bin\Debug\MaterialSkin.dll
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaAccesoDatos.xml
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaEntidad.xml
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaLogicaNegocios.pdb
+C:\BuenaPro\CapaPresentacion\bin\Debug\CapaLogicaNegocios.xml
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Ciudadano.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listaCiudadano.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listaFinancieras.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listFinancierta_Entidad.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Postulantes.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.EntidadesPublicas.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Convocatoria.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Financiera.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache

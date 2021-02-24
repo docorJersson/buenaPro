@@ -23,7 +23,7 @@ Public Class Login
                 txtUsuario.Text = ""
                 txtPassword.Text = ""
             End If
-
+            session.Instance.getTipo()
         Else
             MessageBox.Show("Datos no ingresados")
         End If

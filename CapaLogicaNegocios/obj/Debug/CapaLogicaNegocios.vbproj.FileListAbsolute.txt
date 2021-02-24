@@ -29,3 +29,19 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaLogicaNegocios\bin\Debug\MaterialSkin.dll
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.xml
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.dll
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaEntidad.dll
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\MaterialSkin.dll
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.pdb
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaAccesoDatos.xml
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaEntidad.pdb
+C:\BuenaPro\CapaLogicaNegocios\bin\Debug\CapaEntidad.xml
+C:\BuenaPro\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.vbprojResolveAssemblyReference.cache
+C:\BuenaPro\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.Resources.resources
+C:\BuenaPro\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.vbproj.GenerateResource.Cache
+C:\BuenaPro\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\BuenaPro\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.xml
+C:\BuenaPro\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb

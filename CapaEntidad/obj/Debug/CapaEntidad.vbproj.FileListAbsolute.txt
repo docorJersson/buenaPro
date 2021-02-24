@@ -17,3 +17,13 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEn
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\obj\Debug\CapaEntidad.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaEntidad\bin\Debug\MaterialSkin.dll
+C:\BuenaPro\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\BuenaPro\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\BuenaPro\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\BuenaPro\CapaEntidad\bin\Debug\MaterialSkin.dll
+C:\BuenaPro\CapaEntidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache
+C:\BuenaPro\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\BuenaPro\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
+C:\BuenaPro\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\BuenaPro\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\BuenaPro\CapaEntidad\obj\Debug\CapaEntidad.pdb

@@ -47,6 +47,6 @@
         Return Me._tipo
     End Function
     Public Function getUser() As String
-        Return Me._login
+        Return _login
     End Function
 End Class
