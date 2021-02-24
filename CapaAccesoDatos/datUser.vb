@@ -2,7 +2,7 @@
 Imports CapaEntidad
 Public Class datUser
     Public Function ValidarUser(nombreUsuario As String, contraseUsuario As String) As entUser
-        Dim connection = datConexion.Instance.GetConexion()
+        Dim connection = New SqlConnection(My.Settings.ConexionBUENAPRO)
         Dim command As New SqlCommand
         Dim reader As SqlDataReader
         Dim _usuario As entUser

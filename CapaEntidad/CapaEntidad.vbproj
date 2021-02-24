@@ -69,8 +69,13 @@
   <ItemGroup>
     <Compile Include="ciudadano.vb" />
     <Compile Include="Contribuyente.vb" />
+    <Compile Include="convocatoriaPublicaDE.vb" />
+    <Compile Include="cronogramaDE.vb" />
+    <Compile Include="entidadPublica.vb" />
     <Compile Include="entUser.vb" />
+    <Compile Include="financieraEntidad.vb" />
     <Compile Include="financieras.vb" />
+    <Compile Include="funcionarioEntidad.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

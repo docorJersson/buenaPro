@@ -23,24 +23,24 @@ Partial Class Financiera
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.comboProv = New System.Windows.Forms.ComboBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.comboDep = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtDireccion = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtAbreviatura = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtNombreFinan = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtCodFinanciera = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.comboCategoria = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.comboSistema = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -52,31 +52,31 @@ Partial Class Financiera
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.TextBox5)
+        Me.Panel1.Controls.Add(Me.txtTelefono)
         Me.Panel1.Controls.Add(Me.Label11)
         Me.Panel1.Controls.Add(Me.comboProv)
         Me.Panel1.Controls.Add(Me.Label10)
         Me.Panel1.Controls.Add(Me.comboDep)
         Me.Panel1.Controls.Add(Me.Label9)
-        Me.Panel1.Controls.Add(Me.TextBox4)
+        Me.Panel1.Controls.Add(Me.txtDireccion)
         Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Controls.Add(Me.TextBox3)
+        Me.Panel1.Controls.Add(Me.txtAbreviatura)
         Me.Panel1.Controls.Add(Me.Label7)
-        Me.Panel1.Controls.Add(Me.TextBox2)
+        Me.Panel1.Controls.Add(Me.txtNombreFinan)
         Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.txtCodFinanciera)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(12, 112)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(454, 153)
         Me.Panel1.TabIndex = 0
         '
-        'TextBox5
+        'txtTelefono
         '
-        Me.TextBox5.Location = New System.Drawing.Point(72, 120)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox5.TabIndex = 14
+        Me.txtTelefono.Location = New System.Drawing.Point(72, 120)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(116, 20)
+        Me.txtTelefono.TabIndex = 14
         '
         'Label11
         '
@@ -121,12 +121,12 @@ Partial Class Financiera
         Me.Label9.TabIndex = 9
         Me.Label9.Text = "Departamento:"
         '
-        'TextBox4
+        'txtDireccion
         '
-        Me.TextBox4.Location = New System.Drawing.Point(225, 47)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox4.TabIndex = 8
+        Me.txtDireccion.Location = New System.Drawing.Point(225, 47)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(211, 20)
+        Me.txtDireccion.TabIndex = 8
         '
         'Label8
         '
@@ -137,12 +137,12 @@ Partial Class Financiera
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Dirección:"
         '
-        'TextBox3
+        'txtAbreviatura
         '
-        Me.TextBox3.Location = New System.Drawing.Point(81, 47)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox3.TabIndex = 6
+        Me.txtAbreviatura.Location = New System.Drawing.Point(81, 47)
+        Me.txtAbreviatura.Name = "txtAbreviatura"
+        Me.txtAbreviatura.Size = New System.Drawing.Size(62, 20)
+        Me.txtAbreviatura.TabIndex = 6
         '
         'Label7
         '
@@ -153,12 +153,12 @@ Partial Class Financiera
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "Abreviatura:"
         '
-        'TextBox2
+        'txtNombreFinan
         '
-        Me.TextBox2.Location = New System.Drawing.Point(244, 11)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(192, 20)
-        Me.TextBox2.TabIndex = 4
+        Me.txtNombreFinan.Location = New System.Drawing.Point(244, 11)
+        Me.txtNombreFinan.Name = "txtNombreFinan"
+        Me.txtNombreFinan.Size = New System.Drawing.Size(192, 20)
+        Me.txtNombreFinan.TabIndex = 4
         '
         'Label6
         '
@@ -169,12 +169,12 @@ Partial Class Financiera
         Me.Label6.TabIndex = 2
         Me.Label6.Text = "Nombre:"
         '
-        'TextBox1
+        'txtCodFinanciera
         '
-        Me.TextBox1.Location = New System.Drawing.Point(88, 11)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(80, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.txtCodFinanciera.Location = New System.Drawing.Point(88, 11)
+        Me.txtCodFinanciera.Name = "txtCodFinanciera"
+        Me.txtCodFinanciera.Size = New System.Drawing.Size(80, 20)
+        Me.txtCodFinanciera.TabIndex = 1
         '
         'Label1
         '
@@ -187,40 +187,40 @@ Partial Class Financiera
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.ComboBox2)
+        Me.Panel2.Controls.Add(Me.comboCategoria)
         Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.ComboBox1)
+        Me.Panel2.Controls.Add(Me.comboSistema)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Location = New System.Drawing.Point(12, 34)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(454, 47)
         Me.Panel2.TabIndex = 1
         '
-        'ComboBox2
+        'comboCategoria
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(273, 11)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(166, 21)
-        Me.ComboBox2.TabIndex = 5
+        Me.comboCategoria.FormattingEnabled = True
+        Me.comboCategoria.Location = New System.Drawing.Point(232, 11)
+        Me.comboCategoria.Name = "comboCategoria"
+        Me.comboCategoria.Size = New System.Drawing.Size(214, 21)
+        Me.comboCategoria.TabIndex = 5
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(210, 14)
+        Me.Label4.Location = New System.Drawing.Point(174, 14)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(57, 13)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Categoría:"
         '
-        'ComboBox1
+        'comboSistema
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Seleccione", "BANCARIO", "NO BANCARIO"})
-        Me.ComboBox1.Location = New System.Drawing.Point(67, 11)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 3
+        Me.comboSistema.FormattingEnabled = True
+        Me.comboSistema.Items.AddRange(New Object() {"BANCARIA", "NO BANCARIA"})
+        Me.comboSistema.Location = New System.Drawing.Point(67, 11)
+        Me.comboSistema.Name = "comboSistema"
+        Me.comboSistema.Size = New System.Drawing.Size(101, 21)
+        Me.comboSistema.TabIndex = 3
         '
         'Label3
         '
@@ -290,25 +290,25 @@ Partial Class Financiera
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtCodFinanciera As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents comboCategoria As ComboBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents comboSistema As ComboBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtTelefono As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents comboProv As ComboBox
     Friend WithEvents Label10 As Label
     Friend WithEvents comboDep As ComboBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtDireccion As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtAbreviatura As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtNombreFinan As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Button1 As Button

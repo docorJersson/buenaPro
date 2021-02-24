@@ -68,6 +68,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ciudadanoDA.vb" />
+    <Compile Include="convocatoria.vb" />
+    <Compile Include="entidadPublica.vb" />
     <Compile Include="financierasDA.vb" />
     <Compile Include="Conection\datConexion.vb" />
     <Compile Include="datUser.vb" />

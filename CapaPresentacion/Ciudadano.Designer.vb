@@ -23,21 +23,23 @@ Partial Class Ciudadano
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboTipoDoc = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtNumDoc = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtApePaterno = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtApeMaterno = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.cboSexo = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -49,14 +51,14 @@ Partial Class Ciudadano
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Tipo Documento:"
         '
-        'ComboBox1
+        'cboTipoDoc
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Seleccione", "DNI", "RUC"})
-        Me.ComboBox1.Location = New System.Drawing.Point(149, 34)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 1
+        Me.cboTipoDoc.FormattingEnabled = True
+        Me.cboTipoDoc.Items.AddRange(New Object() {"DNI", "RUC"})
+        Me.cboTipoDoc.Location = New System.Drawing.Point(149, 34)
+        Me.cboTipoDoc.Name = "cboTipoDoc"
+        Me.cboTipoDoc.Size = New System.Drawing.Size(121, 21)
+        Me.cboTipoDoc.TabIndex = 1
         '
         'Label2
         '
@@ -67,12 +69,12 @@ Partial Class Ciudadano
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "N° Documento:"
         '
-        'TextBox1
+        'txtNumDoc
         '
-        Me.TextBox1.Location = New System.Drawing.Point(149, 68)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox1.TabIndex = 3
+        Me.txtNumDoc.Location = New System.Drawing.Point(149, 68)
+        Me.txtNumDoc.Name = "txtNumDoc"
+        Me.txtNumDoc.Size = New System.Drawing.Size(121, 20)
+        Me.txtNumDoc.TabIndex = 3
         '
         'Label3
         '
@@ -83,12 +85,12 @@ Partial Class Ciudadano
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Apellido Paterno:"
         '
-        'TextBox2
+        'txtApePaterno
         '
-        Me.TextBox2.Location = New System.Drawing.Point(149, 105)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox2.TabIndex = 5
+        Me.txtApePaterno.Location = New System.Drawing.Point(149, 105)
+        Me.txtApePaterno.Name = "txtApePaterno"
+        Me.txtApePaterno.Size = New System.Drawing.Size(121, 20)
+        Me.txtApePaterno.TabIndex = 5
         '
         'Label4
         '
@@ -99,12 +101,12 @@ Partial Class Ciudadano
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Apellido Materno:"
         '
-        'TextBox3
+        'txtApeMaterno
         '
-        Me.TextBox3.Location = New System.Drawing.Point(149, 136)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox3.TabIndex = 7
+        Me.txtApeMaterno.Location = New System.Drawing.Point(149, 136)
+        Me.txtApeMaterno.Name = "txtApeMaterno"
+        Me.txtApeMaterno.Size = New System.Drawing.Size(121, 20)
+        Me.txtApeMaterno.TabIndex = 7
         '
         'Label5
         '
@@ -115,12 +117,12 @@ Partial Class Ciudadano
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nombres:"
         '
-        'TextBox4
+        'txtNombre
         '
-        Me.TextBox4.Location = New System.Drawing.Point(149, 178)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(188, 20)
-        Me.TextBox4.TabIndex = 9
+        Me.txtNombre.Location = New System.Drawing.Point(149, 178)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(188, 20)
+        Me.txtNombre.TabIndex = 9
         '
         'Label6
         '
@@ -131,14 +133,14 @@ Partial Class Ciudadano
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Sexo:"
         '
-        'ComboBox2
+        'cboSexo
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Seleccione", "Masculino", "Femenino"})
-        Me.ComboBox2.Location = New System.Drawing.Point(149, 218)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 11
+        Me.cboSexo.FormattingEnabled = True
+        Me.cboSexo.Items.AddRange(New Object() {"Masculino", "Femenino"})
+        Me.cboSexo.Location = New System.Drawing.Point(149, 218)
+        Me.cboSexo.Name = "cboSexo"
+        Me.cboSexo.Size = New System.Drawing.Size(121, 21)
+        Me.cboSexo.TabIndex = 11
         '
         'Label7
         '
@@ -149,16 +151,16 @@ Partial Class Ciudadano
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "Email:"
         '
-        'TextBox5
+        'txtEmail
         '
-        Me.TextBox5.Location = New System.Drawing.Point(149, 254)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(188, 20)
-        Me.TextBox5.TabIndex = 13
+        Me.txtEmail.Location = New System.Drawing.Point(149, 254)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(188, 20)
+        Me.txtEmail.TabIndex = 13
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(90, 318)
+        Me.Button1.Location = New System.Drawing.Point(89, 348)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 14
@@ -167,33 +169,51 @@ Partial Class Ciudadano
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(209, 318)
+        Me.Button2.Location = New System.Drawing.Point(208, 348)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 15
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'txtTelefono
+        '
+        Me.txtTelefono.Location = New System.Drawing.Point(149, 299)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(105, 20)
+        Me.txtTelefono.TabIndex = 17
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(60, 302)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(52, 13)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "Teléfono:"
+        '
         'Ciudadano
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(445, 422)
+        Me.Controls.Add(Me.txtTelefono)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtEmail)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.cboSexo)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txtApeMaterno)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtApePaterno)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtNumDoc)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.cboTipoDoc)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Ciudadano"
         Me.Text = "Form1"
@@ -203,19 +223,21 @@ Partial Class Ciudadano
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cboTipoDoc As ComboBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtNumDoc As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtApePaterno As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtApeMaterno As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtNombre As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents cboSexo As ComboBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtEmail As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents txtTelefono As TextBox
+    Friend WithEvents Label8 As Label
 End Class
