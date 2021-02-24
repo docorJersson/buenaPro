@@ -1,12 +1,17 @@
 ﻿Imports CapaEntidad
+Imports CapaLogicaNegocios
 Public Class EntidadesPublicas
+    Private listBoxDL As New listBoxDL()
     Private codDepa As Integer
     Private codProv As Integer
     Private codDis As Integer
     Private ruc As String
     Private ubigeo As String
+    Private entidadDL As New CapaLogicaNegocios.entidadPublica
+    Public enti_Financiera As New List(Of financieraEntidad)
+    Public funcionarioEntidad As New List(Of funcionarioEntidad)
+    Private newEntidad As CapaEntidad.entidadPublica
 
-    Public enti_Financiera As List(Of financieraEntidad)
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles pnEntidad.Paint
 
     End Sub
@@ -57,7 +62,6 @@ Public Class EntidadesPublicas
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        ' Dim lisFinancier As listaFinancieras
         listaFinancieras.Show()
 
     End Sub
@@ -85,8 +89,6 @@ Public Class EntidadesPublicas
         saldo = txtSaldo.Text.ToString
         fApertura = dtApertura.Value.Date
         Try
-
-        Catch ex As Exception
             Dim entidad_Finaicera As New financieraEntidad()
             entidad_Finaicera.cuentaBancaria = cuenta
             entidad_Finaicera.cuentaInterbankaria = interbankario
@@ -97,8 +99,9 @@ Public Class EntidadesPublicas
             entidad_Finaicera.ubigeoEntidad = ubigeo
             entidad_Finaicera.codigoFinanciera = codFinan
             enti_Financiera.Add(entidad_Finaicera)
+        Catch ex As Exception
+            Console.WriteLine(ex)
         End Try
-
 
         Dim entFina As ListViewItem
         entFina = New ListViewItem(codFinan)
@@ -115,7 +118,34 @@ Public Class EntidadesPublicas
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Try
+            newEntidad = New CapaEntidad.entidadPublica()
+            newEntidad.rucEntidad = ruc
+            newEntidad.ubigeoEntidad = ubigeo
+            newEntidad.entidadaNombre = txtNombre.Text
+            newEntidad.departamento = codDepa
+            newEntidad.provincia = codProv
+            newEntidad.distrito = codDis
+            newEntidad.direccionEntidad = txtDirecion.Text
+            newEntidad.paginaWeb = txtWeb.Text
+            newEntidad.entidadTelefono = txtTeléfono.Text
+            newEntidad.emailEntidad = txtCorreo.Text
+            newEntidad.fin_Entidad = enti_Financiera
+            newEntidad.entidadFuncionario = funcionarioEntidad
 
+            entidadDL.insertEntidad(newEntidad)
+            MsgBox("REGISTRO GUARDADO")
+            listFinanciera.Items.Clear()
+            lisFuncionario.Items.Clear()
+            limpiaEntidad(False)
+            limpiarFinanciera()
+            limpiarFuncionario()
+            enti_Financiera.Clear()
+            funcionarioEntidad.Clear()
+
+        Catch ex As Exception
+            Return
+        End Try
     End Sub
 
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles panelFinancieras.Paint
@@ -141,6 +171,15 @@ Public Class EntidadesPublicas
             pnEntidad.Enabled = False
             Button5.Enabled = False
             MsgBox("CONTINÚE REGISTRANDO LOS DATOS ")
+
+            cboResolucion.Text = ""
+            Dim table As DataTable
+
+            table = listBoxDL.listResolucion()
+            cboResolucion.DisplayMember = "tipoResolucion"
+            cboResolucion.ValueMember = "idTiResolucion"
+            cboResolucion.DataSource = table
+            cboResolucion.Text = "Seleccione"
         End If
 
     End Sub
@@ -174,10 +213,60 @@ Public Class EntidadesPublicas
         txtSaldo.Text = ""
         ckSeguro.CheckState = False
     End Sub
+    Private Sub limpiarFuncionario()
+        txtIdentidad.Text = ""
+        txtNomCiudadano.Text = ""
+        txtCargo.Text = ""
+        dtFResolucion.Text = ""
+        cboResolucion.Text = ""
+    End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         limpiarFinanciera()
         limpiaEntidad(False)
         listFinanciera.Items.Clear()
+        lisFuncionario.Items.Clear()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        listaCiudadano.Show()
+    End Sub
+
+    Private Sub cboResolucion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboResolucion.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim nIdentidad As String
+        Dim cargo As String
+        Dim fResolucion As Date
+        Dim idTiResolucion As Integer
+
+        nIdentidad = txtIdentidad.Text
+        cargo = txtCargo.Text
+        fResolucion = dtFResolucion.Value.Date
+        idTiResolucion = cboResolucion.SelectedValue.ToString
+
+        Dim funcionario As New funcionarioEntidad()
+        funcionario.codigoFun = nIdentidad
+        funcionario.resoFun = nIdentidad
+        funcionario.cargoFun = cargo
+        funcionario.fechaResolucion = fResolucion
+        funcionario.ubigeoEntidad = ubigeo
+        funcionario.rucEntidad = ruc
+        funcionario.idResolucion = idTiResolucion
+        funcionario.identidadCiudadano = nIdentidad
+        funcionarioEntidad.Add(funcionario)
+
+
+        Dim funEntidad As ListViewItem
+        funEntidad = New ListViewItem(nIdentidad)
+        funEntidad.SubItems.Add(txtNomCiudadano.Text)
+        funEntidad.SubItems.Add(txtCargo.Text)
+        funEntidad.SubItems.Add(fResolucion.ToString)
+        lisFuncionario.Items.Add(funEntidad)
+
+        limpiarFuncionario()
+
     End Sub
 End Class

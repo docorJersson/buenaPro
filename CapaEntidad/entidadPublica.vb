@@ -10,6 +10,15 @@
     Private telefono As String
     Private email As String
     Private financieraPublica As List(Of financieraEntidad)
+    Private funcionarios As List(Of funcionarioEntidad)
+    Public Property entidadFuncionario() As List(Of funcionarioEntidad)
+        Get
+            Return funcionarios
+        End Get
+        Set(ByVal value As List(Of funcionarioEntidad))
+            funcionarios = value
+        End Set
+    End Property
     Public Property fin_Entidad() As List(Of financieraEntidad)
         Get
             Return financieraPublica

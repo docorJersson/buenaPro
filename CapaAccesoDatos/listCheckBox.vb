@@ -73,7 +73,7 @@ Public Class listCheckBox
         End Using
     End Function
 
-    Public Shared Function listResolucion() As DataTable
+    Public Function listResolucion() As DataTable
         Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
             cBuenaPro.Open()
             Using listReso As New SqlCommand("listResolucion", cBuenaPro)

@@ -6,6 +6,7 @@
     End Sub
 
     Private Sub daGriFinancieras_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles daGriFinancieras.CellContentClick
+        codFinancieraNueva = daGriFinancieras.CurrentRow.Cells(0).Value.ToString
 
         EntidadesPublicas.txtCodFinan.Text = codFinancieraNueva
         EntidadesPublicas.txtNomFinan.Text = daGriFinancieras.CurrentRow.Cells(1).Value.ToString

@@ -76,19 +76,23 @@ Partial Class EntidadesPublicas
         Me.tbDetalles = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.lisFuncionario = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.cboResolucion = New System.Windows.Forms.ComboBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.dtFResolucion = New System.Windows.Forms.DateTimePicker()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.txtCargo = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.txtNomCiudadano = New System.Windows.Forms.TextBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.txtIdentidad = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.pnEntidad.SuspendLayout()
         Me.panelFinancieras.SuspendLayout()
         Me.tbDetalles.SuspendLayout()
@@ -566,18 +570,18 @@ Partial Class EntidadesPublicas
         '
         'TabPage2
         '
-        Me.TabPage2.Controls.Add(Me.ListView1)
+        Me.TabPage2.Controls.Add(Me.lisFuncionario)
         Me.TabPage2.Controls.Add(Me.Button7)
-        Me.TabPage2.Controls.Add(Me.ComboBox1)
+        Me.TabPage2.Controls.Add(Me.cboResolucion)
         Me.TabPage2.Controls.Add(Me.Label22)
-        Me.TabPage2.Controls.Add(Me.DateTimePicker1)
+        Me.TabPage2.Controls.Add(Me.dtFResolucion)
         Me.TabPage2.Controls.Add(Me.Label21)
-        Me.TabPage2.Controls.Add(Me.TextBox3)
+        Me.TabPage2.Controls.Add(Me.txtCargo)
         Me.TabPage2.Controls.Add(Me.Label20)
-        Me.TabPage2.Controls.Add(Me.TextBox2)
+        Me.TabPage2.Controls.Add(Me.txtNomCiudadano)
         Me.TabPage2.Controls.Add(Me.Label19)
         Me.TabPage2.Controls.Add(Me.Button6)
-        Me.TabPage2.Controls.Add(Me.TextBox1)
+        Me.TabPage2.Controls.Add(Me.txtIdentidad)
         Me.TabPage2.Controls.Add(Me.Label11)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
@@ -587,96 +591,31 @@ Partial Class EntidadesPublicas
         Me.TabPage2.Text = "FuncionarioEntidad"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label11
+        'lisFuncionario
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(15, 17)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(66, 13)
-        Me.Label11.TabIndex = 0
-        Me.Label11.Text = "N° Identidad"
+        Me.lisFuncionario.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4})
+        Me.lisFuncionario.Location = New System.Drawing.Point(18, 89)
+        Me.lisFuncionario.Name = "lisFuncionario"
+        Me.lisFuncionario.Size = New System.Drawing.Size(753, 126)
+        Me.lisFuncionario.TabIndex = 12
+        Me.lisFuncionario.UseCompatibleStateImageBehavior = False
+        Me.lisFuncionario.View = System.Windows.Forms.View.Details
         '
-        'TextBox1
+        'ColumnHeader1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(98, 17)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.ColumnHeader1.Text = "N° Identidad"
         '
-        'Button6
+        'ColumnHeader2
         '
-        Me.Button6.Location = New System.Drawing.Point(200, 15)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(29, 23)
-        Me.Button6.TabIndex = 2
-        Me.Button6.Text = "..."
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.ColumnHeader2.Text = "Nombre"
         '
-        'Label19
+        'ColumnHeader3
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(255, 17)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(52, 13)
-        Me.Label19.TabIndex = 3
-        Me.Label19.Text = "Nombres:"
+        Me.ColumnHeader3.Text = "Cargo"
         '
-        'TextBox2
+        'ColumnHeader4
         '
-        Me.TextBox2.Location = New System.Drawing.Point(315, 18)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(242, 20)
-        Me.TextBox2.TabIndex = 4
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(572, 19)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(38, 13)
-        Me.Label20.TabIndex = 5
-        Me.Label20.Text = "Cargo:"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(616, 18)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(155, 20)
-        Me.TextBox3.TabIndex = 6
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(15, 55)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(96, 13)
-        Me.Label21.TabIndex = 7
-        Me.Label21.Text = "Fecha Resolución:"
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(112, 53)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(98, 20)
-        Me.DateTimePicker1.TabIndex = 8
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(231, 55)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(102, 13)
-        Me.Label22.TabIndex = 9
-        Me.Label22.Text = "Tipo de Resolución:"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(339, 52)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(206, 21)
-        Me.ComboBox1.TabIndex = 10
+        Me.ColumnHeader4.Text = "Fecha Resolucion"
         '
         'Button7
         '
@@ -687,13 +626,98 @@ Partial Class EntidadesPublicas
         Me.Button7.Text = "Agregar"
         Me.Button7.UseVisualStyleBackColor = True
         '
-        'ListView1
+        'cboResolucion
         '
-        Me.ListView1.Location = New System.Drawing.Point(18, 89)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(753, 126)
-        Me.ListView1.TabIndex = 12
-        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.cboResolucion.FormattingEnabled = True
+        Me.cboResolucion.Location = New System.Drawing.Point(339, 52)
+        Me.cboResolucion.Name = "cboResolucion"
+        Me.cboResolucion.Size = New System.Drawing.Size(303, 21)
+        Me.cboResolucion.TabIndex = 10
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(231, 55)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(102, 13)
+        Me.Label22.TabIndex = 9
+        Me.Label22.Text = "Tipo de Resolución:"
+        '
+        'dtFResolucion
+        '
+        Me.dtFResolucion.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtFResolucion.Location = New System.Drawing.Point(112, 53)
+        Me.dtFResolucion.Name = "dtFResolucion"
+        Me.dtFResolucion.Size = New System.Drawing.Size(98, 20)
+        Me.dtFResolucion.TabIndex = 8
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(15, 55)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(96, 13)
+        Me.Label21.TabIndex = 7
+        Me.Label21.Text = "Fecha Resolución:"
+        '
+        'txtCargo
+        '
+        Me.txtCargo.Location = New System.Drawing.Point(616, 18)
+        Me.txtCargo.Name = "txtCargo"
+        Me.txtCargo.Size = New System.Drawing.Size(155, 20)
+        Me.txtCargo.TabIndex = 6
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(572, 19)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(38, 13)
+        Me.Label20.TabIndex = 5
+        Me.Label20.Text = "Cargo:"
+        '
+        'txtNomCiudadano
+        '
+        Me.txtNomCiudadano.Enabled = False
+        Me.txtNomCiudadano.Location = New System.Drawing.Point(315, 18)
+        Me.txtNomCiudadano.Name = "txtNomCiudadano"
+        Me.txtNomCiudadano.Size = New System.Drawing.Size(242, 20)
+        Me.txtNomCiudadano.TabIndex = 4
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(255, 17)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(52, 13)
+        Me.Label19.TabIndex = 3
+        Me.Label19.Text = "Nombres:"
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(200, 15)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(29, 23)
+        Me.Button6.TabIndex = 2
+        Me.Button6.Text = "..."
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'txtIdentidad
+        '
+        Me.txtIdentidad.Enabled = False
+        Me.txtIdentidad.Location = New System.Drawing.Point(98, 17)
+        Me.txtIdentidad.Name = "txtIdentidad"
+        Me.txtIdentidad.Size = New System.Drawing.Size(100, 20)
+        Me.txtIdentidad.TabIndex = 1
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(15, 17)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(66, 13)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "N° Identidad"
         '
         'EntidadesPublicas
         '
@@ -775,16 +799,20 @@ Partial Class EntidadesPublicas
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents Label22 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents dtFResolucion As DateTimePicker
     Friend WithEvents Label21 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtCargo As TextBox
     Friend WithEvents Label20 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtNomCiudadano As TextBox
     Friend WithEvents Label19 As Label
     Friend WithEvents Button6 As Button
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents ListView1 As ListView
+    Friend WithEvents lisFuncionario As ListView
     Friend WithEvents Button7 As Button
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cboResolucion As ComboBox
+    Public WithEvents txtIdentidad As TextBox
+    Friend WithEvents ColumnHeader1 As ColumnHeader
+    Friend WithEvents ColumnHeader2 As ColumnHeader
+    Friend WithEvents ColumnHeader3 As ColumnHeader
+    Friend WithEvents ColumnHeader4 As ColumnHeader
 End Class
