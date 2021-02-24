@@ -482,7 +482,7 @@ Partial Class Convocatoria
         '
         'TextBox20
         '
-        Me.TextBox20.Location = New System.Drawing.Point(231, 18)
+        Me.TextBox20.Location = New System.Drawing.Point(235, 18)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(85, 20)
         Me.TextBox20.TabIndex = 1
