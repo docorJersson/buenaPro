@@ -8,7 +8,16 @@
     Private RNP As Boolean
     Private estadoProveedor As Boolean
     Private condicion As String
-    Public objEntidadContri As Contribuyente
+    Public contribuyente As Contribuyente
+
+    Public Property _contribuyente() As Contribuyente
+        Get
+            Return contribuyente
+        End Get
+        Set(ByVal value As Contribuyente)
+            contribuyente = value
+        End Set
+    End Property
 
     Public Property _rucProveedor As Char
         Get
@@ -91,7 +100,4 @@
         End Set
     End Property
 
-    Public Sub New()
-        objEntidadContri = New Contribuyente
-    End Sub
 End Class
