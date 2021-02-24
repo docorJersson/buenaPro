@@ -226,6 +226,7 @@ Public Class EntidadesPublicas
         limpiaEntidad(False)
         listFinanciera.Items.Clear()
         lisFuncionario.Items.Clear()
+
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
@@ -268,5 +269,10 @@ Public Class EntidadesPublicas
 
         limpiarFuncionario()
 
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Me.Close()
+        frmPrincipal.Show()
     End Sub
 End Class

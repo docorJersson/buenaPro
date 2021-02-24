@@ -5,6 +5,7 @@ Public Class Convocatoria
     Dim listboxDL As New listBoxDL()
     Dim convoDL As New convocatoriaDL()
     Dim user As New negLogin()
+    Dim funOSCEDL As New funcionarioOSCEDL()
     Dim newConvocatoria As convocatoriaPublicaDE
     Dim funOSCEAccion As funcionarioOSCEDE
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -45,11 +46,12 @@ Public Class Convocatoria
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         newConvocatoria = New convocatoriaPublicaDE()
-        Console.WriteLine("SESSION")
         Dim code As String
         code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
+        funOSCEAccion = funOSCEDL.buscarCodigo(code)
+        newConvocatoria.funOSCE = funOSCEAccion.codFOSCE.ToString
+        newConvocatoria.resoFunciOSCE = funOSCEAccion.numResolucion.ToString
 
-        Console.WriteLine(code)
 
         Dim table As DataTable
         table = listboxDL.listResolucion()

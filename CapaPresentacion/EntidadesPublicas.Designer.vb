@@ -93,6 +93,7 @@ Partial Class EntidadesPublicas
         Me.Button6 = New System.Windows.Forms.Button()
         Me.txtIdentidad = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.pnEntidad.SuspendLayout()
         Me.panelFinancieras.SuspendLayout()
         Me.tbDetalles.SuspendLayout()
@@ -719,11 +720,21 @@ Partial Class EntidadesPublicas
         Me.Label11.TabIndex = 0
         Me.Label11.Text = "N° Identidad"
         '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(527, 452)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.TabIndex = 8
+        Me.Button8.Text = "Cerrar"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
         'EntidadesPublicas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(813, 483)
+        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.tbDetalles)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -815,4 +826,5 @@ Partial Class EntidadesPublicas
     Friend WithEvents ColumnHeader2 As ColumnHeader
     Friend WithEvents ColumnHeader3 As ColumnHeader
     Friend WithEvents ColumnHeader4 As ColumnHeader
+    Friend WithEvents Button8 As Button
 End Class
