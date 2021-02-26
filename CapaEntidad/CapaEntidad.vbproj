@@ -72,6 +72,7 @@
     <Compile Include="convocatoriaPublicaDE.vb" />
     <Compile Include="cronogramaDE.vb" />
     <Compile Include="entidadPublica.vb" />
+    <Compile Include="entPostulante.vb" />
     <Compile Include="entUser.vb" />
     <Compile Include="financieraEntidad.vb" />
     <Compile Include="financieras.vb" />

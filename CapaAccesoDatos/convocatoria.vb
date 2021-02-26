@@ -23,4 +23,24 @@ Public Class convocatoria
             cBuenaPro.Close()
         End Using
     End Function
+
+    Public Function getConvocatorias() As DataTable
+        Using conection As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            conection.Open()
+            Using listConvocatorias As New SqlCommand("sp_convocatoriaP", conection)
+                Try
+                    listConvocatorias.CommandType = CommandType.StoredProcedure
+                    Using adapList As New SqlDataAdapter(listConvocatorias)
+                        Using table As New DataTable
+                            adapList.Fill(table)
+                            Return table
+                        End Using
+                    End Using
+                Catch ex As Exception
+                    Console.WriteLine(ex)
+                End Try
+            End Using
+            conection.Close()
+        End Using
+    End Function
 End Class

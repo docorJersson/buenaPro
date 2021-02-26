@@ -41,4 +41,12 @@
 
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dispose()
+    End Sub
+
+    Private Sub cboTipoDoc_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTipoDoc.SelectedIndexChanged
+
+    End Sub
 End Class
