@@ -8,6 +8,8 @@ Public Class Convocatoria
     Dim funOSCEDL As New funcionarioOSCEDL()
     Dim newConvocatoria As convocatoriaPublicaDE
     Dim funOSCEAccion As funcionarioOSCEDE
+    Dim cronogramaConv As New List(Of cronogramaDE)
+    Dim newCronograma As cronogramaDE
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -41,20 +43,42 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim cboProce As Integer
+        cboProce = cboProcedimiento.SelectedValue.ToString
+
+        Dim fInicio As Date
+        Dim fFin As Date
+        Dim nombreProc As String
+        fInicio = dtInicio.Value.Date
+        fFin = dtFin.Value.Date
+
+        newCronograma = New cronogramaDE()
+
+        nombreProc = cboProcedimiento.SelectedItem.ToString.ToUpper
+
+        Dim crono As ListViewItem
+        crono = New ListViewItem(nombreProc)
+        crono.SubItems.Add(fInicio.ToString("d"))
+        crono.SubItems.Add(fFin.ToString("d"))
+        lstCronograma.Items.Add(crono)
+
+        newCronograma.fechaFin = fFin
+        newCronograma.fechaInicio = fInicio
+        newCronograma.codigoProcedimiento = cboProce
+
+        cronogramaConv.Add(newCronograma)
+
+
 
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         newConvocatoria = New convocatoriaPublicaDE()
-        Dim code As String
-        code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
-        funOSCEAccion = funOSCEDL.buscarCodigo(code)
-        newConvocatoria.funOSCE = funOSCEAccion.codFOSCE.ToString
-        newConvocatoria.resoFunciOSCE = funOSCEAccion.numResolucion.ToString
 
 
         Dim table As DataTable
-        table = listboxDL.listResolucion()
+        table = listboxDL.listProcedimiento()
+
         cboProcedimiento.DisplayMember = "procedimiento"
         cboProcedimiento.ValueMember = "idProcedimiento"
         cboProcedimiento.DataSource = table
@@ -63,6 +87,7 @@ Public Class Convocatoria
 
     Private Sub cboGenerar_CheckedChanged(sender As Object, e As EventArgs) Handles ckGenerar.CheckedChanged
         If ckGenerar.Checked = True Then
+            lstCronograma.Items.Clear()
             pnCronograma.Enabled = False
             Dim table As DataTable = convoDL.bocetoCronograma()
             Try
@@ -89,6 +114,22 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim code As String
+        code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
+        funOSCEAccion = funOSCEDL.buscarCodigo(code)
+        newConvocatoria.funOSCE = funOSCEAccion.codFOSCE.ToString
+        newConvocatoria.resoFunciOSCE = funOSCEAccion.numResolucion.ToString
+    End Sub
+
+    Private Sub cboTiSeleccion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTiSeleccion.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub cboProcedimiento_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProcedimiento.SelectedIndexChanged
 
     End Sub
 End Class

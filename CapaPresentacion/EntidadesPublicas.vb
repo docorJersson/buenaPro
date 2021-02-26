@@ -31,7 +31,6 @@ Public Class EntidadesPublicas
 
     Private Sub cboProvincia_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProvincia.SelectedIndexChanged
 
-        cboDistrito.Text = ""
 
         codProv = cboProvincia.SelectedValue.ToString
         Dim table As DataTable
