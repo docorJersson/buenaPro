@@ -94,6 +94,12 @@
     <Compile Include="listaCiudadano.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="listaEntidades.Designer.vb">
+      <DependentUpon>listaEntidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listaEntidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="listaFinancieras.Designer.vb">
       <DependentUpon>listaFinancieras.vb</DependentUpon>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="listaCiudadano.resx">
       <DependentUpon>listaCiudadano.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaEntidades.resx">
+      <DependentUpon>listaEntidades.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="listaFinancieras.resx">
       <DependentUpon>listaFinancieras.vb</DependentUpon>

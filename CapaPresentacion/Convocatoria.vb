@@ -10,6 +10,9 @@ Public Class Convocatoria
     Dim funOSCEAccion As funcionarioOSCEDE
     Dim cronogramaConv As New List(Of cronogramaDE)
     Dim newCronograma As cronogramaDE
+    Public ubigeo As String
+    Public ruc As String
+    Public nombre As String
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -130,6 +133,18 @@ Public Class Convocatoria
     End Sub
 
     Private Sub cboProcedimiento_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProcedimiento.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim listForm As New listaEntidades()
+        Console.WriteLine("dl" + ubigeo + ruc + nombre)
+        listForm.Show()
+        Console.WriteLine("ffl" + ubigeo + ruc + nombre)
+
+        txtUbigeo.Text = listForm.ubigeoEntidad
+        txtRuc.Text = listForm.rucEntidad
+        txtNombreEntidad.Text = listForm.nombreEntidad
 
     End Sub
 End Class
