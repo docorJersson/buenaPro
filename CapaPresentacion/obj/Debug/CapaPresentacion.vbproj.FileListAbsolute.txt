@@ -82,3 +82,5 @@ C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Financiera.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listProveedor.resources
+C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listConvocatorias.resources

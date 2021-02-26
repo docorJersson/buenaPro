@@ -4,4 +4,8 @@ Public Class convocatoriaDL
     Public Function bocetoCronograma() As DataTable
         Return convoDA.bocetoCronograma()
     End Function
+    Public Function listConvocatorias() As DataTable
+        Return convoDA.getConvocatorias()
+    End Function
+
 End Class

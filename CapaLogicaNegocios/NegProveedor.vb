@@ -10,5 +10,9 @@ Public Class NegProveedor
         _proveedores = _proveedor.getProveedor()
         Return _proveedores
     End Function
+
+    Public Function listProveedores() As DataTable
+        Return datProveedor.listProveedorr
+    End Function
 End Class
 

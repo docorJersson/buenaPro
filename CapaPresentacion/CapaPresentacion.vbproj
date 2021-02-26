@@ -54,6 +54,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -100,10 +101,22 @@
     <Compile Include="listaFinancieras.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="listConvocatorias.Designer.vb">
+      <DependentUpon>listConvocatorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listConvocatorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="listFinancierta_Entidad.Designer.vb">
       <DependentUpon>listFinancierta_Entidad.vb</DependentUpon>
     </Compile>
     <Compile Include="listFinancierta_Entidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listProveedor.Designer.vb">
+      <DependentUpon>listProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listProveedor.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Proveedor.Designer.vb">
@@ -176,8 +189,14 @@
     <EmbeddedResource Include="listaFinancieras.resx">
       <DependentUpon>listaFinancieras.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="listConvocatorias.resx">
+      <DependentUpon>listConvocatorias.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="listFinancierta_Entidad.resx">
       <DependentUpon>listFinancierta_Entidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listProveedor.resx">
+      <DependentUpon>listProveedor.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proveedor.resx">
       <DependentUpon>Proveedor.vb</DependentUpon>

@@ -69,11 +69,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ciudadanoDA.vb" />
+    <Compile Include="datPostulante.vb" />
     <Compile Include="convocatoria.vb" />
     <Compile Include="entidadPublica.vb" />
     <Compile Include="financierasDA.vb" />
     <Compile Include="Conection\datConexion.vb" />
     <Compile Include="datUser.vb" />
+    <Compile Include="funcionarioOsceDA.vb" />
     <Compile Include="listCheckBox.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

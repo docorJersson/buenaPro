@@ -40,4 +40,23 @@ Public Class datProveedor
         Return _proveedores
     End Function
 
+    Public Shared Function listProveedorr() As DataTable
+        Using conection As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            conection.Open()
+            Using listproveedores As New SqlCommand("sp_proveedores", conection)
+                Try
+                    listproveedores.CommandType = CommandType.StoredProcedure
+                    Using adapList As New SqlDataAdapter(listproveedores)
+                        Using table As New DataTable
+                            adapList.Fill(table)
+                            Return table
+                        End Using
+                    End Using
+                Catch ex As Exception
+                    Console.WriteLine(ex)
+                End Try
+            End Using
+            conection.Close()
+        End Using
+    End Function
 End Class

@@ -1,8 +1,12 @@
 ﻿Imports CapaLogicaNegocios
+Imports CapaEntidad
 Public Class Convocatoria
     Dim finanFl As New financieraDL()
     Dim listboxDL As New listBoxDL()
     Dim convoDL As New convocatoriaDL()
+    Dim user As New negLogin()
+    Dim newConvocatoria As convocatoriaPublicaDE
+    Dim funOSCEAccion As funcionarioOSCEDE
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -40,6 +44,13 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        newConvocatoria = New convocatoriaPublicaDE()
+        Console.WriteLine("SESSION")
+        Dim code As String
+        code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
+
+        Console.WriteLine(code)
+
         Dim table As DataTable
         table = listboxDL.listResolucion()
         cboProcedimiento.DisplayMember = "procedimiento"
@@ -50,30 +61,40 @@ Public Class Convocatoria
 
     Private Sub cboGenerar_CheckedChanged(sender As Object, e As EventArgs) Handles ckGenerar.CheckedChanged
         If ckGenerar.Checked = True Then
-            Dim fActual As DateTime = DateTime.Now.Date
             pnCronograma.Enabled = False
-            lstCronograma.Enabled = False
             Dim table As DataTable = convoDL.bocetoCronograma()
             Try
                 For Each row As DataRow In table.Rows
                     Dim crono As ListViewItem
                     crono = New ListViewItem(Trim(row("procedimiento")))
-                    crono.SubItems.Add((row("fInicio").ToString))
-                    crono.SubItems.Add((row("fFin").ToString))
+                    crono.SubItems.Add((row("fInicio").ToString()))
+                    crono.SubItems.Add((row("fFin").ToString()))
                     lstCronograma.Items.Add(crono)
                 Next
 
             Catch ex As Exception
                 Console.WriteLine(ex)
             End Try
-
-
         Else
             pnCronograma.Enabled = True
-            lstCronograma.Enabled = False
-
+            lstCronograma.Items.Clear()
         End If
 
     End Sub
 
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dispose()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+    End Sub
 End Class

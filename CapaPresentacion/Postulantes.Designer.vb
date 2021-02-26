@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Postulantes
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,346 +20,391 @@ Partial Class Postulantes
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.txtConvoDepa = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtentiConvocante = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtbase = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtpart = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtpresupuesto = New System.Windows.Forms.TextBox()
+        Me.descConvocatoria = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtnconvocatoria = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.PanelProveedor = New System.Windows.Forms.Panel()
+        Me.txtnintegrante = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.txtdepa = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.txtcease = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.txtContribuyente = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.checkConsorcio = New System.Windows.Forms.CheckBox()
+        Me.txtnomProvee = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.txtrucProv = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.txtjust = New System.Windows.Forms.RichTextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.txtdoc = New System.Windows.Forms.TextBox()
+        Me.txtobser = New System.Windows.Forms.RichTextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.fregistro = New System.Windows.Forms.DateTimePicker()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.fpresent = New System.Windows.Forms.DateTimePicker()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.txtpostulante = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
+        Me.PanelProveedor.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.TextBox11)
+        Me.Panel1.Controls.Add(Me.Button5)
+        Me.Panel1.Controls.Add(Me.txtConvoDepa)
         Me.Panel1.Controls.Add(Me.Label14)
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.TextBox6)
+        Me.Panel1.Controls.Add(Me.txtentiConvocante)
         Me.Panel1.Controls.Add(Me.Label7)
-        Me.Panel1.Controls.Add(Me.TextBox5)
+        Me.Panel1.Controls.Add(Me.txtbase)
         Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.TextBox4)
+        Me.Panel1.Controls.Add(Me.txtpart)
         Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Controls.Add(Me.TextBox2)
+        Me.Panel1.Controls.Add(Me.txtpresupuesto)
+        Me.Panel1.Controls.Add(Me.descConvocatoria)
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.txtnconvocatoria)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(16, 29)
+        Me.Panel1.Location = New System.Drawing.Point(21, 36)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(659, 106)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 130)
         Me.Panel1.TabIndex = 0
         '
-        'TextBox11
+        'Button5
         '
-        Me.TextBox11.Location = New System.Drawing.Point(521, 77)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox11.TabIndex = 13
+        Me.Button5.Location = New System.Drawing.Point(228, 11)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(29, 25)
+        Me.Button5.TabIndex = 14
+        Me.Button5.Text = "..."
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'txtConvoDepa
+        '
+        Me.txtConvoDepa.Location = New System.Drawing.Point(695, 95)
+        Me.txtConvoDepa.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtConvoDepa.Name = "txtConvoDepa"
+        Me.txtConvoDepa.Size = New System.Drawing.Size(165, 22)
+        Me.txtConvoDepa.TabIndex = 13
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(438, 80)
+        Me.Label14.Location = New System.Drawing.Point(584, 98)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(77, 13)
+        Me.Label14.Size = New System.Drawing.Size(102, 17)
         Me.Label14.TabIndex = 12
         Me.Label14.Text = "Departamento:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(19, 80)
+        Me.Label4.Location = New System.Drawing.Point(25, 98)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(107, 13)
+        Me.Label4.Size = New System.Drawing.Size(139, 17)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Entidad Convocante:"
         '
-        'TextBox6
+        'txtentiConvocante
         '
-        Me.TextBox6.Location = New System.Drawing.Point(132, 77)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(290, 20)
-        Me.TextBox6.TabIndex = 10
+        Me.txtentiConvocante.Location = New System.Drawing.Point(176, 95)
+        Me.txtentiConvocante.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtentiConvocante.Name = "txtentiConvocante"
+        Me.txtentiConvocante.Size = New System.Drawing.Size(385, 22)
+        Me.txtentiConvocante.TabIndex = 10
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(16, 47)
+        Me.Label7.Location = New System.Drawing.Point(21, 58)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(69, 13)
+        Me.Label7.Size = New System.Drawing.Size(92, 17)
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Presupuesto:"
         '
-        'TextBox5
+        'txtbase
         '
-        Me.TextBox5.Location = New System.Drawing.Point(502, 44)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(78, 20)
-        Me.TextBox5.TabIndex = 2
+        Me.txtbase.Location = New System.Drawing.Point(669, 54)
+        Me.txtbase.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtbase.Name = "txtbase"
+        Me.txtbase.Size = New System.Drawing.Size(103, 22)
+        Me.txtbase.TabIndex = 2
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(427, 47)
+        Me.Label6.Location = New System.Drawing.Point(569, 58)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(69, 13)
+        Me.Label6.Size = New System.Drawing.Size(91, 17)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Costo Bases:"
         '
-        'TextBox4
+        'txtpart
         '
-        Me.TextBox4.Location = New System.Drawing.Point(339, 44)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(71, 20)
-        Me.TextBox4.TabIndex = 7
+        Me.txtpart.Location = New System.Drawing.Point(452, 54)
+        Me.txtpart.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtpart.Name = "txtpart"
+        Me.txtpart.Size = New System.Drawing.Size(93, 22)
+        Me.txtpart.TabIndex = 7
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(232, 47)
+        Me.Label5.Location = New System.Drawing.Point(309, 58)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(101, 13)
+        Me.Label5.Size = New System.Drawing.Size(133, 17)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Costo Participación:"
         '
-        'TextBox3
+        'txtpresupuesto
         '
-        Me.TextBox3.Location = New System.Drawing.Point(113, 44)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 5
+        Me.txtpresupuesto.Location = New System.Drawing.Point(151, 54)
+        Me.txtpresupuesto.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtpresupuesto.Name = "txtpresupuesto"
+        Me.txtpresupuesto.Size = New System.Drawing.Size(132, 22)
+        Me.txtpresupuesto.TabIndex = 5
         '
-        'TextBox2
+        'descConvocatoria
         '
-        Me.TextBox2.Location = New System.Drawing.Point(304, 11)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(342, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.descConvocatoria.Location = New System.Drawing.Point(348, 14)
+        Me.descConvocatoria.Margin = New System.Windows.Forms.Padding(4)
+        Me.descConvocatoria.Name = "descConvocatoria"
+        Me.descConvocatoria.Size = New System.Drawing.Size(652, 22)
+        Me.descConvocatoria.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(232, 14)
+        Me.Label3.Location = New System.Drawing.Point(264, 17)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(66, 13)
+        Me.Label3.Size = New System.Drawing.Size(86, 17)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Descripción:"
         '
-        'TextBox1
+        'txtnconvocatoria
         '
-        Me.TextBox1.Location = New System.Drawing.Point(110, 11)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.txtnconvocatoria.Location = New System.Drawing.Point(147, 14)
+        Me.txtnconvocatoria.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtnconvocatoria.Name = "txtnconvocatoria"
+        Me.txtnconvocatoria.Size = New System.Drawing.Size(74, 22)
+        Me.txtnconvocatoria.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(16, 14)
+        Me.Label1.Location = New System.Drawing.Point(21, 17)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(88, 13)
+        Me.Label1.Size = New System.Drawing.Size(115, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "N° Convocatoria:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(13, 13)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(17, 16)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(183, 13)
+        Me.Label2.Size = New System.Drawing.Size(290, 18)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Información General de Convocatoria"
         '
-        'Panel2
+        'PanelProveedor
         '
-        Me.Panel2.Controls.Add(Me.TextBox13)
-        Me.Panel2.Controls.Add(Me.Label15)
-        Me.Panel2.Controls.Add(Me.TextBox12)
-        Me.Panel2.Controls.Add(Me.Label13)
-        Me.Panel2.Controls.Add(Me.TextBox10)
-        Me.Panel2.Controls.Add(Me.Label12)
-        Me.Panel2.Controls.Add(Me.TextBox9)
-        Me.Panel2.Controls.Add(Me.Label11)
-        Me.Panel2.Controls.Add(Me.CheckBox1)
-        Me.Panel2.Controls.Add(Me.TextBox8)
-        Me.Panel2.Controls.Add(Me.Label10)
-        Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Controls.Add(Me.TextBox7)
-        Me.Panel2.Controls.Add(Me.Label9)
-        Me.Panel2.Location = New System.Drawing.Point(16, 170)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(659, 105)
-        Me.Panel2.TabIndex = 2
+        Me.PanelProveedor.Controls.Add(Me.txtnintegrante)
+        Me.PanelProveedor.Controls.Add(Me.Label15)
+        Me.PanelProveedor.Controls.Add(Me.txtdepa)
+        Me.PanelProveedor.Controls.Add(Me.Label13)
+        Me.PanelProveedor.Controls.Add(Me.txtcease)
+        Me.PanelProveedor.Controls.Add(Me.Label12)
+        Me.PanelProveedor.Controls.Add(Me.txtContribuyente)
+        Me.PanelProveedor.Controls.Add(Me.Label11)
+        Me.PanelProveedor.Controls.Add(Me.checkConsorcio)
+        Me.PanelProveedor.Controls.Add(Me.txtnomProvee)
+        Me.PanelProveedor.Controls.Add(Me.Label10)
+        Me.PanelProveedor.Controls.Add(Me.Button1)
+        Me.PanelProveedor.Controls.Add(Me.txtrucProv)
+        Me.PanelProveedor.Controls.Add(Me.Label9)
+        Me.PanelProveedor.Location = New System.Drawing.Point(21, 209)
+        Me.PanelProveedor.Margin = New System.Windows.Forms.Padding(4)
+        Me.PanelProveedor.Name = "PanelProveedor"
+        Me.PanelProveedor.Size = New System.Drawing.Size(1000, 129)
+        Me.PanelProveedor.TabIndex = 2
         '
-        'TextBox13
+        'txtnintegrante
         '
-        Me.TextBox13.Location = New System.Drawing.Point(452, 43)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(70, 20)
-        Me.TextBox13.TabIndex = 13
+        Me.txtnintegrante.Location = New System.Drawing.Point(809, 54)
+        Me.txtnintegrante.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtnintegrante.Name = "txtnintegrante"
+        Me.txtnintegrante.Size = New System.Drawing.Size(92, 22)
+        Me.txtnintegrante.TabIndex = 13
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(372, 46)
+        Me.Label15.Location = New System.Drawing.Point(702, 58)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(78, 13)
+        Me.Label15.Size = New System.Drawing.Size(103, 17)
         Me.Label15.TabIndex = 12
         Me.Label15.Text = "N° Integrantes:"
         '
-        'TextBox12
+        'txtdepa
         '
-        Me.TextBox12.Location = New System.Drawing.Point(157, 75)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(489, 20)
-        Me.TextBox12.TabIndex = 11
+        Me.txtdepa.Location = New System.Drawing.Point(209, 92)
+        Me.txtdepa.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtdepa.Name = "txtdepa"
+        Me.txtdepa.Size = New System.Drawing.Size(651, 22)
+        Me.txtdepa.TabIndex = 11
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(19, 78)
+        Me.Label13.Location = New System.Drawing.Point(25, 96)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(132, 13)
+        Me.Label13.Size = New System.Drawing.Size(176, 17)
         Me.Label13.TabIndex = 10
         Me.Label13.Text = "Departamento Habilitados:"
         '
-        'TextBox10
+        'txtcease
         '
-        Me.TextBox10.Location = New System.Drawing.Point(249, 43)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox10.TabIndex = 9
+        Me.txtcease.Location = New System.Drawing.Point(538, 54)
+        Me.txtcease.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtcease.Name = "txtcease"
+        Me.txtcease.Size = New System.Drawing.Size(132, 22)
+        Me.txtcease.TabIndex = 9
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(187, 46)
+        Me.Label12.Location = New System.Drawing.Point(455, 58)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(59, 13)
+        Me.Label12.Size = New System.Drawing.Size(76, 17)
         Me.Label12.TabIndex = 8
         Me.Label12.Text = "C° CEASE:"
         '
-        'TextBox9
+        'txtContribuyente
         '
-        Me.TextBox9.Location = New System.Drawing.Point(98, 43)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(67, 20)
-        Me.TextBox9.TabIndex = 7
+        Me.txtContribuyente.Location = New System.Drawing.Point(131, 53)
+        Me.txtContribuyente.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtContribuyente.Name = "txtContribuyente"
+        Me.txtContribuyente.Size = New System.Drawing.Size(309, 22)
+        Me.txtContribuyente.TabIndex = 7
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(19, 46)
+        Me.Label11.Location = New System.Drawing.Point(25, 57)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(75, 13)
+        Me.Label11.Size = New System.Drawing.Size(100, 17)
         Me.Label11.TabIndex = 6
         Me.Label11.Text = "Contribuyente:"
         '
-        'CheckBox1
+        'checkConsorcio
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(573, 12)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(73, 17)
-        Me.CheckBox1.TabIndex = 5
-        Me.CheckBox1.Text = "Consorcio"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.checkConsorcio.AutoSize = True
+        Me.checkConsorcio.Location = New System.Drawing.Point(886, 17)
+        Me.checkConsorcio.Margin = New System.Windows.Forms.Padding(4)
+        Me.checkConsorcio.Name = "checkConsorcio"
+        Me.checkConsorcio.Size = New System.Drawing.Size(93, 21)
+        Me.checkConsorcio.TabIndex = 5
+        Me.checkConsorcio.Text = "Consorcio"
+        Me.checkConsorcio.UseVisualStyleBackColor = True
         '
-        'TextBox8
+        'txtnomProvee
         '
-        Me.TextBox8.Location = New System.Drawing.Point(266, 10)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(301, 20)
-        Me.TextBox8.TabIndex = 4
+        Me.txtnomProvee.Location = New System.Drawing.Point(355, 12)
+        Me.txtnomProvee.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtnomProvee.Name = "txtnomProvee"
+        Me.txtnomProvee.Size = New System.Drawing.Size(507, 22)
+        Me.txtnomProvee.TabIndex = 4
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(213, 13)
+        Me.Label10.Location = New System.Drawing.Point(284, 16)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(47, 13)
+        Me.Label10.Size = New System.Drawing.Size(62, 17)
         Me.Label10.TabIndex = 3
         Me.Label10.Text = "Nombre:"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(167, 8)
+        Me.Button1.Location = New System.Drawing.Point(223, 10)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(24, 23)
+        Me.Button1.Size = New System.Drawing.Size(32, 28)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "..."
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'TextBox7
+        'txtrucProv
         '
-        Me.TextBox7.Location = New System.Drawing.Point(58, 10)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox7.TabIndex = 1
+        Me.txtrucProv.Location = New System.Drawing.Point(77, 12)
+        Me.txtrucProv.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtrucProv.Name = "txtrucProv"
+        Me.txtrucProv.Size = New System.Drawing.Size(144, 22)
+        Me.txtrucProv.TabIndex = 1
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(19, 13)
+        Me.Label9.Location = New System.Drawing.Point(25, 16)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(33, 13)
+        Me.Label9.Size = New System.Drawing.Size(41, 17)
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "RUC:"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(13, 154)
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(17, 190)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(174, 13)
+        Me.Label8.Size = New System.Drawing.Size(276, 18)
         Me.Label8.TabIndex = 3
         Me.Label8.Text = "Información General de Inscripción:"
         '
@@ -367,177 +412,196 @@ Partial Class Postulantes
         '
         Me.Panel3.Controls.Add(Me.Button2)
         Me.Panel3.Controls.Add(Me.Label22)
-        Me.Panel3.Controls.Add(Me.RichTextBox2)
+        Me.Panel3.Controls.Add(Me.txtjust)
         Me.Panel3.Controls.Add(Me.Label21)
-        Me.Panel3.Controls.Add(Me.TextBox15)
-        Me.Panel3.Controls.Add(Me.RichTextBox1)
+        Me.Panel3.Controls.Add(Me.txtdoc)
+        Me.Panel3.Controls.Add(Me.txtobser)
         Me.Panel3.Controls.Add(Me.Label20)
-        Me.Panel3.Controls.Add(Me.DateTimePicker2)
+        Me.Panel3.Controls.Add(Me.fregistro)
         Me.Panel3.Controls.Add(Me.Label19)
-        Me.Panel3.Controls.Add(Me.DateTimePicker1)
+        Me.Panel3.Controls.Add(Me.fpresent)
         Me.Panel3.Controls.Add(Me.Label18)
-        Me.Panel3.Controls.Add(Me.TextBox14)
+        Me.Panel3.Controls.Add(Me.txtpostulante)
         Me.Panel3.Controls.Add(Me.Label17)
-        Me.Panel3.Location = New System.Drawing.Point(16, 310)
+        Me.Panel3.Location = New System.Drawing.Point(21, 382)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(659, 109)
+        Me.Panel3.Size = New System.Drawing.Size(1000, 134)
         Me.Panel3.TabIndex = 4
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(770, 74)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(161, 17)
+        Me.Label22.TabIndex = 11
+        Me.Label22.Text = "Documento de Registro:"
+        '
+        'txtjust
+        '
+        Me.txtjust.Location = New System.Drawing.Point(467, 60)
+        Me.txtjust.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtjust.Name = "txtjust"
+        Me.txtjust.Size = New System.Drawing.Size(265, 54)
+        Me.txtjust.TabIndex = 10
+        Me.txtjust.Text = ""
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(370, 64)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(89, 17)
+        Me.Label21.TabIndex = 9
+        Me.Label21.Text = "Justificación:"
+        '
+        'txtdoc
+        '
+        Me.txtdoc.Location = New System.Drawing.Point(780, 101)
+        Me.txtdoc.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtdoc.Name = "txtdoc"
+        Me.txtdoc.Size = New System.Drawing.Size(152, 22)
+        Me.txtdoc.TabIndex = 8
+        '
+        'txtobser
+        '
+        Me.txtobser.Location = New System.Drawing.Point(121, 60)
+        Me.txtobser.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtobser.Name = "txtobser"
+        Me.txtobser.Size = New System.Drawing.Size(241, 54)
+        Me.txtobser.TabIndex = 7
+        Me.txtobser.Text = ""
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(21, 64)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(92, 17)
+        Me.Label20.TabIndex = 6
+        Me.Label20.Text = "Observación:"
+        '
+        'fregistro
+        '
+        Me.fregistro.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.fregistro.Location = New System.Drawing.Point(809, 17)
+        Me.fregistro.Margin = New System.Windows.Forms.Padding(4)
+        Me.fregistro.Name = "fregistro"
+        Me.fregistro.Size = New System.Drawing.Size(165, 22)
+        Me.fregistro.TabIndex = 5
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(666, 17)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(108, 17)
+        Me.Label19.TabIndex = 4
+        Me.Label19.Text = "Fecha Registro:"
+        '
+        'fpresent
+        '
+        Me.fpresent.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.fpresent.Location = New System.Drawing.Point(449, 17)
+        Me.fpresent.Margin = New System.Windows.Forms.Padding(4)
+        Me.fpresent.Name = "fpresent"
+        Me.fpresent.Size = New System.Drawing.Size(164, 22)
+        Me.fpresent.TabIndex = 3
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(308, 20)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(138, 17)
+        Me.Label18.TabIndex = 2
+        Me.Label18.Text = "Fecha Presentación:"
+        '
+        'txtpostulante
+        '
+        Me.txtpostulante.Location = New System.Drawing.Point(121, 14)
+        Me.txtpostulante.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtpostulante.Name = "txtpostulante"
+        Me.txtpostulante.Size = New System.Drawing.Size(132, 22)
+        Me.txtpostulante.TabIndex = 1
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(19, 14)
+        Me.Label17.Location = New System.Drawing.Point(25, 17)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(74, 13)
+        Me.Label17.Size = New System.Drawing.Size(98, 17)
         Me.Label17.TabIndex = 0
         Me.Label17.Text = "C° Postulante:"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(16, 291)
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(21, 358)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(161, 13)
+        Me.Label16.Size = New System.Drawing.Size(257, 18)
         Me.Label16.TabIndex = 5
         Me.Label16.Text = "Información General del Registro"
         '
-        'TextBox14
-        '
-        Me.TextBox14.Location = New System.Drawing.Point(91, 11)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox14.TabIndex = 1
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(215, 14)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(105, 13)
-        Me.Label18.TabIndex = 2
-        Me.Label18.Text = "Fecha Presentación:"
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(321, 11)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(105, 20)
-        Me.DateTimePicker1.TabIndex = 3
-        '
-        'DateTimePicker2
-        '
-        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker2.Location = New System.Drawing.Point(538, 11)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(108, 20)
-        Me.DateTimePicker2.TabIndex = 5
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(450, 14)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(82, 13)
-        Me.Label19.TabIndex = 4
-        Me.Label19.Text = "Fecha Registro:"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(16, 52)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(70, 13)
-        Me.Label20.TabIndex = 6
-        Me.Label20.Text = "Observación:"
-        '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.Location = New System.Drawing.Point(91, 49)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(142, 45)
-        Me.RichTextBox1.TabIndex = 7
-        Me.RichTextBox1.Text = ""
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Location = New System.Drawing.Point(506, 74)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(115, 20)
-        Me.TextBox15.TabIndex = 8
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(263, 52)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(68, 13)
-        Me.Label21.TabIndex = 9
-        Me.Label21.Text = "Justificación:"
-        '
-        'RichTextBox2
-        '
-        Me.RichTextBox2.Location = New System.Drawing.Point(337, 49)
-        Me.RichTextBox2.Name = "RichTextBox2"
-        Me.RichTextBox2.Size = New System.Drawing.Size(144, 45)
-        Me.RichTextBox2.TabIndex = 10
-        Me.RichTextBox2.Text = ""
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(499, 52)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(122, 13)
-        Me.Label22.TabIndex = 11
-        Me.Label22.Text = "Documento de Registro:"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(623, 72)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(23, 23)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "..."
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(355, 425)
+        Me.Button3.Location = New System.Drawing.Point(473, 523)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(100, 28)
         Me.Button3.TabIndex = 6
         Me.Button3.Text = "Cancelar"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(239, 425)
+        Me.Button4.Location = New System.Drawing.Point(319, 523)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(100, 28)
         Me.Button4.TabIndex = 7
         Me.Button4.Text = "Registrar"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(936, 99)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(31, 28)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "..."
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Postulantes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(687, 460)
+        Me.ClientSize = New System.Drawing.Size(1038, 566)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.PanelProveedor)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Postulantes"
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
+        Me.PanelProveedor.ResumeLayout(False)
+        Me.PanelProveedor.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
@@ -547,51 +611,52 @@ Partial Class Postulantes
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents descConvocatoria As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtnconvocatoria As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtpresupuesto As TextBox
+    Friend WithEvents txtentiConvocante As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtbase As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtpart As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents PanelProveedor As Panel
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents txtrucProv As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents txtConvoDepa As TextBox
     Friend WithEvents Label14 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents txtcease As TextBox
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents txtContribuyente As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents checkConsorcio As CheckBox
+    Friend WithEvents txtnomProvee As TextBox
     Friend WithEvents Label10 As Label
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents txtnintegrante As TextBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents txtdepa As TextBox
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label17 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents fregistro As DateTimePicker
     Friend WithEvents Label19 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents fpresent As DateTimePicker
     Friend WithEvents Label18 As Label
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents Button2 As Button
+    Friend WithEvents txtpostulante As TextBox
     Friend WithEvents Label22 As Label
-    Friend WithEvents RichTextBox2 As RichTextBox
+    Friend WithEvents txtjust As RichTextBox
     Friend WithEvents Label21 As Label
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents txtdoc As TextBox
+    Friend WithEvents txtobser As RichTextBox
     Friend WithEvents Label20 As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button2 As Button
 End Class
