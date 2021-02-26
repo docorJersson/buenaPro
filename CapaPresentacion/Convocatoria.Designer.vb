@@ -58,14 +58,14 @@ Partial Class Convocatoria
         Me.TextBox17 = New System.Windows.Forms.TextBox()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.txtUbigeo = New System.Windows.Forms.TextBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.txtRuc = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.txtNombreEntidad = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -260,14 +260,14 @@ Partial Class Convocatoria
         Me.Panel3.Controls.Add(Me.TextBox17)
         Me.Panel3.Controls.Add(Me.Label25)
         Me.Panel3.Controls.Add(Me.TextBox18)
-        Me.Panel3.Controls.Add(Me.TextBox19)
+        Me.Panel3.Controls.Add(Me.txtUbigeo)
         Me.Panel3.Controls.Add(Me.ComboBox4)
         Me.Panel3.Controls.Add(Me.Label26)
         Me.Panel3.Controls.Add(Me.Label27)
-        Me.Panel3.Controls.Add(Me.TextBox20)
+        Me.Panel3.Controls.Add(Me.txtRuc)
         Me.Panel3.Controls.Add(Me.Label28)
         Me.Panel3.Controls.Add(Me.Label29)
-        Me.Panel3.Controls.Add(Me.TextBox21)
+        Me.Panel3.Controls.Add(Me.txtNombreEntidad)
         Me.Panel3.Controls.Add(Me.Button2)
         Me.Panel3.Controls.Add(Me.Label30)
         Me.Panel3.Location = New System.Drawing.Point(9, 337)
@@ -432,12 +432,12 @@ Partial Class Convocatoria
         Me.TextBox18.Size = New System.Drawing.Size(452, 20)
         Me.TextBox18.TabIndex = 10
         '
-        'TextBox19
+        'txtUbigeo
         '
-        Me.TextBox19.Location = New System.Drawing.Point(57, 18)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(88, 20)
-        Me.TextBox19.TabIndex = 3
+        Me.txtUbigeo.Location = New System.Drawing.Point(57, 18)
+        Me.txtUbigeo.Name = "txtUbigeo"
+        Me.txtUbigeo.Size = New System.Drawing.Size(88, 20)
+        Me.txtUbigeo.TabIndex = 3
         '
         'ComboBox4
         '
@@ -465,12 +465,12 @@ Partial Class Convocatoria
         Me.Label27.TabIndex = 8
         Me.Label27.Text = "Descripción:"
         '
-        'TextBox20
+        'txtRuc
         '
-        Me.TextBox20.Location = New System.Drawing.Point(235, 18)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(85, 20)
-        Me.TextBox20.TabIndex = 1
+        Me.txtRuc.Location = New System.Drawing.Point(235, 18)
+        Me.txtRuc.Name = "txtRuc"
+        Me.txtRuc.Size = New System.Drawing.Size(85, 20)
+        Me.txtRuc.TabIndex = 1
         '
         'Label28
         '
@@ -490,12 +490,12 @@ Partial Class Convocatoria
         Me.Label29.TabIndex = 2
         Me.Label29.Text = "Ubigeo:"
         '
-        'TextBox21
+        'txtNombreEntidad
         '
-        Me.TextBox21.Location = New System.Drawing.Point(392, 18)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(224, 20)
-        Me.TextBox21.TabIndex = 6
+        Me.txtNombreEntidad.Location = New System.Drawing.Point(392, 18)
+        Me.txtNombreEntidad.Name = "txtNombreEntidad"
+        Me.txtNombreEntidad.Size = New System.Drawing.Size(224, 20)
+        Me.txtNombreEntidad.TabIndex = 6
         '
         'Button2
         '
@@ -697,14 +697,14 @@ Partial Class Convocatoria
     Friend WithEvents TextBox17 As TextBox
     Friend WithEvents Label25 As Label
     Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents txtUbigeo As TextBox
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents Label26 As Label
     Friend WithEvents Label27 As Label
-    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents txtRuc As TextBox
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
-    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents txtNombreEntidad As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Label30 As Label
     Friend WithEvents Label12 As Label

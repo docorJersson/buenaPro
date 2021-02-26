@@ -55,20 +55,20 @@ Partial Class Postulantes
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
@@ -383,47 +383,64 @@ Partial Class Postulantes
         Me.Panel3.Size = New System.Drawing.Size(659, 109)
         Me.Panel3.TabIndex = 4
         '
-        'Label17
+        'Button2
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(19, 14)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(74, 13)
-        Me.Label17.TabIndex = 0
-        Me.Label17.Text = "C° Postulante:"
+        Me.Button2.Location = New System.Drawing.Point(623, 72)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(23, 23)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "..."
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'Label16
+        'Label22
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(16, 291)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(161, 13)
-        Me.Label16.TabIndex = 5
-        Me.Label16.Text = "Información General del Registro"
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(499, 52)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(122, 13)
+        Me.Label22.TabIndex = 11
+        Me.Label22.Text = "Documento de Registro:"
         '
-        'TextBox14
+        'RichTextBox2
         '
-        Me.TextBox14.Location = New System.Drawing.Point(91, 11)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox14.TabIndex = 1
+        Me.RichTextBox2.Location = New System.Drawing.Point(337, 49)
+        Me.RichTextBox2.Name = "RichTextBox2"
+        Me.RichTextBox2.Size = New System.Drawing.Size(144, 45)
+        Me.RichTextBox2.TabIndex = 10
+        Me.RichTextBox2.Text = ""
         '
-        'Label18
+        'Label21
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(215, 14)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(105, 13)
-        Me.Label18.TabIndex = 2
-        Me.Label18.Text = "Fecha Presentación:"
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(263, 52)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(68, 13)
+        Me.Label21.TabIndex = 9
+        Me.Label21.Text = "Justificación:"
         '
-        'DateTimePicker1
+        'TextBox15
         '
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(321, 11)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(105, 20)
-        Me.DateTimePicker1.TabIndex = 3
+        Me.TextBox15.Location = New System.Drawing.Point(506, 74)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(115, 20)
+        Me.TextBox15.TabIndex = 8
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Location = New System.Drawing.Point(91, 49)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(142, 45)
+        Me.RichTextBox1.TabIndex = 7
+        Me.RichTextBox1.Text = ""
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(16, 52)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(70, 13)
+        Me.Label20.TabIndex = 6
+        Me.Label20.Text = "Observación:"
         '
         'DateTimePicker2
         '
@@ -442,64 +459,47 @@ Partial Class Postulantes
         Me.Label19.TabIndex = 4
         Me.Label19.Text = "Fecha Registro:"
         '
-        'Label20
+        'DateTimePicker1
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(16, 52)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(70, 13)
-        Me.Label20.TabIndex = 6
-        Me.Label20.Text = "Observación:"
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(321, 11)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(105, 20)
+        Me.DateTimePicker1.TabIndex = 3
         '
-        'RichTextBox1
+        'Label18
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(91, 49)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(142, 45)
-        Me.RichTextBox1.TabIndex = 7
-        Me.RichTextBox1.Text = ""
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(215, 14)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(105, 13)
+        Me.Label18.TabIndex = 2
+        Me.Label18.Text = "Fecha Presentación:"
         '
-        'TextBox15
+        'TextBox14
         '
-        Me.TextBox15.Location = New System.Drawing.Point(506, 74)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(115, 20)
-        Me.TextBox15.TabIndex = 8
+        Me.TextBox14.Location = New System.Drawing.Point(91, 11)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox14.TabIndex = 1
         '
-        'Label21
+        'Label17
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(263, 52)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(68, 13)
-        Me.Label21.TabIndex = 9
-        Me.Label21.Text = "Justificación:"
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(19, 14)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(74, 13)
+        Me.Label17.TabIndex = 0
+        Me.Label17.Text = "C° Postulante:"
         '
-        'RichTextBox2
+        'Label16
         '
-        Me.RichTextBox2.Location = New System.Drawing.Point(337, 49)
-        Me.RichTextBox2.Name = "RichTextBox2"
-        Me.RichTextBox2.Size = New System.Drawing.Size(144, 45)
-        Me.RichTextBox2.TabIndex = 10
-        Me.RichTextBox2.Text = ""
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(499, 52)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(122, 13)
-        Me.Label22.TabIndex = 11
-        Me.Label22.Text = "Documento de Registro:"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(623, 72)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(23, 23)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "..."
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(16, 291)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(161, 13)
+        Me.Label16.TabIndex = 5
+        Me.Label16.Text = "Información General del Registro"
         '
         'Button3
         '
@@ -533,7 +533,7 @@ Partial Class Postulantes
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Postulantes"
-        Me.Text = "Form1"
+        Me.Text = " "
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)

@@ -82,3 +82,4 @@ C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Financiera.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaEntidades.resources
