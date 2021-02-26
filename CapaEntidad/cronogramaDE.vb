@@ -1,6 +1,6 @@
 ﻿Public Class cronogramaDE
     Private cConvocatoria As Integer
-    Private idFinaPu As Integer
+    Private idProcedimiento As Integer
     Private fInicio As Date
     Private fFin As Date
     Public Property fechaFin() As Date
@@ -19,12 +19,12 @@
             fInicio = value
         End Set
     End Property
-    Public Property financieraEntidad() As Integer
+    Public Property codigoProcedimiento() As Integer
         Get
-            Return idFinaPu
+            Return idProcedimiento
         End Get
         Set(ByVal value As Integer)
-            idFinaPu = value
+            idProcedimiento = value
         End Set
     End Property
     Public Property codigoConvocatoria() As Integer
