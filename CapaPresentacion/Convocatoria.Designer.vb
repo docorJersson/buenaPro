@@ -68,7 +68,6 @@ Partial Class Convocatoria
         Me.TextBox21 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -234,7 +233,7 @@ Partial Class Convocatoria
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(9, 328)
+        Me.Label15.Location = New System.Drawing.Point(9, 322)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(187, 13)
         Me.Label15.TabIndex = 11
@@ -516,15 +515,6 @@ Partial Class Convocatoria
         Me.Label30.TabIndex = 5
         Me.Label30.Text = "Nombre:"
         '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(9, 321)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(187, 13)
-        Me.Label31.TabIndex = 11
-        Me.Label31.Text = "Información general del Procedimiento"
-        '
         'Button3
         '
         Me.Button3.Location = New System.Drawing.Point(311, 516)
@@ -662,7 +652,6 @@ Partial Class Convocatoria
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label10)
@@ -718,7 +707,6 @@ Partial Class Convocatoria
     Friend WithEvents TextBox21 As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Label30 As Label
-    Friend WithEvents Label31 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents Label11 As Label

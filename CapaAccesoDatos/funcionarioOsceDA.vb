@@ -22,7 +22,6 @@ Public Class funcionarioOsceDA
                 funcOSCE.correoOSCE = reader.Item("emailCoorporativo")
                 funcOSCE.nIdentidad = reader.Item("nDIdentidad")
                 funcOSCE.fechaRegistro = reader.Item("fRegistro")
-                funcOSCE.fechaSalida = reader.Item("fSalida")
                 funcOSCE.estadoFun = reader.Item("estado")
                 funcOSCE.tipoResolucion = reader.Item("idTiResolucion")
                 reader.Close()

@@ -72,6 +72,7 @@
     <Compile Include="convocatoriaDL.vb" />
     <Compile Include="entidadPublica.vb" />
     <Compile Include="financieraDL.vb" />
+    <Compile Include="funcionarioOSCEDL.vb" />
     <Compile Include="listBoxDL.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -24,3 +24,17 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\Ca
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\MaterialSkin.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\MaterialSkin.dll
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
+C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
+C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
+C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
+C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
+C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
+C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

@@ -89,6 +89,22 @@ Public Class listCheckBox
             cBuenaPro.Close()
         End Using
     End Function
+    Public Function listProcedimiento() As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using listPro As New SqlCommand("listProcedimiento", cBuenaPro)
+                listPro.CommandType = CommandType.StoredProcedure
+
+                Using daRes As New SqlDataAdapter(listPro)
+                    Using table As New DataTable
+                        daRes.Fill(table)
+                        Return table
+                    End Using
+                End Using
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
 End Class
 
 
