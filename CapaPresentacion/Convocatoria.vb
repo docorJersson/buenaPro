@@ -120,13 +120,11 @@ Public Class Convocatoria
 
     End Sub
 
-<<<<<<< HEAD
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Dispose()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-=======
+
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim code As String
         code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
@@ -140,7 +138,6 @@ Public Class Convocatoria
     End Sub
 
     Private Sub cboProcedimiento_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProcedimiento.SelectedIndexChanged
->>>>>>> 4869a9f283d7d43acb9646fc531d9cb9c3c654b4
 
     End Sub
 

@@ -88,3 +88,5 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\C
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listProveedor.resources
 C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listConvocatorias.resources
 >>>>>>> 519fcfd0f24dabb9d39ec14ec704d625264e71ec
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listConvocatorias.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listProveedor.resources
