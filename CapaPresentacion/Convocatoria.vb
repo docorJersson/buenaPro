@@ -205,4 +205,8 @@ Public Class Convocatoria
         txtNombreFinan.Text = listFinanEntidad.nomFinanciera
         txtCuenBan.Text = listFinanEntidad.cuentaBancaria
     End Sub
+
+    Private Sub cboCostParticipacion_CheckedChanged(sender As Object, e As EventArgs) Handles cboCostParticipacion.CheckedChanged
+
+    End Sub
 End Class

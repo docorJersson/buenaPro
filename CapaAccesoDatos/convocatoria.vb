@@ -143,6 +143,6 @@ Public Class convocatoria
                 End Try
             End Using
             cBuenaPro.Close()
-            End Using
+        End Using
     End Sub
 End Class
