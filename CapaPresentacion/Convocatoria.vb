@@ -207,6 +207,15 @@ Public Class Convocatoria
     End Sub
 
     Private Sub cboCostParticipacion_CheckedChanged(sender As Object, e As EventArgs) Handles cboCostParticipacion.CheckedChanged
+        If cboCostParticipacion.Checked Then
+            txtParticipacion.Enabled = False
+        Else
+            txtParticipacion.Enabled = True
+        End If
+        txtParticipacion.Text = ""
+    End Sub
+
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
 
     End Sub
 End Class
