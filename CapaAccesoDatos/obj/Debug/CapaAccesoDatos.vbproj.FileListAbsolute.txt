@@ -1,40 +1,14 @@
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\MaterialSkin.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\MaterialSkin.dll
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\MaterialSkin.dll
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
-C:\BuenaPro\CapaAccesoDatos\bin\Debug\CapaEntidad.xml
-C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
-C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
-C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
-C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
-C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
-C:\BuenaPro\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache

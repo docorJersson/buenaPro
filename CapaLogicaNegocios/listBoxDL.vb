@@ -7,5 +7,7 @@ Public Class listBoxDL
     Public Function listProcedimiento() As DataTable
         Return aD.listProcedimiento()
     End Function
-
+    Public Function listModoDeber() As DataTable
+        Return aD.listModoDeber()
+    End Function
 End Class

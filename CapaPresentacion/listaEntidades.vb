@@ -47,14 +47,10 @@ Public Class listaEntidades
 
     End Sub
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dtgEntidades.CellContentClick
-        Dim listen As New Convocatoria()
-        listen.ubigeo = dtgEntidades.CurrentRow.Cells(0).Value.ToString
-        listen.r = dtgEntidades.CurrentRow.Cells(1).Value.ToString
+        ubigeoEntidad = dtgEntidades.CurrentRow.Cells(0).Value.ToString
+        rucEntidad = dtgEntidades.CurrentRow.Cells(1).Value.ToString
         nombreEntidad = dtgEntidades.CurrentRow.Cells(2).Value.ToString
-        Console.WriteLine("LIST" + ubigeoEntidad + rucEntidad + nombreEntidad)
         Close()
-        Console.WriteLine("LISTdfg")
-
     End Sub
 
     Private Sub listaEntidades_Load(sender As Object, e As EventArgs) Handles MyBase.Load

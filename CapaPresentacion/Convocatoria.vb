@@ -10,14 +10,13 @@ Public Class Convocatoria
     Dim funOSCEAccion As funcionarioOSCEDE
     Dim cronogramaConv As New List(Of cronogramaDE)
     Dim newCronograma As cronogramaDE
-    Public ubigeo As String
-    Public ruc As String
-    Public nombre As String
+    Dim entidadConvocante As CapaEntidad.entidadPublica
+    Private idFinanciera_Entidad As Integer
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtnConvocatoria.TextChanged
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtNConvocatoria.TextChanged
 
     End Sub
 
@@ -76,7 +75,6 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        newConvocatoria = New convocatoriaPublicaDE()
 
 
         Dim table As DataTable
@@ -126,11 +124,45 @@ Public Class Convocatoria
 
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim code As String
-        code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
-        funOSCEAccion = funOSCEDL.buscarCodigo(code)
-        newConvocatoria.funOSCE = funOSCEAccion.codFOSCE.ToString
-        newConvocatoria.resoFunciOSCE = funOSCEAccion.numResolucion.ToString
+        newConvocatoria = New convocatoriaPublicaDE()
+        Try
+            Dim code As String
+            Dim autogenerado As Boolean = True
+            code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
+            funOSCEAccion = funOSCEDL.buscarCodigo(code)
+            newConvocatoria.funcionarioOSCE = funOSCEAccion
+            newConvocatoria.numeroConvocatoria = txtNConvocatoria.Text
+            newConvocatoria.tipoSeleccion = cboTiSeleccion.SelectedItem.ToString.ToUpper
+            newConvocatoria.normaConvocatoria = txtNormativa.Text.ToUpper
+            newConvocatoria.nomenclaturaConvo = txtNomenclatura.Text.ToUpper
+            newConvocatoria.modoConvocatoria = cboModoDeber.SelectedValue.ToString
+            newConvocatoria.descripcionConvocatoria = txtDesConvocatoria.Text.ToUpper
+            If cboCostParticipacion.Checked = True Then
+                newConvocatoria.costoParticipacion = 0
+            Else
+                newConvocatoria.costoParticipacion = txtParticipacion.Text
+            End If
+            newConvocatoria.tipoMoneda = cboMoneda.SelectedItem.ToString
+            newConvocatoria.costoBases = txtBases.Text
+            newConvocatoria.fechaPublicacion = dtFPublicacion.Value.Date
+            newConvocatoria.entidadConvocante = Me.entidadConvocante
+            newConvocatoria.financieraPublica = Me.idFinanciera_Entidad
+            If ckGenerar.Checked = False Then
+                autogenerado = False
+                newConvocatoria.cronogramaConvoatoria = Me.cronogramaConv
+            End If
+            Dim cConvocatoria As Integer
+            cConvocatoria = convoDL.insertConvo(newConvocatoria, autogenerado)
+            MsgBox("Convocatoria N°" + cConvocatoria.ToString)
+
+        Catch ex As Exception
+            Debug.WriteLine(ex)
+        End Try
+
+
+
+
+
     End Sub
 
     Private Sub cboTiSeleccion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTiSeleccion.SelectedIndexChanged
@@ -143,13 +175,34 @@ Public Class Convocatoria
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim listForm As New listaEntidades()
-        Console.WriteLine("dl" + ubigeo + ruc + nombre)
-        listForm.Show()
-        Console.WriteLine("ffl" + ubigeo + ruc + nombre)
-
+        AddOwnedForm(listForm)
+        listForm.ShowDialog()
         txtUbigeo.Text = listForm.ubigeoEntidad
         txtRuc.Text = listForm.rucEntidad
         txtNombreEntidad.Text = listForm.nombreEntidad
+        entidadConvocante = New CapaEntidad.entidadPublica()
+        entidadConvocante.ubigeoEntidad = listForm.ubigeoEntidad
+        entidadConvocante.rucEntidad = listForm.rucEntidad
 
+
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim tableModo As DataTable
+        tableModo = listboxDL.listModoDeber()
+
+        cboModoDeber.DisplayMember = "modo"
+        cboModoDeber.ValueMember = "idModo"
+        cboModoDeber.DataSource = tableModo
+        cboModoDeber.Text = "Seleccione"
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim listFinanEntidad As New listFinancierta_Entidad(entidadConvocante.ubigeoEntidad)
+        listFinanEntidad.ShowDialog()
+        idFinanciera_Entidad = listFinanEntidad.idFinancieraPublica
+        txtCodFinancera.Text = listFinanEntidad.codFinanciera
+        txtNombreFinan.Text = listFinanEntidad.nomFinanciera
+        txtCuenBan.Text = listFinanEntidad.cuentaBancaria
     End Sub
 End Class

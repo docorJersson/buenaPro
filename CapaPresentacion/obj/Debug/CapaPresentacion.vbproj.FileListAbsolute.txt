@@ -1,35 +1,11 @@
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.exe
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.exe
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaLogicaNegocios.dll
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaAccesoDatos.dll
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaLogicaNegocios.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaLogicaNegocios.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaAccesoDatos.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor.resources
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.dll
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.pdb
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.xml
-c:\users\espin\documents\visual studio 2015\Projects\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.exe
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.xml
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.exe
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaPresentacion.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaAccesoDatos.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\MaterialSkin.dll
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaAccesoDatos.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaEntidad.pdb
@@ -37,56 +13,22 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\C
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaLogicaNegocios.pdb
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\CapaLogicaNegocios.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Ciudadano.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaCiudadano.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaEntidades.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaFinancieras.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listConvocatorias.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listFinancierta_Entidad.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listProveedor.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\bin\Debug\MaterialSkin.dll
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.EntidadesPublicas.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Convocatoria.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Postulantes.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.EntidadesPublicas.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Convocatoria.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Financiera.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Ciudadano.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaFinancieras.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaCiudadano.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listFinancierta_Entidad.resources
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.exe
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.xml
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.exe
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaPresentacion.xml
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaAccesoDatos.dll
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaEntidad.dll
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaLogicaNegocios.dll
-C:\BuenaPro\CapaPresentacion\bin\Debug\MaterialSkin.dll
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaAccesoDatos.xml
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaEntidad.pdb
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaEntidad.xml
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaLogicaNegocios.pdb
-C:\BuenaPro\CapaPresentacion\bin\Debug\CapaLogicaNegocios.xml
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Ciudadano.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listaCiudadano.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listaFinancieras.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listFinancierta_Entidad.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Postulantes.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.EntidadesPublicas.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Convocatoria.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Financiera.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
-<<<<<<< HEAD
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listaEntidades.resources
-=======
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listProveedor.resources
-C:\BuenaPro\CapaPresentacion\obj\Debug\CapaPresentacion.listConvocatorias.resources
->>>>>>> 519fcfd0f24dabb9d39ec14ec704d625264e71ec
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listConvocatorias.resources
-C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listProveedor.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.xml
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

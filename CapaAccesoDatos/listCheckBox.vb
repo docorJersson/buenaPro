@@ -105,6 +105,23 @@ Public Class listCheckBox
             cBuenaPro.Close()
         End Using
     End Function
+
+    Public Function listModoDeber() As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using listMoDe As New SqlCommand("listModoDeber", cBuenaPro)
+                listMoDe.CommandType = CommandType.StoredProcedure
+
+                Using daRes As New SqlDataAdapter(listMoDe)
+                    Using table As New DataTable
+                        daRes.Fill(table)
+                        Return table
+                    End Using
+                End Using
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
 End Class
 
 

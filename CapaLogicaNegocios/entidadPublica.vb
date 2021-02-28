@@ -6,4 +6,5 @@
     Public Function listEntidad() As DataTable
         Return entidadPublicaDA.listEntidad()
     End Function
+
 End Class

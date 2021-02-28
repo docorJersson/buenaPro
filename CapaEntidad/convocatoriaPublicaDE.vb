@@ -1,10 +1,18 @@
 ﻿Public Class convocatoriaPublicaDE
     Private cConvocatoria As Integer
-    Private nIdentidad As String
-    Private nResoOSCE As String
+    Private funOSCE As funcionarioOSCEDE
     Private nConvocatoria As Integer
     Private tSeleccion As String
     Private normativa As String
+    Private nomenclatura As String
+    Public Property nomenclaturaConvo() As String
+        Get
+            Return nomenclatura
+        End Get
+        Set(ByVal value As String)
+            nomenclatura = value
+        End Set
+    End Property
     Private vSEACE As String
     Private idModo As Integer
     Private desConvocatoria As String
@@ -12,10 +20,25 @@
     Private moneda As String
     Private cBases As Double
     Private fPublicacion As Date
-    Private ubigeo As String
-    Private ruc As String
+    Private entidadPublica As entidadPublica
     Private idFinanPublica As Integer
     Private cronograma As List(Of cronogramaDE)
+    Public Property entidadConvocante() As entidadPublica
+        Get
+            Return entidadPublica
+        End Get
+        Set(ByVal value As entidadPublica)
+            entidadPublica = value
+        End Set
+    End Property
+    Public Property funcionarioOSCE() As funcionarioOSCEDE
+        Get
+            Return funOSCE
+        End Get
+        Set(ByVal value As funcionarioOSCEDE)
+            funOSCE = value
+        End Set
+    End Property
     Public Property cronogramaConvoatoria() As List(Of cronogramaDE)
         Get
             Return cronograma
@@ -30,22 +53,6 @@
         End Get
         Set(ByVal value As Integer)
             idFinanPublica = value
-        End Set
-    End Property
-    Public Property rucEntidad() As String
-        Get
-            Return ruc
-        End Get
-        Set(ByVal value As String)
-            ruc = value
-        End Set
-    End Property
-    Public Property ubigeoEntidad() As String
-        Get
-            Return ubigeo
-        End Get
-        Set(ByVal value As String)
-            ubigeo = value
         End Set
     End Property
     Public Property fechaPublicacion() As Date
@@ -128,22 +135,7 @@
             nConvocatoria = value
         End Set
     End Property
-    Public Property resoFunciOSCE() As String
-        Get
-            Return nResoOSCE
-        End Get
-        Set(ByVal value As String)
-            nResoOSCE = value
-        End Set
-    End Property
-    Public Property funOSCE() As String
-        Get
-            Return nIdentidad
-        End Get
-        Set(ByVal value As String)
-            nIdentidad = value
-        End Set
-    End Property
+
     Public Property codigoConvocatoria() As Integer
         Get
             Return cConvocatoria
