@@ -38,7 +38,7 @@ Partial Class Convocatoria
         Me.ckGenerar = New System.Windows.Forms.CheckBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.pnDetalleConvo = New System.Windows.Forms.Panel()
         Me.dtFPublicacion = New System.Windows.Forms.DateTimePicker()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.txtNombreFinan = New System.Windows.Forms.TextBox()
@@ -67,7 +67,7 @@ Partial Class Convocatoria
         Me.txtNombreEntidad = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnGuardar = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.lstCronograma = New System.Windows.Forms.ListView()
@@ -84,8 +84,8 @@ Partial Class Convocatoria
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.pnCronoConvocatoria = New System.Windows.Forms.Panel()
+        Me.tbDetallesConvo = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -94,31 +94,31 @@ Partial Class Convocatoria
         Me.Label17 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.pnPresupuesto = New System.Windows.Forms.Panel()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.pnAnalisis = New System.Windows.Forms.Panel()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button10 = New System.Windows.Forms.Button()
-        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.pnPolinomicas = New System.Windows.Forms.Panel()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Label34 = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.pnRiesgos = New System.Windows.Forms.Panel()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button12 = New System.Windows.Forms.Button()
-        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.pnDocOpcional = New System.Windows.Forms.Panel()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button13 = New System.Windows.Forms.Button()
-        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.pnConsultora = New System.Windows.Forms.Panel()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -149,14 +149,14 @@ Partial Class Convocatoria
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.pnAprobacion = New System.Windows.Forms.Panel()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.Label55 = New System.Windows.Forms.Label()
-        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.pnTerreno = New System.Windows.Forms.Panel()
         Me.Label56 = New System.Windows.Forms.Label()
-        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.pnEstudiosTec = New System.Windows.Forms.Panel()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.Button17 = New System.Windows.Forms.Button()
@@ -178,24 +178,25 @@ Partial Class Convocatoria
         Me.ListView2 = New System.Windows.Forms.ListView()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button24 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
-        Me.Panel3.SuspendLayout()
+        Me.pnDetalleConvo.SuspendLayout()
         Me.pnCronograma.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.TabControl1.SuspendLayout()
+        Me.pnCronoConvocatoria.SuspendLayout()
+        Me.tbDetallesConvo.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Panel5.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        Me.Panel9.SuspendLayout()
+        Me.pnPresupuesto.SuspendLayout()
+        Me.pnAnalisis.SuspendLayout()
+        Me.pnPolinomicas.SuspendLayout()
+        Me.pnRiesgos.SuspendLayout()
+        Me.pnDocOpcional.SuspendLayout()
+        Me.pnConsultora.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel10.SuspendLayout()
-        Me.Panel11.SuspendLayout()
-        Me.Panel12.SuspendLayout()
+        Me.pnAprobacion.SuspendLayout()
+        Me.pnTerreno.SuspendLayout()
+        Me.pnEstudiosTec.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -349,47 +350,47 @@ Partial Class Convocatoria
         Me.Label15.TabIndex = 11
         Me.Label15.Text = "Información general del Procedimiento"
         '
-        'Panel3
+        'pnDetalleConvo
         '
-        Me.Panel3.Controls.Add(Me.Button9)
-        Me.Panel3.Controls.Add(Me.dtFPublicacion)
-        Me.Panel3.Controls.Add(Me.Label12)
-        Me.Panel3.Controls.Add(Me.txtNombreFinan)
-        Me.Panel3.Controls.Add(Me.Label2)
-        Me.Panel3.Controls.Add(Me.txtCuenBan)
-        Me.Panel3.Controls.Add(Me.Label11)
-        Me.Panel3.Controls.Add(Me.Button1)
-        Me.Panel3.Controls.Add(Me.Label8)
-        Me.Panel3.Controls.Add(Me.txtCodFinancera)
-        Me.Panel3.Controls.Add(Me.Label21)
-        Me.Panel3.Controls.Add(Me.txtBases)
-        Me.Panel3.Controls.Add(Me.Label22)
-        Me.Panel3.Controls.Add(Me.cboCostParticipacion)
-        Me.Panel3.Controls.Add(Me.Label23)
-        Me.Panel3.Controls.Add(Me.cboMoneda)
-        Me.Panel3.Controls.Add(Me.Label24)
-        Me.Panel3.Controls.Add(Me.txtParticipacion)
-        Me.Panel3.Controls.Add(Me.txtDesConvocatoria)
-        Me.Panel3.Controls.Add(Me.txtUbigeo)
-        Me.Panel3.Controls.Add(Me.cboModoDeber)
-        Me.Panel3.Controls.Add(Me.Label26)
-        Me.Panel3.Controls.Add(Me.Label27)
-        Me.Panel3.Controls.Add(Me.txtRuc)
-        Me.Panel3.Controls.Add(Me.Label28)
-        Me.Panel3.Controls.Add(Me.Label29)
-        Me.Panel3.Controls.Add(Me.txtNombreEntidad)
-        Me.Panel3.Controls.Add(Me.Button2)
-        Me.Panel3.Controls.Add(Me.Label30)
-        Me.Panel3.Enabled = False
-        Me.Panel3.Location = New System.Drawing.Point(6, 268)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(863, 183)
-        Me.Panel3.TabIndex = 10
+        Me.pnDetalleConvo.Controls.Add(Me.Button9)
+        Me.pnDetalleConvo.Controls.Add(Me.dtFPublicacion)
+        Me.pnDetalleConvo.Controls.Add(Me.Label12)
+        Me.pnDetalleConvo.Controls.Add(Me.txtNombreFinan)
+        Me.pnDetalleConvo.Controls.Add(Me.Label2)
+        Me.pnDetalleConvo.Controls.Add(Me.txtCuenBan)
+        Me.pnDetalleConvo.Controls.Add(Me.Label11)
+        Me.pnDetalleConvo.Controls.Add(Me.Button1)
+        Me.pnDetalleConvo.Controls.Add(Me.Label8)
+        Me.pnDetalleConvo.Controls.Add(Me.txtCodFinancera)
+        Me.pnDetalleConvo.Controls.Add(Me.Label21)
+        Me.pnDetalleConvo.Controls.Add(Me.txtBases)
+        Me.pnDetalleConvo.Controls.Add(Me.Label22)
+        Me.pnDetalleConvo.Controls.Add(Me.cboCostParticipacion)
+        Me.pnDetalleConvo.Controls.Add(Me.Label23)
+        Me.pnDetalleConvo.Controls.Add(Me.cboMoneda)
+        Me.pnDetalleConvo.Controls.Add(Me.Label24)
+        Me.pnDetalleConvo.Controls.Add(Me.txtParticipacion)
+        Me.pnDetalleConvo.Controls.Add(Me.txtDesConvocatoria)
+        Me.pnDetalleConvo.Controls.Add(Me.txtUbigeo)
+        Me.pnDetalleConvo.Controls.Add(Me.cboModoDeber)
+        Me.pnDetalleConvo.Controls.Add(Me.Label26)
+        Me.pnDetalleConvo.Controls.Add(Me.Label27)
+        Me.pnDetalleConvo.Controls.Add(Me.txtRuc)
+        Me.pnDetalleConvo.Controls.Add(Me.Label28)
+        Me.pnDetalleConvo.Controls.Add(Me.Label29)
+        Me.pnDetalleConvo.Controls.Add(Me.txtNombreEntidad)
+        Me.pnDetalleConvo.Controls.Add(Me.Button2)
+        Me.pnDetalleConvo.Controls.Add(Me.Label30)
+        Me.pnDetalleConvo.Enabled = False
+        Me.pnDetalleConvo.Location = New System.Drawing.Point(6, 268)
+        Me.pnDetalleConvo.Name = "pnDetalleConvo"
+        Me.pnDetalleConvo.Size = New System.Drawing.Size(863, 183)
+        Me.pnDetalleConvo.TabIndex = 10
         '
         'dtFPublicacion
         '
         Me.dtFPublicacion.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtFPublicacion.Location = New System.Drawing.Point(754, 91)
+        Me.dtFPublicacion.Location = New System.Drawing.Point(507, 92)
         Me.dtFPublicacion.Name = "dtFPublicacion"
         Me.dtFPublicacion.Size = New System.Drawing.Size(98, 20)
         Me.dtFPublicacion.TabIndex = 30
@@ -397,7 +398,7 @@ Partial Class Convocatoria
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(666, 95)
+        Me.Label12.Location = New System.Drawing.Point(419, 96)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(82, 13)
         Me.Label12.TabIndex = 29
@@ -406,7 +407,7 @@ Partial Class Convocatoria
         'txtNombreFinan
         '
         Me.txtNombreFinan.Enabled = False
-        Me.txtNombreFinan.Location = New System.Drawing.Point(261, 129)
+        Me.txtNombreFinan.Location = New System.Drawing.Point(64, 136)
         Me.txtNombreFinan.Name = "txtNombreFinan"
         Me.txtNombreFinan.Size = New System.Drawing.Size(364, 20)
         Me.txtNombreFinan.TabIndex = 28
@@ -414,7 +415,7 @@ Partial Class Convocatoria
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(211, 132)
+        Me.Label2.Location = New System.Drawing.Point(14, 139)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(47, 13)
         Me.Label2.TabIndex = 27
@@ -423,7 +424,7 @@ Partial Class Convocatoria
         'txtCuenBan
         '
         Me.txtCuenBan.Enabled = False
-        Me.txtCuenBan.Location = New System.Drawing.Point(696, 129)
+        Me.txtCuenBan.Location = New System.Drawing.Point(499, 134)
         Me.txtCuenBan.Name = "txtCuenBan"
         Me.txtCuenBan.Size = New System.Drawing.Size(156, 20)
         Me.txtCuenBan.TabIndex = 25
@@ -431,7 +432,7 @@ Partial Class Convocatoria
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(634, 132)
+        Me.Label11.Location = New System.Drawing.Point(437, 137)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(59, 13)
         Me.Label11.TabIndex = 24
@@ -439,7 +440,7 @@ Partial Class Convocatoria
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(170, 127)
+        Me.Button1.Location = New System.Drawing.Point(825, 89)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(31, 23)
         Me.Button1.TabIndex = 23
@@ -449,7 +450,7 @@ Partial Class Convocatoria
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(11, 132)
+        Me.Label8.Location = New System.Drawing.Point(635, 96)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(89, 13)
         Me.Label8.TabIndex = 22
@@ -458,9 +459,9 @@ Partial Class Convocatoria
         'txtCodFinancera
         '
         Me.txtCodFinancera.Enabled = False
-        Me.txtCodFinancera.Location = New System.Drawing.Point(103, 129)
+        Me.txtCodFinancera.Location = New System.Drawing.Point(730, 91)
         Me.txtCodFinancera.Name = "txtCodFinancera"
-        Me.txtCodFinancera.Size = New System.Drawing.Size(67, 20)
+        Me.txtCodFinancera.Size = New System.Drawing.Size(95, 20)
         Me.txtCodFinancera.TabIndex = 21
         '
         'Label21
@@ -473,7 +474,7 @@ Partial Class Convocatoria
         '
         'txtBases
         '
-        Me.txtBases.Location = New System.Drawing.Point(577, 92)
+        Me.txtBases.Location = New System.Drawing.Point(330, 93)
         Me.txtBases.Name = "txtBases"
         Me.txtBases.Size = New System.Drawing.Size(78, 20)
         Me.txtBases.TabIndex = 19
@@ -481,7 +482,7 @@ Partial Class Convocatoria
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(506, 95)
+        Me.Label22.Location = New System.Drawing.Point(259, 96)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(69, 13)
         Me.Label22.TabIndex = 18
@@ -490,7 +491,7 @@ Partial Class Convocatoria
         'cboCostParticipacion
         '
         Me.cboCostParticipacion.AutoSize = True
-        Me.cboCostParticipacion.Location = New System.Drawing.Point(436, 94)
+        Me.cboCostParticipacion.Location = New System.Drawing.Point(189, 95)
         Me.cboCostParticipacion.Name = "cboCostParticipacion"
         Me.cboCostParticipacion.Size = New System.Drawing.Size(63, 17)
         Me.cboCostParticipacion.TabIndex = 17
@@ -500,7 +501,7 @@ Partial Class Convocatoria
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(261, 95)
+        Me.Label23.Location = New System.Drawing.Point(14, 96)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(101, 13)
         Me.Label23.TabIndex = 16
@@ -526,7 +527,7 @@ Partial Class Convocatoria
         '
         'txtParticipacion
         '
-        Me.txtParticipacion.Location = New System.Drawing.Point(362, 92)
+        Me.txtParticipacion.Location = New System.Drawing.Point(115, 93)
         Me.txtParticipacion.Name = "txtParticipacion"
         Me.txtParticipacion.Size = New System.Drawing.Size(71, 20)
         Me.txtParticipacion.TabIndex = 13
@@ -627,14 +628,15 @@ Partial Class Convocatoria
         Me.Label30.TabIndex = 5
         Me.Label30.Text = "Nombre:"
         '
-        'Button3
+        'btnGuardar
         '
-        Me.Button3.Location = New System.Drawing.Point(369, 632)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(84, 23)
-        Me.Button3.TabIndex = 12
-        Me.Button3.Text = "Generar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnGuardar.Enabled = False
+        Me.btnGuardar.Location = New System.Drawing.Point(369, 632)
+        Me.btnGuardar.Name = "btnGuardar"
+        Me.btnGuardar.Size = New System.Drawing.Size(84, 23)
+        Me.btnGuardar.TabIndex = 12
+        Me.btnGuardar.Text = "Generar"
+        Me.btnGuardar.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -772,36 +774,36 @@ Partial Class Convocatoria
         Me.Button8.Text = "Registrar"
         Me.Button8.UseVisualStyleBackColor = True
         '
-        'Panel2
+        'pnCronoConvocatoria
         '
-        Me.Panel2.Controls.Add(Me.pnCronograma)
-        Me.Panel2.Controls.Add(Me.Button8)
-        Me.Panel2.Controls.Add(Me.ckGenerar)
-        Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Controls.Add(Me.lstCronograma)
-        Me.Panel2.Enabled = False
-        Me.Panel2.Location = New System.Drawing.Point(8, 26)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(863, 218)
-        Me.Panel2.TabIndex = 26
+        Me.pnCronoConvocatoria.Controls.Add(Me.pnCronograma)
+        Me.pnCronoConvocatoria.Controls.Add(Me.Button8)
+        Me.pnCronoConvocatoria.Controls.Add(Me.ckGenerar)
+        Me.pnCronoConvocatoria.Controls.Add(Me.Label7)
+        Me.pnCronoConvocatoria.Controls.Add(Me.lstCronograma)
+        Me.pnCronoConvocatoria.Enabled = False
+        Me.pnCronoConvocatoria.Location = New System.Drawing.Point(8, 26)
+        Me.pnCronoConvocatoria.Name = "pnCronoConvocatoria"
+        Me.pnCronoConvocatoria.Size = New System.Drawing.Size(863, 218)
+        Me.pnCronoConvocatoria.TabIndex = 26
         '
-        'TabControl1
+        'tbDetallesConvo
         '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Enabled = False
-        Me.TabControl1.Location = New System.Drawing.Point(9, 122)
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(888, 504)
-        Me.TabControl1.TabIndex = 27
+        Me.tbDetallesConvo.Controls.Add(Me.TabPage1)
+        Me.tbDetallesConvo.Controls.Add(Me.TabPage2)
+        Me.tbDetallesConvo.Controls.Add(Me.TabPage3)
+        Me.tbDetallesConvo.Enabled = False
+        Me.tbDetallesConvo.Location = New System.Drawing.Point(9, 122)
+        Me.tbDetallesConvo.Name = "tbDetallesConvo"
+        Me.tbDetallesConvo.SelectedIndex = 0
+        Me.tbDetallesConvo.Size = New System.Drawing.Size(888, 504)
+        Me.tbDetallesConvo.TabIndex = 27
         '
         'TabPage1
         '
-        Me.TabPage1.Controls.Add(Me.Panel2)
+        Me.TabPage1.Controls.Add(Me.pnCronoConvocatoria)
         Me.TabPage1.Controls.Add(Me.Label9)
-        Me.TabPage1.Controls.Add(Me.Panel3)
+        Me.TabPage1.Controls.Add(Me.pnDetalleConvo)
         Me.TabPage1.Controls.Add(Me.Label15)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
@@ -813,20 +815,21 @@ Partial Class Convocatoria
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Button24)
         Me.TabPage2.Controls.Add(Me.DateTimePicker3)
         Me.TabPage2.Controls.Add(Me.Label43)
         Me.TabPage2.Controls.Add(Me.Label39)
-        Me.TabPage2.Controls.Add(Me.Panel9)
+        Me.TabPage2.Controls.Add(Me.pnConsultora)
         Me.TabPage2.Controls.Add(Me.Label37)
-        Me.TabPage2.Controls.Add(Me.Panel8)
+        Me.TabPage2.Controls.Add(Me.pnDocOpcional)
         Me.TabPage2.Controls.Add(Me.Label35)
-        Me.TabPage2.Controls.Add(Me.Panel7)
+        Me.TabPage2.Controls.Add(Me.pnRiesgos)
         Me.TabPage2.Controls.Add(Me.Label32)
-        Me.TabPage2.Controls.Add(Me.Panel6)
-        Me.TabPage2.Controls.Add(Me.Panel5)
+        Me.TabPage2.Controls.Add(Me.pnPolinomicas)
+        Me.TabPage2.Controls.Add(Me.pnAnalisis)
         Me.TabPage2.Controls.Add(Me.Label20)
         Me.TabPage2.Controls.Add(Me.Label19)
-        Me.TabPage2.Controls.Add(Me.Panel4)
+        Me.TabPage2.Controls.Add(Me.pnPresupuesto)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
@@ -886,19 +889,19 @@ Partial Class Convocatoria
         Me.Label18.TabIndex = 17
         Me.Label18.Text = "Fecha de Registro de Presupuesto"
         '
-        'Panel4
+        'pnPresupuesto
         '
-        Me.Panel4.Controls.Add(Me.DateTimePicker2)
-        Me.Panel4.Controls.Add(Me.Label25)
-        Me.Panel4.Controls.Add(Me.Label18)
-        Me.Panel4.Controls.Add(Me.TextBox17)
-        Me.Panel4.Controls.Add(Me.DateTimePicker1)
-        Me.Panel4.Controls.Add(Me.Label17)
-        Me.Panel4.Enabled = False
-        Me.Panel4.Location = New System.Drawing.Point(13, 97)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(856, 45)
-        Me.Panel4.TabIndex = 18
+        Me.pnPresupuesto.Controls.Add(Me.DateTimePicker2)
+        Me.pnPresupuesto.Controls.Add(Me.Label25)
+        Me.pnPresupuesto.Controls.Add(Me.Label18)
+        Me.pnPresupuesto.Controls.Add(Me.TextBox17)
+        Me.pnPresupuesto.Controls.Add(Me.DateTimePicker1)
+        Me.pnPresupuesto.Controls.Add(Me.Label17)
+        Me.pnPresupuesto.Enabled = False
+        Me.pnPresupuesto.Location = New System.Drawing.Point(13, 97)
+        Me.pnPresupuesto.Name = "pnPresupuesto"
+        Me.pnPresupuesto.Size = New System.Drawing.Size(856, 45)
+        Me.pnPresupuesto.TabIndex = 18
         '
         'DateTimePicker2
         '
@@ -926,16 +929,16 @@ Partial Class Convocatoria
         Me.Label20.TabIndex = 20
         Me.Label20.Text = "Análisis de Precios"
         '
-        'Panel5
+        'pnAnalisis
         '
-        Me.Panel5.Controls.Add(Me.Button10)
-        Me.Panel5.Controls.Add(Me.TextBox1)
-        Me.Panel5.Controls.Add(Me.Label31)
-        Me.Panel5.Enabled = False
-        Me.Panel5.Location = New System.Drawing.Point(13, 170)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(858, 44)
-        Me.Panel5.TabIndex = 21
+        Me.pnAnalisis.Controls.Add(Me.Button10)
+        Me.pnAnalisis.Controls.Add(Me.TextBox1)
+        Me.pnAnalisis.Controls.Add(Me.Label31)
+        Me.pnAnalisis.Enabled = False
+        Me.pnAnalisis.Location = New System.Drawing.Point(13, 170)
+        Me.pnAnalisis.Name = "pnAnalisis"
+        Me.pnAnalisis.Size = New System.Drawing.Size(858, 44)
+        Me.pnAnalisis.TabIndex = 21
         '
         'Label31
         '
@@ -962,17 +965,17 @@ Partial Class Convocatoria
         Me.Button10.Text = "..."
         Me.Button10.UseVisualStyleBackColor = True
         '
-        'Panel6
+        'pnPolinomicas
         '
-        Me.Panel6.Controls.Add(Me.Label34)
-        Me.Panel6.Controls.Add(Me.Button11)
-        Me.Panel6.Controls.Add(Me.TextBox2)
-        Me.Panel6.Controls.Add(Me.Label33)
-        Me.Panel6.Enabled = False
-        Me.Panel6.Location = New System.Drawing.Point(13, 239)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(856, 60)
-        Me.Panel6.TabIndex = 22
+        Me.pnPolinomicas.Controls.Add(Me.Label34)
+        Me.pnPolinomicas.Controls.Add(Me.Button11)
+        Me.pnPolinomicas.Controls.Add(Me.TextBox2)
+        Me.pnPolinomicas.Controls.Add(Me.Label33)
+        Me.pnPolinomicas.Enabled = False
+        Me.pnPolinomicas.Location = New System.Drawing.Point(13, 239)
+        Me.pnPolinomicas.Name = "pnPolinomicas"
+        Me.pnPolinomicas.Size = New System.Drawing.Size(856, 60)
+        Me.pnPolinomicas.TabIndex = 22
         '
         'Label32
         '
@@ -1019,16 +1022,16 @@ Partial Class Convocatoria
         Me.Label34.Text = "El requerimiento de estás fórmulas es con finalidad de corroboración del proceso " &
     "de Evaluación dado a que se tomará de lo ingresado"
         '
-        'Panel7
+        'pnRiesgos
         '
-        Me.Panel7.Controls.Add(Me.Button12)
-        Me.Panel7.Controls.Add(Me.TextBox3)
-        Me.Panel7.Controls.Add(Me.Label36)
-        Me.Panel7.Enabled = False
-        Me.Panel7.Location = New System.Drawing.Point(13, 327)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(856, 46)
-        Me.Panel7.TabIndex = 24
+        Me.pnRiesgos.Controls.Add(Me.Button12)
+        Me.pnRiesgos.Controls.Add(Me.TextBox3)
+        Me.pnRiesgos.Controls.Add(Me.Label36)
+        Me.pnRiesgos.Enabled = False
+        Me.pnRiesgos.Location = New System.Drawing.Point(13, 327)
+        Me.pnRiesgos.Name = "pnRiesgos"
+        Me.pnRiesgos.Size = New System.Drawing.Size(856, 46)
+        Me.pnRiesgos.TabIndex = 24
         '
         'Label35
         '
@@ -1064,16 +1067,16 @@ Partial Class Convocatoria
         Me.Button12.Text = "..."
         Me.Button12.UseVisualStyleBackColor = True
         '
-        'Panel8
+        'pnDocOpcional
         '
-        Me.Panel8.Controls.Add(Me.Button13)
-        Me.Panel8.Controls.Add(Me.TextBox4)
-        Me.Panel8.Controls.Add(Me.Label38)
-        Me.Panel8.Enabled = False
-        Me.Panel8.Location = New System.Drawing.Point(13, 399)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(856, 46)
-        Me.Panel8.TabIndex = 26
+        Me.pnDocOpcional.Controls.Add(Me.Button13)
+        Me.pnDocOpcional.Controls.Add(Me.TextBox4)
+        Me.pnDocOpcional.Controls.Add(Me.Label38)
+        Me.pnDocOpcional.Enabled = False
+        Me.pnDocOpcional.Location = New System.Drawing.Point(13, 399)
+        Me.pnDocOpcional.Name = "pnDocOpcional"
+        Me.pnDocOpcional.Size = New System.Drawing.Size(856, 46)
+        Me.pnDocOpcional.TabIndex = 26
         '
         'Label37
         '
@@ -1109,20 +1112,20 @@ Partial Class Convocatoria
         Me.Button13.Text = "..."
         Me.Button13.UseVisualStyleBackColor = True
         '
-        'Panel9
+        'pnConsultora
         '
-        Me.Panel9.Controls.Add(Me.TextBox7)
-        Me.Panel9.Controls.Add(Me.Label42)
-        Me.Panel9.Controls.Add(Me.TextBox6)
-        Me.Panel9.Controls.Add(Me.Label41)
-        Me.Panel9.Controls.Add(Me.Button14)
-        Me.Panel9.Controls.Add(Me.TextBox5)
-        Me.Panel9.Controls.Add(Me.Label40)
-        Me.Panel9.Enabled = False
-        Me.Panel9.Location = New System.Drawing.Point(13, 29)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(856, 44)
-        Me.Panel9.TabIndex = 28
+        Me.pnConsultora.Controls.Add(Me.TextBox7)
+        Me.pnConsultora.Controls.Add(Me.Label42)
+        Me.pnConsultora.Controls.Add(Me.TextBox6)
+        Me.pnConsultora.Controls.Add(Me.Label41)
+        Me.pnConsultora.Controls.Add(Me.Button14)
+        Me.pnConsultora.Controls.Add(Me.TextBox5)
+        Me.pnConsultora.Controls.Add(Me.Label40)
+        Me.pnConsultora.Enabled = False
+        Me.pnConsultora.Location = New System.Drawing.Point(13, 29)
+        Me.pnConsultora.Name = "pnConsultora"
+        Me.pnConsultora.Size = New System.Drawing.Size(856, 44)
+        Me.pnConsultora.TabIndex = 28
         '
         'Label39
         '
@@ -1193,7 +1196,7 @@ Partial Class Convocatoria
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(638, 455)
+        Me.Label43.Location = New System.Drawing.Point(515, 456)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(120, 13)
         Me.Label43.TabIndex = 30
@@ -1203,19 +1206,19 @@ Partial Class Convocatoria
         '
         Me.DateTimePicker3.Enabled = False
         Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker3.Location = New System.Drawing.Point(763, 452)
+        Me.DateTimePicker3.Location = New System.Drawing.Point(640, 453)
         Me.DateTimePicker3.Name = "DateTimePicker3"
         Me.DateTimePicker3.Size = New System.Drawing.Size(106, 20)
         Me.DateTimePicker3.TabIndex = 31
         '
         'TabPage3
         '
-        Me.TabPage3.Controls.Add(Me.Panel12)
+        Me.TabPage3.Controls.Add(Me.pnEstudiosTec)
         Me.TabPage3.Controls.Add(Me.Label56)
-        Me.TabPage3.Controls.Add(Me.Panel11)
+        Me.TabPage3.Controls.Add(Me.pnTerreno)
         Me.TabPage3.Controls.Add(Me.Label55)
         Me.TabPage3.Controls.Add(Me.Label53)
-        Me.TabPage3.Controls.Add(Me.Panel10)
+        Me.TabPage3.Controls.Add(Me.pnAprobacion)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
@@ -1383,35 +1386,35 @@ Partial Class Convocatoria
         Me.TextBox12.Size = New System.Drawing.Size(130, 20)
         Me.TextBox12.TabIndex = 18
         '
-        'Panel10
+        'pnAprobacion
         '
-        Me.Panel10.Controls.Add(Me.Button23)
-        Me.Panel10.Controls.Add(Me.TextBox13)
-        Me.Panel10.Controls.Add(Me.Label54)
-        Me.Panel10.Controls.Add(Me.Label44)
-        Me.Panel10.Controls.Add(Me.TextBox12)
-        Me.Panel10.Controls.Add(Me.TextBox8)
-        Me.Panel10.Controls.Add(Me.Label52)
-        Me.Panel10.Controls.Add(Me.Label45)
-        Me.Panel10.Controls.Add(Me.Button16)
-        Me.Panel10.Controls.Add(Me.ComboBox1)
-        Me.Panel10.Controls.Add(Me.TextBox11)
-        Me.Panel10.Controls.Add(Me.Label46)
-        Me.Panel10.Controls.Add(Me.Label51)
-        Me.Panel10.Controls.Add(Me.DateTimePicker4)
-        Me.Panel10.Controls.Add(Me.Label50)
-        Me.Panel10.Controls.Add(Me.Label47)
-        Me.Panel10.Controls.Add(Me.NumericUpDown1)
-        Me.Panel10.Controls.Add(Me.TextBox9)
-        Me.Panel10.Controls.Add(Me.Label49)
-        Me.Panel10.Controls.Add(Me.Button15)
-        Me.Panel10.Controls.Add(Me.TextBox10)
-        Me.Panel10.Controls.Add(Me.Label48)
-        Me.Panel10.Enabled = False
-        Me.Panel10.Location = New System.Drawing.Point(13, 32)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(852, 148)
-        Me.Panel10.TabIndex = 19
+        Me.pnAprobacion.Controls.Add(Me.Button23)
+        Me.pnAprobacion.Controls.Add(Me.TextBox13)
+        Me.pnAprobacion.Controls.Add(Me.Label54)
+        Me.pnAprobacion.Controls.Add(Me.Label44)
+        Me.pnAprobacion.Controls.Add(Me.TextBox12)
+        Me.pnAprobacion.Controls.Add(Me.TextBox8)
+        Me.pnAprobacion.Controls.Add(Me.Label52)
+        Me.pnAprobacion.Controls.Add(Me.Label45)
+        Me.pnAprobacion.Controls.Add(Me.Button16)
+        Me.pnAprobacion.Controls.Add(Me.ComboBox1)
+        Me.pnAprobacion.Controls.Add(Me.TextBox11)
+        Me.pnAprobacion.Controls.Add(Me.Label46)
+        Me.pnAprobacion.Controls.Add(Me.Label51)
+        Me.pnAprobacion.Controls.Add(Me.DateTimePicker4)
+        Me.pnAprobacion.Controls.Add(Me.Label50)
+        Me.pnAprobacion.Controls.Add(Me.Label47)
+        Me.pnAprobacion.Controls.Add(Me.NumericUpDown1)
+        Me.pnAprobacion.Controls.Add(Me.TextBox9)
+        Me.pnAprobacion.Controls.Add(Me.Label49)
+        Me.pnAprobacion.Controls.Add(Me.Button15)
+        Me.pnAprobacion.Controls.Add(Me.TextBox10)
+        Me.pnAprobacion.Controls.Add(Me.Label48)
+        Me.pnAprobacion.Enabled = False
+        Me.pnAprobacion.Location = New System.Drawing.Point(13, 32)
+        Me.pnAprobacion.Name = "pnAprobacion"
+        Me.pnAprobacion.Size = New System.Drawing.Size(852, 148)
+        Me.pnAprobacion.TabIndex = 19
         '
         'Label53
         '
@@ -1447,23 +1450,23 @@ Partial Class Convocatoria
         Me.Label55.TabIndex = 21
         Me.Label55.Text = "Terrenos de la Convocatoria"
         '
-        'Panel11
+        'pnTerreno
         '
-        Me.Panel11.Controls.Add(Me.Button19)
-        Me.Panel11.Controls.Add(Me.Button18)
-        Me.Panel11.Controls.Add(Me.ListView1)
-        Me.Panel11.Controls.Add(Me.TextBox16)
-        Me.Panel11.Controls.Add(Me.Label59)
-        Me.Panel11.Controls.Add(Me.TextBox15)
-        Me.Panel11.Controls.Add(Me.Label58)
-        Me.Panel11.Controls.Add(Me.Button17)
-        Me.Panel11.Controls.Add(Me.TextBox14)
-        Me.Panel11.Controls.Add(Me.Label57)
-        Me.Panel11.Enabled = False
-        Me.Panel11.Location = New System.Drawing.Point(13, 211)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(380, 261)
-        Me.Panel11.TabIndex = 22
+        Me.pnTerreno.Controls.Add(Me.Button19)
+        Me.pnTerreno.Controls.Add(Me.Button18)
+        Me.pnTerreno.Controls.Add(Me.ListView1)
+        Me.pnTerreno.Controls.Add(Me.TextBox16)
+        Me.pnTerreno.Controls.Add(Me.Label59)
+        Me.pnTerreno.Controls.Add(Me.TextBox15)
+        Me.pnTerreno.Controls.Add(Me.Label58)
+        Me.pnTerreno.Controls.Add(Me.Button17)
+        Me.pnTerreno.Controls.Add(Me.TextBox14)
+        Me.pnTerreno.Controls.Add(Me.Label57)
+        Me.pnTerreno.Enabled = False
+        Me.pnTerreno.Location = New System.Drawing.Point(13, 211)
+        Me.pnTerreno.Name = "pnTerreno"
+        Me.pnTerreno.Size = New System.Drawing.Size(380, 261)
+        Me.pnTerreno.TabIndex = 22
         '
         'Label56
         '
@@ -1474,23 +1477,23 @@ Partial Class Convocatoria
         Me.Label56.TabIndex = 23
         Me.Label56.Text = "Estudios Técnicos"
         '
-        'Panel12
+        'pnEstudiosTec
         '
-        Me.Panel12.Controls.Add(Me.Button22)
-        Me.Panel12.Controls.Add(Me.ListView2)
-        Me.Panel12.Controls.Add(Me.Button21)
-        Me.Panel12.Controls.Add(Me.DateTimePicker5)
-        Me.Panel12.Controls.Add(Me.Label62)
-        Me.Panel12.Controls.Add(Me.Button20)
-        Me.Panel12.Controls.Add(Me.TextBox19)
-        Me.Panel12.Controls.Add(Me.Label61)
-        Me.Panel12.Controls.Add(Me.TextBox18)
-        Me.Panel12.Controls.Add(Me.Label60)
-        Me.Panel12.Enabled = False
-        Me.Panel12.Location = New System.Drawing.Point(399, 211)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(466, 261)
-        Me.Panel12.TabIndex = 24
+        Me.pnEstudiosTec.Controls.Add(Me.Button22)
+        Me.pnEstudiosTec.Controls.Add(Me.ListView2)
+        Me.pnEstudiosTec.Controls.Add(Me.Button21)
+        Me.pnEstudiosTec.Controls.Add(Me.DateTimePicker5)
+        Me.pnEstudiosTec.Controls.Add(Me.Label62)
+        Me.pnEstudiosTec.Controls.Add(Me.Button20)
+        Me.pnEstudiosTec.Controls.Add(Me.TextBox19)
+        Me.pnEstudiosTec.Controls.Add(Me.Label61)
+        Me.pnEstudiosTec.Controls.Add(Me.TextBox18)
+        Me.pnEstudiosTec.Controls.Add(Me.Label60)
+        Me.pnEstudiosTec.Enabled = False
+        Me.pnEstudiosTec.Location = New System.Drawing.Point(399, 211)
+        Me.pnEstudiosTec.Name = "pnEstudiosTec"
+        Me.pnEstudiosTec.Size = New System.Drawing.Size(466, 261)
+        Me.pnEstudiosTec.TabIndex = 24
         '
         'Label57
         '
@@ -1668,54 +1671,63 @@ Partial Class Convocatoria
         Me.Button23.Text = "Registrar"
         Me.Button23.UseVisualStyleBackColor = True
         '
+        'Button24
+        '
+        Me.Button24.Location = New System.Drawing.Point(754, 451)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(117, 23)
+        Me.Button24.TabIndex = 32
+        Me.Button24.Text = "Cargar Documentos"
+        Me.Button24.UseVisualStyleBackColor = True
+        '
         'Convocatoria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(909, 665)
-        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.tbDetallesConvo)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.btnGuardar)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Convocatoria"
         Me.Text = "Form3"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
+        Me.pnDetalleConvo.ResumeLayout(False)
+        Me.pnDetalleConvo.PerformLayout()
         Me.pnCronograma.ResumeLayout(False)
         Me.pnCronograma.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.TabControl1.ResumeLayout(False)
+        Me.pnCronoConvocatoria.ResumeLayout(False)
+        Me.pnCronoConvocatoria.PerformLayout()
+        Me.tbDetallesConvo.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel5.PerformLayout()
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel6.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel7.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
+        Me.pnPresupuesto.ResumeLayout(False)
+        Me.pnPresupuesto.PerformLayout()
+        Me.pnAnalisis.ResumeLayout(False)
+        Me.pnAnalisis.PerformLayout()
+        Me.pnPolinomicas.ResumeLayout(False)
+        Me.pnPolinomicas.PerformLayout()
+        Me.pnRiesgos.ResumeLayout(False)
+        Me.pnRiesgos.PerformLayout()
+        Me.pnDocOpcional.ResumeLayout(False)
+        Me.pnDocOpcional.PerformLayout()
+        Me.pnConsultora.ResumeLayout(False)
+        Me.pnConsultora.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel10.PerformLayout()
-        Me.Panel11.ResumeLayout(False)
-        Me.Panel11.PerformLayout()
-        Me.Panel12.ResumeLayout(False)
-        Me.Panel12.PerformLayout()
+        Me.pnAprobacion.ResumeLayout(False)
+        Me.pnAprobacion.PerformLayout()
+        Me.pnTerreno.ResumeLayout(False)
+        Me.pnTerreno.PerformLayout()
+        Me.pnEstudiosTec.ResumeLayout(False)
+        Me.pnEstudiosTec.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1735,7 +1747,7 @@ Partial Class Convocatoria
     Friend WithEvents ckGenerar As CheckBox
     Friend WithEvents Label10 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Panel3 As Panel
+    Friend WithEvents pnDetalleConvo As Panel
     Friend WithEvents Label21 As Label
     Friend WithEvents txtBases As TextBox
     Friend WithEvents Label22 As Label
@@ -1760,7 +1772,7 @@ Partial Class Convocatoria
     Friend WithEvents Button1 As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents txtCodFinancera As TextBox
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnGuardar As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents lstCronograma As ListView
@@ -1783,24 +1795,24 @@ Partial Class Convocatoria
     Friend WithEvents Button8 As Button
     Friend WithEvents dtFPublicacion As DateTimePicker
     Friend WithEvents Label12 As Label
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents pnCronoConvocatoria As Panel
     Friend WithEvents Button9 As Button
-    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents tbDetallesConvo As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents Label32 As Label
-    Friend WithEvents Panel6 As Panel
+    Friend WithEvents pnPolinomicas As Panel
     Friend WithEvents Label34 As Label
     Friend WithEvents Button11 As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label33 As Label
-    Friend WithEvents Panel5 As Panel
+    Friend WithEvents pnAnalisis As Panel
     Friend WithEvents Button10 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label31 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label19 As Label
-    Friend WithEvents Panel4 As Panel
+    Friend WithEvents pnPresupuesto As Panel
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents Label25 As Label
     Friend WithEvents Label18 As Label
@@ -1808,14 +1820,14 @@ Partial Class Convocatoria
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Label17 As Label
     Friend WithEvents Label35 As Label
-    Friend WithEvents Panel7 As Panel
+    Friend WithEvents pnRiesgos As Panel
     Friend WithEvents Button12 As Button
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label36 As Label
     Friend WithEvents DateTimePicker3 As DateTimePicker
     Friend WithEvents Label43 As Label
     Friend WithEvents Label39 As Label
-    Friend WithEvents Panel9 As Panel
+    Friend WithEvents pnConsultora As Panel
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label42 As Label
     Friend WithEvents TextBox6 As TextBox
@@ -1824,7 +1836,7 @@ Partial Class Convocatoria
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label40 As Label
     Friend WithEvents Label37 As Label
-    Friend WithEvents Panel8 As Panel
+    Friend WithEvents pnDocOpcional As Panel
     Friend WithEvents Button13 As Button
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label38 As Label
@@ -1834,7 +1846,7 @@ Partial Class Convocatoria
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label44 As Label
     Friend WithEvents Label53 As Label
-    Friend WithEvents Panel10 As Panel
+    Friend WithEvents pnAprobacion As Panel
     Friend WithEvents TextBox13 As TextBox
     Friend WithEvents Label54 As Label
     Friend WithEvents TextBox12 As TextBox
@@ -1852,9 +1864,9 @@ Partial Class Convocatoria
     Friend WithEvents Button15 As Button
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents Label48 As Label
-    Friend WithEvents Panel12 As Panel
+    Friend WithEvents pnEstudiosTec As Panel
     Friend WithEvents Label56 As Label
-    Friend WithEvents Panel11 As Panel
+    Friend WithEvents pnTerreno As Panel
     Friend WithEvents Label58 As Label
     Friend WithEvents Button17 As Button
     Friend WithEvents TextBox14 As TextBox
@@ -1877,4 +1889,5 @@ Partial Class Convocatoria
     Friend WithEvents Button20 As Button
     Friend WithEvents TextBox19 As TextBox
     Friend WithEvents Button23 As Button
+    Friend WithEvents Button24 As Button
 End Class

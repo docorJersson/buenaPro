@@ -67,13 +67,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aprobacionPublicaDE.vb" />
     <Compile Include="ciudadano.vb" />
+    <Compile Include="consultoraObraDE.vb" />
     <Compile Include="Contribuyente.vb" />
     <Compile Include="convocatoriaPublicaDE.vb" />
     <Compile Include="cronogramaDE.vb" />
     <Compile Include="entidadPublica.vb" />
     <Compile Include="entPostulante.vb" />
     <Compile Include="entUser.vb" />
+    <Compile Include="estudioTecnicoDE.vb" />
+    <Compile Include="expedienteTecnicoDE.vb" />
     <Compile Include="financieraEntidad.vb" />
     <Compile Include="financieras.vb" />
     <Compile Include="funcionarioEntidad.vb" />
@@ -94,6 +98,8 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Proveedor.vb" />
+    <Compile Include="terrenoDE.vb" />
+    <Compile Include="terrenoExpedienteDE.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

@@ -76,7 +76,6 @@ Public Class Convocatoria
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
 
-
         Dim table As DataTable
         table = listboxDL.listProcedimiento()
 
@@ -84,6 +83,8 @@ Public Class Convocatoria
         cboProcedimiento.ValueMember = "idProcedimiento"
         cboProcedimiento.DataSource = table
         cboProcedimiento.Text = "Seleccione"
+        registroConvo(True)
+
     End Sub
 
     Private Sub cboGenerar_CheckedChanged(sender As Object, e As EventArgs) Handles ckGenerar.CheckedChanged
@@ -109,6 +110,11 @@ Public Class Convocatoria
         End If
 
     End Sub
+    Private Sub registroConvo(estado As Boolean)
+        tbDetallesConvo.Enabled = estado
+        pnCronoConvocatoria.Enabled = estado
+    End Sub
+
 
     Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
 
@@ -123,7 +129,7 @@ Public Class Convocatoria
     End Sub
 
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
         newConvocatoria = New convocatoriaPublicaDE()
         Try
             Dim code As String
@@ -195,6 +201,7 @@ Public Class Convocatoria
         cboModoDeber.ValueMember = "idModo"
         cboModoDeber.DataSource = tableModo
         cboModoDeber.Text = "Seleccione"
+        pnDetalleConvo.Enabled = True
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -215,7 +222,42 @@ Public Class Convocatoria
         txtParticipacion.Text = ""
     End Sub
 
-    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles pnDetalleConvo.Paint
 
+    End Sub
+
+    Private Sub Panel4_Paint(sender As Object, e As PaintEventArgs) Handles pnPresupuesto.Paint
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        tbDetallesConvo.SelectedIndex = 1
+        expeTecnico(True)
+    End Sub
+
+    Private Sub expeTecnico(estado As Boolean)
+        pnConsultora.Enabled = estado
+        pnPresupuesto.Enabled = estado
+        pnAnalisis.Enabled = estado
+        pnPolinomicas.Enabled = estado
+        pnRiesgos.Enabled = estado
+        pnDocOpcional.Enabled = estado
+    End Sub
+
+    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        tbDetallesConvo.SelectedIndex = 2
+        pnAprobacion.Enabled = True
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        pnTerreno.Enabled = True
+    End Sub
+
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        pnEstudiosTec.Enabled = True
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        btnGuardar.Enabled = True
     End Sub
 End Class
