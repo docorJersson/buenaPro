@@ -63,7 +63,7 @@ Public Class expedienTecnicoDA
                     Try
                         insertEstudio.CommandType = CommandType.StoredProcedure
                         insertEstudio.Parameters.AddWithValue("@cConvocatoria", newExpediente.convocatoriaPublica.codigoConvocatoria)
-                        insertEstudio.Parameters.AddWithValue("@cConvocatoria", newExpediente.codigoExpediente)
+                        insertEstudio.Parameters.AddWithValue("@cExpeTecnico", newExpediente.codigoExpediente)
                         insertEstudio.Parameters.AddWithValue("@nombre", estudioTec.nombreEstudio)
                         insertEstudio.Parameters.AddWithValue("@documento", estudioTec.documentoEstudio)
                         insertEstudio.Parameters.AddWithValue("@fEstudio", estudioTec.fechaEstudio)
@@ -86,7 +86,8 @@ Public Class expedienTecnicoDA
 
                     aprobacion.Parameters.AddWithValue("@cConvocatoria", newExpediente.convocatoriaPublica.codigoConvocatoria)
                     aprobacion.Parameters.AddWithValue("@cExpeTecnico", newExpediente.codigoExpediente)
-                    aprobacion.Parameters.AddWithValue("@cAprobacion", Trim(newExpediente.codigoExpediente & newExpediente.convocatoriaPublica.codigoConvocatoria))
+                    aprobacion.Parameters.AddWithValue("@cAprobacion", newExpediente.codigoExpediente.ToString & newExpediente.convocatoriaPublica.codigoConvocatoria.ToString)
+                    Console.WriteLine(newExpediente.codigoExpediente.ToString & newExpediente.convocatoriaPublica.codigoConvocatoria.ToString & "Cambios")
                     aprobacion.Parameters.AddWithValue("@tDocumento", newExpediente.aprobacionPublica.tipoDocumento)
                     aprobacion.Parameters.AddWithValue("@fAprobacion", newExpediente.aprobacionPublica.fechaAprobacion)
                     aprobacion.Parameters.AddWithValue("@doc", newExpediente.aprobacionPublica.documentoAprobacion)
@@ -95,10 +96,7 @@ Public Class expedienTecnicoDA
                     aprobacion.Parameters.AddWithValue("@codigoFun", newExpediente.aprobacionPublica.funcionariOSCE.codFOSCE)
                     aprobacion.Parameters.AddWithValue("@nResolucion", newExpediente.aprobacionPublica.funcionariOSCE.numResolucion)
 
-                    aprobacion.Parameters("@cAprobacion").Direction = ParameterDirection.Output
                     aprobacion.ExecuteNonQuery()
-                    Dim cAprobacion As String = aprobacion.Parameters("@cAprobacion").Value
-                    newExpediente.aprobacionPublica.codigoAprobacion = cAprobacion
                 End Using
                 cBuenaPro.Close()
             Catch ex As Exception

@@ -35,3 +35,4 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\C
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listConsultoraObra.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.lisTerreno.resources
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listFuncionariOSCE.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.terreno.resources

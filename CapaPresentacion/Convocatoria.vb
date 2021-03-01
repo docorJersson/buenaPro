@@ -14,6 +14,7 @@ Public Class Convocatoria
     Dim entidadConvocante As CapaEntidad.entidadPublica
     Dim expeTecnicoDE As expedienteTecnicoDE
     Dim aprobacionDE As aprobacionPublicaDE
+    Dim terrenoDE As terrenoDE
     Dim terrenoExpeDE As terrenoExpedienteDE
     Dim listTerrenoExpe As New List(Of terrenoExpedienteDE)
     Dim estudioTecDE As estudioTecnicoDE
@@ -164,7 +165,9 @@ Public Class Convocatoria
             expeTecnicoDL.insertAprobacion(expeTecnicoDE)
 
             MsgBox("Convocatoria N°" & cConvocatoria.ToString)
-
+            Me.Close()
+            frmPrincipal.Show()
+            frmPrincipal.BringToFront()
         Catch ex As Exception
             Debug.WriteLine(ex)
         End Try
@@ -348,8 +351,11 @@ Public Class Convocatoria
         lsTerreno.Items.Add(terreno)
 
         terrenoExpeDE = New terrenoExpedienteDE()
-        terrenoExpeDE.terrenoExpe.codTerreno = codTerreno
+        terrenoDE = New terrenoDE()
+        terrenoDE.codTerreno = codTerreno
+        terrenoExpeDE.terrenoExpe = terrenoDE
         terrenoExpeDE.fechaRegistro = DateTime.Now.Date
+        terrenoExpeDE.observacionTerreno = observacion
         listTerrenoExpe.Add(terrenoExpeDE)
         limpiaTerreno()
 

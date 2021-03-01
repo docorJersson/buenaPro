@@ -19,6 +19,7 @@
             Case "Funcionario-OSCE"
 
             Case "Funcionario-Entidad"
+                AdicionalesToolStripMenuItem.Visible = False
                 menConsultoras.Visible = False
                 menContratista.Visible = False
                 menContratos.Visible = False
@@ -32,10 +33,12 @@
 
     Private Sub AgregarMunicipalidadToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AgregarMunicipalidadToolStripMenuItem.Click
         EntidadesPublicas.Show()
-        Me.Hide()
     End Sub
 
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click
         Close()
+        Login.Show()
+        Login.BringToFront()
+
     End Sub
 End Class

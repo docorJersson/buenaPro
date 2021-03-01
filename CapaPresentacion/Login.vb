@@ -15,6 +15,8 @@ Public Class Login
             If session.Instance.Estado = session._OK Then
                 Me.Hide()
                 Dim frmprincipal As New frmPrincipal()
+                txtPassword.Text = ""
+
                 frmprincipal.Show()
                 MessageBox.Show("Bienvenido al Sistema!!")
             Else

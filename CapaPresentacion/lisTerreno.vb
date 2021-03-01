@@ -50,4 +50,12 @@ Public Class lisTerreno
         descripcionTerreno = dtTerreno.CurrentRow.Cells(1).Value.ToString
         Me.Close()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim terreno As New terreno()
+        terreno.ShowDialog()
+        dtTerreno.DataSource = Nothing
+        dtTerreno.Columns.Clear()
+        dtTerreno.DataSource = terrenoDL.lisTerreno(idDepa, idProv, idDist)
+    End Sub
 End Class
