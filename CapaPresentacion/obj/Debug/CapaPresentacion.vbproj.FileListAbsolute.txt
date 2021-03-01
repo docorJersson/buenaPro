@@ -32,3 +32,6 @@ C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\C
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.xml
 C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listConsultoraObra.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.lisTerreno.resources
+C:\Users\Jersson Chilon\Desktop\SistemaDeLaBuenaPRO\CapaPresentacion\obj\Debug\CapaPresentacion.listFuncionariOSCE.resources

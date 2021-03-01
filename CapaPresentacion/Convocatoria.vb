@@ -10,6 +10,7 @@ Public Class Convocatoria
     Dim funOSCEAccion As funcionarioOSCEDE
     Dim cronogramaConv As New List(Of cronogramaDE)
     Dim newCronograma As cronogramaDE
+    Dim consultoraObraDE As consultoraObraDE
     Dim entidadConvocante As CapaEntidad.entidadPublica
     Dim expeTecnicoDE As expedienteTecnicoDE
     Dim aprobacionDE As aprobacionPublicaDE
@@ -281,7 +282,9 @@ Public Class Convocatoria
         expeTecnicoDE.docGestionRiesgos = txtRiesgos.Text
         expeTecnicoDE.docOtros = txtOtrosDoc.Text
         expeTecnicoDE.fRegistroExpediente = DateTime.Now.Date
-        expeTecnicoDE.consultoraObras.rucConsultoraObra = txtRUConsultora.Text
+        consultoraObraDE = New consultoraObraDE()
+        consultoraObraDE.rucConsultoraObra = txtRUConsultora.Text
+        expeTecnicoDE.consultoraObras = consultoraObraDE
 
         tbDetallesConvo.SelectedIndex = 2
         pnAprobacion.Enabled = True
@@ -454,6 +457,14 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        Dim listTerreno As New lisTerreno()
+        listTerreno.ShowDialog()
+        txTerrenoCod.Text = listTerreno.codigoTerreno
+        txTerrenoDes.Text = listTerreno.descripcionTerreno
+    End Sub
 
+    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+        Dim nombreDoc As String = seleccionDocumento("estudioTecnico")
+        txtEstudioDoc.Text = nombreDoc
     End Sub
 End Class
