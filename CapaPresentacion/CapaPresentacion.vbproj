@@ -107,16 +107,34 @@
     <Compile Include="listaFinancieras.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="listConsultoraObra.Designer.vb">
+      <DependentUpon>listConsultoraObra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listConsultoraObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="listConvocatorias.Designer.vb">
       <DependentUpon>listConvocatorias.vb</DependentUpon>
     </Compile>
     <Compile Include="listConvocatorias.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="lisTerreno.Designer.vb">
+      <DependentUpon>lisTerreno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lisTerreno.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="listFinancierta_Entidad.Designer.vb">
       <DependentUpon>listFinancierta_Entidad.vb</DependentUpon>
     </Compile>
     <Compile Include="listFinancierta_Entidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listFuncionariOSCE.Designer.vb">
+      <DependentUpon>listFuncionariOSCE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listFuncionariOSCE.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="listProveedor.Designer.vb">
@@ -198,11 +216,20 @@
     <EmbeddedResource Include="listaFinancieras.resx">
       <DependentUpon>listaFinancieras.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="listConsultoraObra.resx">
+      <DependentUpon>listConsultoraObra.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="listConvocatorias.resx">
       <DependentUpon>listConvocatorias.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="lisTerreno.resx">
+      <DependentUpon>lisTerreno.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="listFinancierta_Entidad.resx">
       <DependentUpon>listFinancierta_Entidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listFuncionariOSCE.resx">
+      <DependentUpon>listFuncionariOSCE.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="listProveedor.resx">
       <DependentUpon>listProveedor.vb</DependentUpon>

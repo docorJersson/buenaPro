@@ -69,8 +69,10 @@
   <ItemGroup>
     <Compile Include="ciudadanoDL.vb" />
     <Compile Include="Class1.vb" />
+    <Compile Include="consultoraObraDL.vb" />
     <Compile Include="convocatoriaDL.vb" />
     <Compile Include="entidadPublica.vb" />
+    <Compile Include="expedienTecnicoDL.vb" />
     <Compile Include="financieraDL.vb" />
     <Compile Include="funcionarioOSCEDL.vb" />
     <Compile Include="listBoxDL.vb" />
@@ -91,6 +93,7 @@
     </Compile>
     <Compile Include="negLogin.vb" />
     <Compile Include="NegProveedor.vb" />
+    <Compile Include="terrenoDL.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

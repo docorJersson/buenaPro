@@ -69,9 +69,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ciudadanoDA.vb" />
+    <Compile Include="consultoraObraDA.vb" />
     <Compile Include="datPostulante.vb" />
     <Compile Include="convocatoria.vb" />
     <Compile Include="entidadPublica.vb" />
+    <Compile Include="expedienTecnicoDA.vb" />
     <Compile Include="financierasDA.vb" />
     <Compile Include="Conection\datConexion.vb" />
     <Compile Include="datUser.vb" />
@@ -93,6 +95,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="datProveedor.vb" />
+    <Compile Include="terrenoDA.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

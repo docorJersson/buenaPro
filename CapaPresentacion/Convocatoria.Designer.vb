@@ -39,6 +39,7 @@ Partial Class Convocatoria
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.pnDetalleConvo = New System.Windows.Forms.Panel()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.dtFPublicacion = New System.Windows.Forms.DateTimePicker()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.txtNombreFinan = New System.Windows.Forms.TextBox()
@@ -88,97 +89,108 @@ Partial Class Convocatoria
         Me.tbDetallesConvo = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.pnPresupuesto = New System.Windows.Forms.Panel()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.pnAnalisis = New System.Windows.Forms.Panel()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.pnPolinomicas = New System.Windows.Forms.Panel()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.pnRiesgos = New System.Windows.Forms.Panel()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.pnDocOpcional = New System.Windows.Forms.Panel()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.pnConsultora = New System.Windows.Forms.Panel()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.pnAprobacion = New System.Windows.Forms.Panel()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.pnTerreno = New System.Windows.Forms.Panel()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.pnEstudiosTec = New System.Windows.Forms.Panel()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.DateTimePicker5 = New System.Windows.Forms.DateTimePicker()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.ListView2 = New System.Windows.Forms.ListView()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.pnConsultora = New System.Windows.Forms.Panel()
+        Me.txtRepresentanteConsultora = New System.Windows.Forms.TextBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.txtNameConsultora = New System.Windows.Forms.TextBox()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.txtRUConsultora = New System.Windows.Forms.TextBox()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.pnDocOpcional = New System.Windows.Forms.Panel()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.txtOtrosDoc = New System.Windows.Forms.TextBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.pnRiesgos = New System.Windows.Forms.Panel()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.txtRiesgos = New System.Windows.Forms.TextBox()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.pnPolinomicas = New System.Windows.Forms.Panel()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.txtFormulas = New System.Windows.Forms.TextBox()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.pnAnalisis = New System.Windows.Forms.Panel()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.txtAnalisis = New System.Windows.Forms.TextBox()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.pnPresupuesto = New System.Windows.Forms.Panel()
+        Me.dtRegistroPresupuesto = New System.Windows.Forms.DateTimePicker()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.txtPresupuesto = New System.Windows.Forms.TextBox()
+        Me.dtPresupuesto = New System.Windows.Forms.DateTimePicker()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.pnEstudiosTec = New System.Windows.Forms.Panel()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.lstEstudio = New System.Windows.Forms.ListView()
+        Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.dtEstudioFecha = New System.Windows.Forms.DateTimePicker()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.txtEstudioDoc = New System.Windows.Forms.TextBox()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.txtEstudioNombre = New System.Windows.Forms.TextBox()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.pnTerreno = New System.Windows.Forms.Panel()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.lsTerreno = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.txTerrenoObser = New System.Windows.Forms.TextBox()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.txTerrenoDes = New System.Windows.Forms.TextBox()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.txTerrenoCod = New System.Windows.Forms.TextBox()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.pnAprobacion = New System.Windows.Forms.Panel()
+        Me.ckFunApro = New System.Windows.Forms.CheckBox()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.txtAproFunNombre = New System.Windows.Forms.TextBox()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.txtAproResoFunOSCE = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.cboAproTipDoc = New System.Windows.Forms.ComboBox()
+        Me.txtAproCodFunOSCE = New System.Windows.Forms.TextBox()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.dtFechaAprobacion = New System.Windows.Forms.DateTimePicker()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.numAproPlazoObra = New System.Windows.Forms.NumericUpDown()
+        Me.txtDocAprobacion = New System.Windows.Forms.TextBox()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.txtAreAprobacion = New System.Windows.Forms.TextBox()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.oDexploradorArchivos = New System.Windows.Forms.OpenFileDialog()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.pnDetalleConvo.SuspendLayout()
         Me.pnCronograma.SuspendLayout()
@@ -186,17 +198,17 @@ Partial Class Convocatoria
         Me.tbDetallesConvo.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
-        Me.pnPresupuesto.SuspendLayout()
-        Me.pnAnalisis.SuspendLayout()
-        Me.pnPolinomicas.SuspendLayout()
-        Me.pnRiesgos.SuspendLayout()
-        Me.pnDocOpcional.SuspendLayout()
         Me.pnConsultora.SuspendLayout()
+        Me.pnDocOpcional.SuspendLayout()
+        Me.pnRiesgos.SuspendLayout()
+        Me.pnPolinomicas.SuspendLayout()
+        Me.pnAnalisis.SuspendLayout()
+        Me.pnPresupuesto.SuspendLayout()
         Me.TabPage3.SuspendLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.pnAprobacion.SuspendLayout()
-        Me.pnTerreno.SuspendLayout()
         Me.pnEstudiosTec.SuspendLayout()
+        Me.pnTerreno.SuspendLayout()
+        Me.pnAprobacion.SuspendLayout()
+        CType(Me.numAproPlazoObra, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -387,8 +399,18 @@ Partial Class Convocatoria
         Me.pnDetalleConvo.Size = New System.Drawing.Size(863, 183)
         Me.pnDetalleConvo.TabIndex = 10
         '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(739, 155)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(113, 23)
+        Me.Button9.TabIndex = 31
+        Me.Button9.Text = "Registrar Detalles"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
         'dtFPublicacion
         '
+        Me.dtFPublicacion.Enabled = False
         Me.dtFPublicacion.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.dtFPublicacion.Location = New System.Drawing.Point(507, 92)
         Me.dtFPublicacion.Name = "dtFPublicacion"
@@ -838,144 +860,205 @@ Partial Class Convocatoria
         Me.TabPage2.Text = "Expediente Técnico"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Button9
+        'Button24
         '
-        Me.Button9.Location = New System.Drawing.Point(739, 155)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(113, 23)
-        Me.Button9.TabIndex = 31
-        Me.Button9.Text = "Registrar Detalles"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Button24.Location = New System.Drawing.Point(754, 451)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(117, 23)
+        Me.Button24.TabIndex = 32
+        Me.Button24.Text = "Cargar Documentos"
+        Me.Button24.UseVisualStyleBackColor = True
         '
-        'TextBox17
+        'DateTimePicker3
         '
-        Me.TextBox17.Location = New System.Drawing.Point(149, 11)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(99, 20)
-        Me.TextBox17.TabIndex = 14
+        Me.DateTimePicker3.Enabled = False
+        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker3.Location = New System.Drawing.Point(640, 453)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.Size = New System.Drawing.Size(106, 20)
+        Me.DateTimePicker3.TabIndex = 31
         '
-        'Label25
+        'Label43
         '
-        Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(8, 14)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(139, 13)
-        Me.Label25.TabIndex = 13
-        Me.Label25.Text = "Valor Estimado/ Referencial"
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(515, 456)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(120, 13)
+        Me.Label43.TabIndex = 30
+        Me.Label43.Text = "Fecha de Presentación:"
         '
-        'Label17
+        'Label39
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(264, 14)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(203, 13)
-        Me.Label17.TabIndex = 15
-        Me.Label17.Text = "Fecha de Determinación de Presupuesto:"
+        Me.Label39.AutoSize = True
+        Me.Label39.Location = New System.Drawing.Point(13, 13)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(130, 13)
+        Me.Label39.TabIndex = 29
+        Me.Label39.Text = "Información de Consultora"
         '
-        'DateTimePicker1
+        'pnConsultora
         '
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(468, 11)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(105, 20)
-        Me.DateTimePicker1.TabIndex = 16
+        Me.pnConsultora.Controls.Add(Me.txtRepresentanteConsultora)
+        Me.pnConsultora.Controls.Add(Me.Label42)
+        Me.pnConsultora.Controls.Add(Me.txtNameConsultora)
+        Me.pnConsultora.Controls.Add(Me.Label41)
+        Me.pnConsultora.Controls.Add(Me.Button14)
+        Me.pnConsultora.Controls.Add(Me.txtRUConsultora)
+        Me.pnConsultora.Controls.Add(Me.Label40)
+        Me.pnConsultora.Enabled = False
+        Me.pnConsultora.Location = New System.Drawing.Point(13, 29)
+        Me.pnConsultora.Name = "pnConsultora"
+        Me.pnConsultora.Size = New System.Drawing.Size(856, 44)
+        Me.pnConsultora.TabIndex = 28
         '
-        'Label18
+        'txtRepresentanteConsultora
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(582, 14)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(171, 13)
-        Me.Label18.TabIndex = 17
-        Me.Label18.Text = "Fecha de Registro de Presupuesto"
+        Me.txtRepresentanteConsultora.Location = New System.Drawing.Point(628, 14)
+        Me.txtRepresentanteConsultora.Name = "txtRepresentanteConsultora"
+        Me.txtRepresentanteConsultora.Size = New System.Drawing.Size(221, 20)
+        Me.txtRepresentanteConsultora.TabIndex = 6
         '
-        'pnPresupuesto
+        'Label42
         '
-        Me.pnPresupuesto.Controls.Add(Me.DateTimePicker2)
-        Me.pnPresupuesto.Controls.Add(Me.Label25)
-        Me.pnPresupuesto.Controls.Add(Me.Label18)
-        Me.pnPresupuesto.Controls.Add(Me.TextBox17)
-        Me.pnPresupuesto.Controls.Add(Me.DateTimePicker1)
-        Me.pnPresupuesto.Controls.Add(Me.Label17)
-        Me.pnPresupuesto.Enabled = False
-        Me.pnPresupuesto.Location = New System.Drawing.Point(13, 97)
-        Me.pnPresupuesto.Name = "pnPresupuesto"
-        Me.pnPresupuesto.Size = New System.Drawing.Size(856, 45)
-        Me.pnPresupuesto.TabIndex = 18
+        Me.Label42.AutoSize = True
+        Me.Label42.Location = New System.Drawing.Point(542, 15)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(80, 13)
+        Me.Label42.TabIndex = 5
+        Me.Label42.Text = "Representante:"
         '
-        'DateTimePicker2
+        'txtNameConsultora
         '
-        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker2.Location = New System.Drawing.Point(752, 11)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(97, 20)
-        Me.DateTimePicker2.TabIndex = 18
+        Me.txtNameConsultora.Location = New System.Drawing.Point(284, 11)
+        Me.txtNameConsultora.Name = "txtNameConsultora"
+        Me.txtNameConsultora.Size = New System.Drawing.Size(234, 20)
+        Me.txtNameConsultora.TabIndex = 4
         '
-        'Label19
+        'Label41
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(10, 81)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(66, 13)
-        Me.Label19.TabIndex = 19
-        Me.Label19.Text = "Presupuesto"
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(218, 16)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(60, 13)
+        Me.Label41.TabIndex = 3
+        Me.Label41.Text = "Consultora:"
         '
-        'Label20
+        'Button14
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(10, 154)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(95, 13)
-        Me.Label20.TabIndex = 20
-        Me.Label20.Text = "Análisis de Precios"
+        Me.Button14.Location = New System.Drawing.Point(172, 11)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(28, 23)
+        Me.Button14.TabIndex = 2
+        Me.Button14.Text = "..."
+        Me.Button14.UseVisualStyleBackColor = True
         '
-        'pnAnalisis
+        'txtRUConsultora
         '
-        Me.pnAnalisis.Controls.Add(Me.Button10)
-        Me.pnAnalisis.Controls.Add(Me.TextBox1)
-        Me.pnAnalisis.Controls.Add(Me.Label31)
-        Me.pnAnalisis.Enabled = False
-        Me.pnAnalisis.Location = New System.Drawing.Point(13, 170)
-        Me.pnAnalisis.Name = "pnAnalisis"
-        Me.pnAnalisis.Size = New System.Drawing.Size(858, 44)
-        Me.pnAnalisis.TabIndex = 21
+        Me.txtRUConsultora.Location = New System.Drawing.Point(53, 12)
+        Me.txtRUConsultora.Name = "txtRUConsultora"
+        Me.txtRUConsultora.Size = New System.Drawing.Size(116, 20)
+        Me.txtRUConsultora.TabIndex = 1
         '
-        'Label31
+        'Label40
         '
-        Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(12, 15)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(101, 13)
-        Me.Label31.TabIndex = 0
-        Me.Label31.Text = "Nombre de Archivo:"
+        Me.Label40.AutoSize = True
+        Me.Label40.Location = New System.Drawing.Point(14, 15)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(33, 13)
+        Me.Label40.TabIndex = 0
+        Me.Label40.Text = "RUC:"
         '
-        'TextBox1
+        'Label37
         '
-        Me.TextBox1.Location = New System.Drawing.Point(115, 12)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(620, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(10, 383)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(266, 13)
+        Me.Label37.TabIndex = 27
+        Me.Label37.Text = "Otros Documentos (Opciónal- Disponible 1 documento)"
         '
-        'Button10
+        'pnDocOpcional
         '
-        Me.Button10.Location = New System.Drawing.Point(741, 10)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(26, 23)
-        Me.Button10.TabIndex = 22
-        Me.Button10.Text = "..."
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.pnDocOpcional.Controls.Add(Me.Label66)
+        Me.pnDocOpcional.Controls.Add(Me.Button13)
+        Me.pnDocOpcional.Controls.Add(Me.txtOtrosDoc)
+        Me.pnDocOpcional.Controls.Add(Me.Label38)
+        Me.pnDocOpcional.Enabled = False
+        Me.pnDocOpcional.Location = New System.Drawing.Point(13, 399)
+        Me.pnDocOpcional.Name = "pnDocOpcional"
+        Me.pnDocOpcional.Size = New System.Drawing.Size(856, 46)
+        Me.pnDocOpcional.TabIndex = 26
         '
-        'pnPolinomicas
+        'Button13
         '
-        Me.pnPolinomicas.Controls.Add(Me.Label34)
-        Me.pnPolinomicas.Controls.Add(Me.Button11)
-        Me.pnPolinomicas.Controls.Add(Me.TextBox2)
-        Me.pnPolinomicas.Controls.Add(Me.Label33)
-        Me.pnPolinomicas.Enabled = False
-        Me.pnPolinomicas.Location = New System.Drawing.Point(13, 239)
-        Me.pnPolinomicas.Name = "pnPolinomicas"
-        Me.pnPolinomicas.Size = New System.Drawing.Size(856, 60)
-        Me.pnPolinomicas.TabIndex = 22
+        Me.Button13.Location = New System.Drawing.Point(741, 11)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(26, 23)
+        Me.Button13.TabIndex = 2
+        Me.Button13.Text = "..."
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'txtOtrosDoc
+        '
+        Me.txtOtrosDoc.Location = New System.Drawing.Point(120, 13)
+        Me.txtOtrosDoc.Name = "txtOtrosDoc"
+        Me.txtOtrosDoc.Size = New System.Drawing.Size(615, 20)
+        Me.txtOtrosDoc.TabIndex = 1
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Location = New System.Drawing.Point(15, 13)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(101, 13)
+        Me.Label38.TabIndex = 0
+        Me.Label38.Text = "Nombre de Archivo:"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Location = New System.Drawing.Point(13, 310)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(99, 13)
+        Me.Label35.TabIndex = 25
+        Me.Label35.Text = "Gestión de Riesgos"
+        '
+        'pnRiesgos
+        '
+        Me.pnRiesgos.Controls.Add(Me.Label65)
+        Me.pnRiesgos.Controls.Add(Me.Button12)
+        Me.pnRiesgos.Controls.Add(Me.txtRiesgos)
+        Me.pnRiesgos.Controls.Add(Me.Label36)
+        Me.pnRiesgos.Enabled = False
+        Me.pnRiesgos.Location = New System.Drawing.Point(13, 327)
+        Me.pnRiesgos.Name = "pnRiesgos"
+        Me.pnRiesgos.Size = New System.Drawing.Size(856, 46)
+        Me.pnRiesgos.TabIndex = 24
+        '
+        'Button12
+        '
+        Me.Button12.Location = New System.Drawing.Point(741, 12)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(26, 23)
+        Me.Button12.TabIndex = 2
+        Me.Button12.Text = "..."
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'txtRiesgos
+        '
+        Me.txtRiesgos.Location = New System.Drawing.Point(120, 14)
+        Me.txtRiesgos.Name = "txtRiesgos"
+        Me.txtRiesgos.Size = New System.Drawing.Size(615, 20)
+        Me.txtRiesgos.TabIndex = 1
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Location = New System.Drawing.Point(15, 17)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(98, 13)
+        Me.Label36.TabIndex = 0
+        Me.Label36.Text = "Nombre de Archivo"
         '
         'Label32
         '
@@ -986,30 +1069,18 @@ Partial Class Convocatoria
         Me.Label32.TabIndex = 23
         Me.Label32.Text = "Fórmulas Polinómicas"
         '
-        'Label33
+        'pnPolinomicas
         '
-        Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(12, 15)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(101, 13)
-        Me.Label33.TabIndex = 0
-        Me.Label33.Text = "Nombre de Archivo:"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(120, 15)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(615, 20)
-        Me.TextBox2.TabIndex = 1
-        '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(741, 10)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(26, 23)
-        Me.Button11.TabIndex = 2
-        Me.Button11.Text = "..."
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.pnPolinomicas.Controls.Add(Me.Label64)
+        Me.pnPolinomicas.Controls.Add(Me.Label34)
+        Me.pnPolinomicas.Controls.Add(Me.Button11)
+        Me.pnPolinomicas.Controls.Add(Me.txtFormulas)
+        Me.pnPolinomicas.Controls.Add(Me.Label33)
+        Me.pnPolinomicas.Enabled = False
+        Me.pnPolinomicas.Location = New System.Drawing.Point(13, 239)
+        Me.pnPolinomicas.Name = "pnPolinomicas"
+        Me.pnPolinomicas.Size = New System.Drawing.Size(856, 60)
+        Me.pnPolinomicas.TabIndex = 22
         '
         'Label34
         '
@@ -1022,194 +1093,149 @@ Partial Class Convocatoria
         Me.Label34.Text = "El requerimiento de estás fórmulas es con finalidad de corroboración del proceso " &
     "de Evaluación dado a que se tomará de lo ingresado"
         '
-        'pnRiesgos
+        'Button11
         '
-        Me.pnRiesgos.Controls.Add(Me.Button12)
-        Me.pnRiesgos.Controls.Add(Me.TextBox3)
-        Me.pnRiesgos.Controls.Add(Me.Label36)
-        Me.pnRiesgos.Enabled = False
-        Me.pnRiesgos.Location = New System.Drawing.Point(13, 327)
-        Me.pnRiesgos.Name = "pnRiesgos"
-        Me.pnRiesgos.Size = New System.Drawing.Size(856, 46)
-        Me.pnRiesgos.TabIndex = 24
+        Me.Button11.Location = New System.Drawing.Point(741, 10)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(26, 23)
+        Me.Button11.TabIndex = 2
+        Me.Button11.Text = "..."
+        Me.Button11.UseVisualStyleBackColor = True
         '
-        'Label35
+        'txtFormulas
         '
-        Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(13, 310)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(99, 13)
-        Me.Label35.TabIndex = 25
-        Me.Label35.Text = "Gestión de Riesgos"
+        Me.txtFormulas.Location = New System.Drawing.Point(120, 15)
+        Me.txtFormulas.Name = "txtFormulas"
+        Me.txtFormulas.Size = New System.Drawing.Size(615, 20)
+        Me.txtFormulas.TabIndex = 1
         '
-        'Label36
+        'Label33
         '
-        Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(15, 17)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(98, 13)
-        Me.Label36.TabIndex = 0
-        Me.Label36.Text = "Nombre de Archivo"
+        Me.Label33.AutoSize = True
+        Me.Label33.Location = New System.Drawing.Point(12, 15)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(101, 13)
+        Me.Label33.TabIndex = 0
+        Me.Label33.Text = "Nombre de Archivo:"
         '
-        'TextBox3
+        'pnAnalisis
         '
-        Me.TextBox3.Location = New System.Drawing.Point(120, 14)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(615, 20)
-        Me.TextBox3.TabIndex = 1
+        Me.pnAnalisis.Controls.Add(Me.Label63)
+        Me.pnAnalisis.Controls.Add(Me.Button10)
+        Me.pnAnalisis.Controls.Add(Me.txtAnalisis)
+        Me.pnAnalisis.Controls.Add(Me.Label31)
+        Me.pnAnalisis.Enabled = False
+        Me.pnAnalisis.Location = New System.Drawing.Point(13, 170)
+        Me.pnAnalisis.Name = "pnAnalisis"
+        Me.pnAnalisis.Size = New System.Drawing.Size(858, 44)
+        Me.pnAnalisis.TabIndex = 21
         '
-        'Button12
+        'Button10
         '
-        Me.Button12.Location = New System.Drawing.Point(741, 12)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(26, 23)
-        Me.Button12.TabIndex = 2
-        Me.Button12.Text = "..."
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.Button10.Location = New System.Drawing.Point(741, 10)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(26, 23)
+        Me.Button10.TabIndex = 22
+        Me.Button10.Text = "..."
+        Me.Button10.UseVisualStyleBackColor = True
         '
-        'pnDocOpcional
+        'txtAnalisis
         '
-        Me.pnDocOpcional.Controls.Add(Me.Button13)
-        Me.pnDocOpcional.Controls.Add(Me.TextBox4)
-        Me.pnDocOpcional.Controls.Add(Me.Label38)
-        Me.pnDocOpcional.Enabled = False
-        Me.pnDocOpcional.Location = New System.Drawing.Point(13, 399)
-        Me.pnDocOpcional.Name = "pnDocOpcional"
-        Me.pnDocOpcional.Size = New System.Drawing.Size(856, 46)
-        Me.pnDocOpcional.TabIndex = 26
+        Me.txtAnalisis.Location = New System.Drawing.Point(115, 12)
+        Me.txtAnalisis.Name = "txtAnalisis"
+        Me.txtAnalisis.Size = New System.Drawing.Size(620, 20)
+        Me.txtAnalisis.TabIndex = 1
         '
-        'Label37
+        'Label31
         '
-        Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(10, 383)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(266, 13)
-        Me.Label37.TabIndex = 27
-        Me.Label37.Text = "Otros Documentos (Opciónal- Disponible 1 documento)"
+        Me.Label31.AutoSize = True
+        Me.Label31.Location = New System.Drawing.Point(12, 15)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(101, 13)
+        Me.Label31.TabIndex = 0
+        Me.Label31.Text = "Nombre de Archivo:"
         '
-        'Label38
+        'Label20
         '
-        Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(15, 13)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(101, 13)
-        Me.Label38.TabIndex = 0
-        Me.Label38.Text = "Nombre de Archivo:"
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(10, 154)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(95, 13)
+        Me.Label20.TabIndex = 20
+        Me.Label20.Text = "Análisis de Precios"
         '
-        'TextBox4
+        'Label19
         '
-        Me.TextBox4.Location = New System.Drawing.Point(120, 13)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(615, 20)
-        Me.TextBox4.TabIndex = 1
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(10, 81)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(66, 13)
+        Me.Label19.TabIndex = 19
+        Me.Label19.Text = "Presupuesto"
         '
-        'Button13
+        'pnPresupuesto
         '
-        Me.Button13.Location = New System.Drawing.Point(741, 11)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(26, 23)
-        Me.Button13.TabIndex = 2
-        Me.Button13.Text = "..."
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.pnPresupuesto.Controls.Add(Me.dtRegistroPresupuesto)
+        Me.pnPresupuesto.Controls.Add(Me.Label25)
+        Me.pnPresupuesto.Controls.Add(Me.Label18)
+        Me.pnPresupuesto.Controls.Add(Me.txtPresupuesto)
+        Me.pnPresupuesto.Controls.Add(Me.dtPresupuesto)
+        Me.pnPresupuesto.Controls.Add(Me.Label17)
+        Me.pnPresupuesto.Enabled = False
+        Me.pnPresupuesto.Location = New System.Drawing.Point(13, 97)
+        Me.pnPresupuesto.Name = "pnPresupuesto"
+        Me.pnPresupuesto.Size = New System.Drawing.Size(856, 45)
+        Me.pnPresupuesto.TabIndex = 18
         '
-        'pnConsultora
+        'dtRegistroPresupuesto
         '
-        Me.pnConsultora.Controls.Add(Me.TextBox7)
-        Me.pnConsultora.Controls.Add(Me.Label42)
-        Me.pnConsultora.Controls.Add(Me.TextBox6)
-        Me.pnConsultora.Controls.Add(Me.Label41)
-        Me.pnConsultora.Controls.Add(Me.Button14)
-        Me.pnConsultora.Controls.Add(Me.TextBox5)
-        Me.pnConsultora.Controls.Add(Me.Label40)
-        Me.pnConsultora.Enabled = False
-        Me.pnConsultora.Location = New System.Drawing.Point(13, 29)
-        Me.pnConsultora.Name = "pnConsultora"
-        Me.pnConsultora.Size = New System.Drawing.Size(856, 44)
-        Me.pnConsultora.TabIndex = 28
+        Me.dtRegistroPresupuesto.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtRegistroPresupuesto.Location = New System.Drawing.Point(752, 11)
+        Me.dtRegistroPresupuesto.Name = "dtRegistroPresupuesto"
+        Me.dtRegistroPresupuesto.Size = New System.Drawing.Size(97, 20)
+        Me.dtRegistroPresupuesto.TabIndex = 18
         '
-        'Label39
+        'Label25
         '
-        Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(13, 13)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(130, 13)
-        Me.Label39.TabIndex = 29
-        Me.Label39.Text = "Información de Consultora"
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(8, 14)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(139, 13)
+        Me.Label25.TabIndex = 13
+        Me.Label25.Text = "Valor Estimado/ Referencial"
         '
-        'Label40
+        'Label18
         '
-        Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(14, 15)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(33, 13)
-        Me.Label40.TabIndex = 0
-        Me.Label40.Text = "RUC:"
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(582, 14)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(171, 13)
+        Me.Label18.TabIndex = 17
+        Me.Label18.Text = "Fecha de Registro de Presupuesto"
         '
-        'TextBox5
+        'txtPresupuesto
         '
-        Me.TextBox5.Location = New System.Drawing.Point(53, 12)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox5.TabIndex = 1
+        Me.txtPresupuesto.Location = New System.Drawing.Point(149, 11)
+        Me.txtPresupuesto.Name = "txtPresupuesto"
+        Me.txtPresupuesto.Size = New System.Drawing.Size(99, 20)
+        Me.txtPresupuesto.TabIndex = 14
         '
-        'Button14
+        'dtPresupuesto
         '
-        Me.Button14.Location = New System.Drawing.Point(172, 11)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(28, 23)
-        Me.Button14.TabIndex = 2
-        Me.Button14.Text = "..."
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.dtPresupuesto.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtPresupuesto.Location = New System.Drawing.Point(468, 11)
+        Me.dtPresupuesto.Name = "dtPresupuesto"
+        Me.dtPresupuesto.Size = New System.Drawing.Size(105, 20)
+        Me.dtPresupuesto.TabIndex = 16
         '
-        'Label41
+        'Label17
         '
-        Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(218, 16)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(60, 13)
-        Me.Label41.TabIndex = 3
-        Me.Label41.Text = "Consultora:"
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(284, 11)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(234, 20)
-        Me.TextBox6.TabIndex = 4
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(542, 15)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(80, 13)
-        Me.Label42.TabIndex = 5
-        Me.Label42.Text = "Representante:"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(628, 14)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(221, 20)
-        Me.TextBox7.TabIndex = 6
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(515, 456)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(120, 13)
-        Me.Label43.TabIndex = 30
-        Me.Label43.Text = "Fecha de Presentación:"
-        '
-        'DateTimePicker3
-        '
-        Me.DateTimePicker3.Enabled = False
-        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker3.Location = New System.Drawing.Point(640, 453)
-        Me.DateTimePicker3.Name = "DateTimePicker3"
-        Me.DateTimePicker3.Size = New System.Drawing.Size(106, 20)
-        Me.DateTimePicker3.TabIndex = 31
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(264, 14)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(203, 13)
+        Me.Label17.TabIndex = 15
+        Me.Label17.Text = "Fecha de Determinación de Presupuesto:"
         '
         'TabPage3
         '
@@ -1227,431 +1253,23 @@ Partial Class Convocatoria
         Me.TabPage3.Text = "Reglamentos y Acciones"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(14, 12)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(100, 13)
-        Me.Label44.TabIndex = 0
-        Me.Label44.Text = "Código Aprobación:"
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(120, 9)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(108, 20)
-        Me.TextBox8.TabIndex = 1
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(261, 12)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(104, 13)
-        Me.Label45.TabIndex = 2
-        Me.Label45.Text = "Tipo de Documento:"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"RESOLUCIÓN", "MEMORANDUM", "OFICIO", "CARTA", "OTROS"})
-        Me.ComboBox1.Location = New System.Drawing.Point(369, 8)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(206, 21)
-        Me.ComboBox1.TabIndex = 3
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(620, 11)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(97, 13)
-        Me.Label46.TabIndex = 4
-        Me.Label46.Text = "Fecha Aprobación:"
-        '
-        'DateTimePicker4
-        '
-        Me.DateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker4.Location = New System.Drawing.Point(723, 9)
-        Me.DateTimePicker4.Name = "DateTimePicker4"
-        Me.DateTimePicker4.Size = New System.Drawing.Size(115, 20)
-        Me.DateTimePicker4.TabIndex = 5
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(14, 46)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(65, 13)
-        Me.Label47.TabIndex = 6
-        Me.Label47.Text = "Documento:"
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(83, 43)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(390, 20)
-        Me.TextBox9.TabIndex = 7
-        '
-        'Button15
-        '
-        Me.Button15.Location = New System.Drawing.Point(480, 41)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(26, 23)
-        Me.Button15.TabIndex = 8
-        Me.Button15.Text = "..."
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(521, 47)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(106, 13)
-        Me.Label48.TabIndex = 9
-        Me.Label48.Text = "Área de Elaboración:"
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(633, 45)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox10.TabIndex = 10
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(14, 118)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(77, 13)
-        Me.Label49.TabIndex = 11
-        Me.Label49.Text = "Plazo de Obra:"
-        '
-        'NumericUpDown1
-        '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(101, 116)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {365, 0, 0, 0})
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(72, 20)
-        Me.NumericUpDown1.TabIndex = 12
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(177, 118)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(28, 13)
-        Me.Label50.TabIndex = 13
-        Me.Label50.Text = "días"
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Location = New System.Drawing.Point(14, 84)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(120, 13)
-        Me.Label51.TabIndex = 14
-        Me.Label51.Text = "Funcionario Encargado:"
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(140, 81)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(77, 20)
-        Me.TextBox11.TabIndex = 15
-        '
-        'Button16
-        '
-        Me.Button16.Location = New System.Drawing.Point(223, 79)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(26, 23)
-        Me.Button16.TabIndex = 16
-        Me.Button16.Text = "..."
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(261, 84)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(78, 13)
-        Me.Label52.TabIndex = 17
-        Me.Label52.Text = "N° Resolución:"
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Location = New System.Drawing.Point(343, 81)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(130, 20)
-        Me.TextBox12.TabIndex = 18
-        '
-        'pnAprobacion
-        '
-        Me.pnAprobacion.Controls.Add(Me.Button23)
-        Me.pnAprobacion.Controls.Add(Me.TextBox13)
-        Me.pnAprobacion.Controls.Add(Me.Label54)
-        Me.pnAprobacion.Controls.Add(Me.Label44)
-        Me.pnAprobacion.Controls.Add(Me.TextBox12)
-        Me.pnAprobacion.Controls.Add(Me.TextBox8)
-        Me.pnAprobacion.Controls.Add(Me.Label52)
-        Me.pnAprobacion.Controls.Add(Me.Label45)
-        Me.pnAprobacion.Controls.Add(Me.Button16)
-        Me.pnAprobacion.Controls.Add(Me.ComboBox1)
-        Me.pnAprobacion.Controls.Add(Me.TextBox11)
-        Me.pnAprobacion.Controls.Add(Me.Label46)
-        Me.pnAprobacion.Controls.Add(Me.Label51)
-        Me.pnAprobacion.Controls.Add(Me.DateTimePicker4)
-        Me.pnAprobacion.Controls.Add(Me.Label50)
-        Me.pnAprobacion.Controls.Add(Me.Label47)
-        Me.pnAprobacion.Controls.Add(Me.NumericUpDown1)
-        Me.pnAprobacion.Controls.Add(Me.TextBox9)
-        Me.pnAprobacion.Controls.Add(Me.Label49)
-        Me.pnAprobacion.Controls.Add(Me.Button15)
-        Me.pnAprobacion.Controls.Add(Me.TextBox10)
-        Me.pnAprobacion.Controls.Add(Me.Label48)
-        Me.pnAprobacion.Enabled = False
-        Me.pnAprobacion.Location = New System.Drawing.Point(13, 32)
-        Me.pnAprobacion.Name = "pnAprobacion"
-        Me.pnAprobacion.Size = New System.Drawing.Size(852, 148)
-        Me.pnAprobacion.TabIndex = 19
-        '
-        'Label53
-        '
-        Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(13, 16)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(99, 13)
-        Me.Label53.TabIndex = 20
-        Me.Label53.Text = "Aprobación Pública"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(488, 84)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(47, 13)
-        Me.Label54.TabIndex = 19
-        Me.Label54.Text = "Nombre:"
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Location = New System.Drawing.Point(541, 81)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(295, 20)
-        Me.TextBox13.TabIndex = 20
-        '
-        'Label55
-        '
-        Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(10, 195)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(141, 13)
-        Me.Label55.TabIndex = 21
-        Me.Label55.Text = "Terrenos de la Convocatoria"
-        '
-        'pnTerreno
-        '
-        Me.pnTerreno.Controls.Add(Me.Button19)
-        Me.pnTerreno.Controls.Add(Me.Button18)
-        Me.pnTerreno.Controls.Add(Me.ListView1)
-        Me.pnTerreno.Controls.Add(Me.TextBox16)
-        Me.pnTerreno.Controls.Add(Me.Label59)
-        Me.pnTerreno.Controls.Add(Me.TextBox15)
-        Me.pnTerreno.Controls.Add(Me.Label58)
-        Me.pnTerreno.Controls.Add(Me.Button17)
-        Me.pnTerreno.Controls.Add(Me.TextBox14)
-        Me.pnTerreno.Controls.Add(Me.Label57)
-        Me.pnTerreno.Enabled = False
-        Me.pnTerreno.Location = New System.Drawing.Point(13, 211)
-        Me.pnTerreno.Name = "pnTerreno"
-        Me.pnTerreno.Size = New System.Drawing.Size(380, 261)
-        Me.pnTerreno.TabIndex = 22
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(396, 195)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(94, 13)
-        Me.Label56.TabIndex = 23
-        Me.Label56.Text = "Estudios Técnicos"
-        '
         'pnEstudiosTec
         '
         Me.pnEstudiosTec.Controls.Add(Me.Button22)
-        Me.pnEstudiosTec.Controls.Add(Me.ListView2)
+        Me.pnEstudiosTec.Controls.Add(Me.lstEstudio)
         Me.pnEstudiosTec.Controls.Add(Me.Button21)
-        Me.pnEstudiosTec.Controls.Add(Me.DateTimePicker5)
+        Me.pnEstudiosTec.Controls.Add(Me.dtEstudioFecha)
         Me.pnEstudiosTec.Controls.Add(Me.Label62)
         Me.pnEstudiosTec.Controls.Add(Me.Button20)
-        Me.pnEstudiosTec.Controls.Add(Me.TextBox19)
+        Me.pnEstudiosTec.Controls.Add(Me.txtEstudioDoc)
         Me.pnEstudiosTec.Controls.Add(Me.Label61)
-        Me.pnEstudiosTec.Controls.Add(Me.TextBox18)
+        Me.pnEstudiosTec.Controls.Add(Me.txtEstudioNombre)
         Me.pnEstudiosTec.Controls.Add(Me.Label60)
         Me.pnEstudiosTec.Enabled = False
         Me.pnEstudiosTec.Location = New System.Drawing.Point(399, 211)
         Me.pnEstudiosTec.Name = "pnEstudiosTec"
         Me.pnEstudiosTec.Size = New System.Drawing.Size(466, 261)
         Me.pnEstudiosTec.TabIndex = 24
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(14, 15)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(80, 13)
-        Me.Label57.TabIndex = 0
-        Me.Label57.Text = "Código Terreno"
-        '
-        'TextBox14
-        '
-        Me.TextBox14.Location = New System.Drawing.Point(101, 12)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(61, 20)
-        Me.TextBox14.TabIndex = 1
-        '
-        'Button17
-        '
-        Me.Button17.Location = New System.Drawing.Point(168, 9)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(24, 23)
-        Me.Button17.TabIndex = 2
-        Me.Button17.Text = "..."
-        Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(14, 45)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(66, 13)
-        Me.Label58.TabIndex = 3
-        Me.Label58.Text = "Descripción:"
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Location = New System.Drawing.Point(83, 42)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(282, 20)
-        Me.TextBox15.TabIndex = 4
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(14, 79)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(70, 13)
-        Me.Label59.TabIndex = 5
-        Me.Label59.Text = "Observación:"
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Location = New System.Drawing.Point(84, 77)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(281, 20)
-        Me.TextBox16.TabIndex = 6
-        '
-        'ListView1
-        '
-        Me.ListView1.Location = New System.Drawing.Point(17, 129)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(348, 97)
-        Me.ListView1.TabIndex = 7
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        '
-        'Button18
-        '
-        Me.Button18.Location = New System.Drawing.Point(290, 103)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(75, 23)
-        Me.Button18.TabIndex = 8
-        Me.Button18.Text = "Agregar"
-        Me.Button18.UseVisualStyleBackColor = True
-        '
-        'Button19
-        '
-        Me.Button19.Location = New System.Drawing.Point(290, 232)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(75, 23)
-        Me.Button19.TabIndex = 9
-        Me.Button19.Text = "Registrar"
-        Me.Button19.UseVisualStyleBackColor = True
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(11, 12)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(100, 13)
-        Me.Label60.TabIndex = 0
-        Me.Label60.Text = "Nombre de Estudio:"
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Location = New System.Drawing.Point(117, 8)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(333, 20)
-        Me.TextBox18.TabIndex = 1
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(11, 45)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(65, 13)
-        Me.Label61.TabIndex = 2
-        Me.Label61.Text = "Documento:"
-        '
-        'TextBox19
-        '
-        Me.TextBox19.Location = New System.Drawing.Point(117, 42)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(310, 20)
-        Me.TextBox19.TabIndex = 3
-        '
-        'Button20
-        '
-        Me.Button20.Location = New System.Drawing.Point(427, 41)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(25, 23)
-        Me.Button20.TabIndex = 4
-        Me.Button20.Text = "..."
-        Me.Button20.UseVisualStyleBackColor = True
-        '
-        'Label62
-        '
-        Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(11, 80)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(93, 13)
-        Me.Label62.TabIndex = 5
-        Me.Label62.Text = "Fecha de Estudio:"
-        '
-        'DateTimePicker5
-        '
-        Me.DateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker5.Location = New System.Drawing.Point(117, 77)
-        Me.DateTimePicker5.Name = "DateTimePicker5"
-        Me.DateTimePicker5.Size = New System.Drawing.Size(124, 20)
-        Me.DateTimePicker5.TabIndex = 6
-        '
-        'Button21
-        '
-        Me.Button21.Location = New System.Drawing.Point(375, 79)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(75, 23)
-        Me.Button21.TabIndex = 7
-        Me.Button21.Text = "Agregar"
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'ListView2
-        '
-        Me.ListView2.Location = New System.Drawing.Point(14, 112)
-        Me.ListView2.Name = "ListView2"
-        Me.ListView2.Size = New System.Drawing.Size(436, 114)
-        Me.ListView2.TabIndex = 8
-        Me.ListView2.UseCompatibleStateImageBehavior = False
         '
         'Button22
         '
@@ -1662,6 +1280,285 @@ Partial Class Convocatoria
         Me.Button22.Text = "Registrar"
         Me.Button22.UseVisualStyleBackColor = True
         '
+        'lstEstudio
+        '
+        Me.lstEstudio.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9})
+        Me.lstEstudio.Location = New System.Drawing.Point(14, 112)
+        Me.lstEstudio.Name = "lstEstudio"
+        Me.lstEstudio.Size = New System.Drawing.Size(436, 114)
+        Me.lstEstudio.TabIndex = 8
+        Me.lstEstudio.UseCompatibleStateImageBehavior = False
+        Me.lstEstudio.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader7
+        '
+        Me.ColumnHeader7.Text = "Nombre"
+        Me.ColumnHeader7.Width = 200
+        '
+        'ColumnHeader8
+        '
+        Me.ColumnHeader8.Text = "Documento"
+        Me.ColumnHeader8.Width = 140
+        '
+        'ColumnHeader9
+        '
+        Me.ColumnHeader9.Text = "Fecha Estudio"
+        Me.ColumnHeader9.Width = 100
+        '
+        'Button21
+        '
+        Me.Button21.Location = New System.Drawing.Point(375, 79)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(75, 23)
+        Me.Button21.TabIndex = 7
+        Me.Button21.Text = "Agregar"
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'dtEstudioFecha
+        '
+        Me.dtEstudioFecha.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtEstudioFecha.Location = New System.Drawing.Point(117, 77)
+        Me.dtEstudioFecha.Name = "dtEstudioFecha"
+        Me.dtEstudioFecha.Size = New System.Drawing.Size(124, 20)
+        Me.dtEstudioFecha.TabIndex = 6
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(11, 80)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(93, 13)
+        Me.Label62.TabIndex = 5
+        Me.Label62.Text = "Fecha de Estudio:"
+        '
+        'Button20
+        '
+        Me.Button20.Location = New System.Drawing.Point(427, 41)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(25, 23)
+        Me.Button20.TabIndex = 4
+        Me.Button20.Text = "..."
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'txtEstudioDoc
+        '
+        Me.txtEstudioDoc.Location = New System.Drawing.Point(117, 42)
+        Me.txtEstudioDoc.Name = "txtEstudioDoc"
+        Me.txtEstudioDoc.Size = New System.Drawing.Size(310, 20)
+        Me.txtEstudioDoc.TabIndex = 3
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Location = New System.Drawing.Point(11, 45)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(65, 13)
+        Me.Label61.TabIndex = 2
+        Me.Label61.Text = "Documento:"
+        '
+        'txtEstudioNombre
+        '
+        Me.txtEstudioNombre.Location = New System.Drawing.Point(117, 8)
+        Me.txtEstudioNombre.Name = "txtEstudioNombre"
+        Me.txtEstudioNombre.Size = New System.Drawing.Size(333, 20)
+        Me.txtEstudioNombre.TabIndex = 1
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(11, 12)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(100, 13)
+        Me.Label60.TabIndex = 0
+        Me.Label60.Text = "Nombre de Estudio:"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Location = New System.Drawing.Point(396, 195)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(94, 13)
+        Me.Label56.TabIndex = 23
+        Me.Label56.Text = "Estudios Técnicos"
+        '
+        'pnTerreno
+        '
+        Me.pnTerreno.Controls.Add(Me.Button19)
+        Me.pnTerreno.Controls.Add(Me.Button18)
+        Me.pnTerreno.Controls.Add(Me.lsTerreno)
+        Me.pnTerreno.Controls.Add(Me.txTerrenoObser)
+        Me.pnTerreno.Controls.Add(Me.Label59)
+        Me.pnTerreno.Controls.Add(Me.txTerrenoDes)
+        Me.pnTerreno.Controls.Add(Me.Label58)
+        Me.pnTerreno.Controls.Add(Me.Button17)
+        Me.pnTerreno.Controls.Add(Me.txTerrenoCod)
+        Me.pnTerreno.Controls.Add(Me.Label57)
+        Me.pnTerreno.Enabled = False
+        Me.pnTerreno.Location = New System.Drawing.Point(13, 211)
+        Me.pnTerreno.Name = "pnTerreno"
+        Me.pnTerreno.Size = New System.Drawing.Size(380, 261)
+        Me.pnTerreno.TabIndex = 22
+        '
+        'Button19
+        '
+        Me.Button19.Location = New System.Drawing.Point(290, 232)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(75, 23)
+        Me.Button19.TabIndex = 9
+        Me.Button19.Text = "Registrar"
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        Me.Button18.Location = New System.Drawing.Point(290, 103)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(75, 23)
+        Me.Button18.TabIndex = 8
+        Me.Button18.Text = "Agregar"
+        Me.Button18.UseVisualStyleBackColor = True
+        '
+        'lsTerreno
+        '
+        Me.lsTerreno.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader5, Me.ColumnHeader6})
+        Me.lsTerreno.Location = New System.Drawing.Point(17, 129)
+        Me.lsTerreno.Name = "lsTerreno"
+        Me.lsTerreno.Size = New System.Drawing.Size(348, 97)
+        Me.lsTerreno.TabIndex = 7
+        Me.lsTerreno.UseCompatibleStateImageBehavior = False
+        Me.lsTerreno.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "C° Terreno"
+        Me.ColumnHeader1.Width = 80
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Descripción"
+        Me.ColumnHeader5.Width = 150
+        '
+        'ColumnHeader6
+        '
+        Me.ColumnHeader6.Text = "Observación"
+        Me.ColumnHeader6.Width = 150
+        '
+        'txTerrenoObser
+        '
+        Me.txTerrenoObser.Location = New System.Drawing.Point(84, 77)
+        Me.txTerrenoObser.Name = "txTerrenoObser"
+        Me.txTerrenoObser.Size = New System.Drawing.Size(281, 20)
+        Me.txTerrenoObser.TabIndex = 6
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(14, 79)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(70, 13)
+        Me.Label59.TabIndex = 5
+        Me.Label59.Text = "Observación:"
+        '
+        'txTerrenoDes
+        '
+        Me.txTerrenoDes.Location = New System.Drawing.Point(83, 42)
+        Me.txTerrenoDes.Name = "txTerrenoDes"
+        Me.txTerrenoDes.Size = New System.Drawing.Size(282, 20)
+        Me.txTerrenoDes.TabIndex = 4
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Location = New System.Drawing.Point(14, 45)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(66, 13)
+        Me.Label58.TabIndex = 3
+        Me.Label58.Text = "Descripción:"
+        '
+        'Button17
+        '
+        Me.Button17.Location = New System.Drawing.Point(168, 9)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(24, 23)
+        Me.Button17.TabIndex = 2
+        Me.Button17.Text = "..."
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'txTerrenoCod
+        '
+        Me.txTerrenoCod.Location = New System.Drawing.Point(101, 12)
+        Me.txTerrenoCod.Name = "txTerrenoCod"
+        Me.txTerrenoCod.Size = New System.Drawing.Size(61, 20)
+        Me.txTerrenoCod.TabIndex = 1
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(14, 15)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(80, 13)
+        Me.Label57.TabIndex = 0
+        Me.Label57.Text = "Código Terreno"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Location = New System.Drawing.Point(10, 195)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(141, 13)
+        Me.Label55.TabIndex = 21
+        Me.Label55.Text = "Terrenos de la Convocatoria"
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Location = New System.Drawing.Point(13, 16)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(99, 13)
+        Me.Label53.TabIndex = 20
+        Me.Label53.Text = "Aprobación Pública"
+        '
+        'pnAprobacion
+        '
+        Me.pnAprobacion.Controls.Add(Me.ckFunApro)
+        Me.pnAprobacion.Controls.Add(Me.Button23)
+        Me.pnAprobacion.Controls.Add(Me.txtAproFunNombre)
+        Me.pnAprobacion.Controls.Add(Me.Label54)
+        Me.pnAprobacion.Controls.Add(Me.Label44)
+        Me.pnAprobacion.Controls.Add(Me.txtAproResoFunOSCE)
+        Me.pnAprobacion.Controls.Add(Me.TextBox8)
+        Me.pnAprobacion.Controls.Add(Me.Label52)
+        Me.pnAprobacion.Controls.Add(Me.Label45)
+        Me.pnAprobacion.Controls.Add(Me.Button16)
+        Me.pnAprobacion.Controls.Add(Me.cboAproTipDoc)
+        Me.pnAprobacion.Controls.Add(Me.txtAproCodFunOSCE)
+        Me.pnAprobacion.Controls.Add(Me.Label46)
+        Me.pnAprobacion.Controls.Add(Me.Label51)
+        Me.pnAprobacion.Controls.Add(Me.dtFechaAprobacion)
+        Me.pnAprobacion.Controls.Add(Me.Label50)
+        Me.pnAprobacion.Controls.Add(Me.Label47)
+        Me.pnAprobacion.Controls.Add(Me.numAproPlazoObra)
+        Me.pnAprobacion.Controls.Add(Me.txtDocAprobacion)
+        Me.pnAprobacion.Controls.Add(Me.Label49)
+        Me.pnAprobacion.Controls.Add(Me.Button15)
+        Me.pnAprobacion.Controls.Add(Me.txtAreAprobacion)
+        Me.pnAprobacion.Controls.Add(Me.Label48)
+        Me.pnAprobacion.Enabled = False
+        Me.pnAprobacion.Location = New System.Drawing.Point(13, 32)
+        Me.pnAprobacion.Name = "pnAprobacion"
+        Me.pnAprobacion.Size = New System.Drawing.Size(852, 148)
+        Me.pnAprobacion.TabIndex = 19
+        '
+        'ckFunApro
+        '
+        Me.ckFunApro.AutoSize = True
+        Me.ckFunApro.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.ckFunApro.Location = New System.Drawing.Point(226, 104)
+        Me.ckFunApro.Name = "ckFunApro"
+        Me.ckFunApro.Size = New System.Drawing.Size(170, 17)
+        Me.ckFunApro.TabIndex = 22
+        Me.ckFunApro.Text = "Utilizar el actualmente logeado"
+        Me.ckFunApro.UseVisualStyleBackColor = True
+        '
         'Button23
         '
         Me.Button23.Location = New System.Drawing.Point(761, 116)
@@ -1671,14 +1568,221 @@ Partial Class Convocatoria
         Me.Button23.Text = "Registrar"
         Me.Button23.UseVisualStyleBackColor = True
         '
-        'Button24
+        'txtAproFunNombre
         '
-        Me.Button24.Location = New System.Drawing.Point(754, 451)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(117, 23)
-        Me.Button24.TabIndex = 32
-        Me.Button24.Text = "Cargar Documentos"
-        Me.Button24.UseVisualStyleBackColor = True
+        Me.txtAproFunNombre.Location = New System.Drawing.Point(541, 81)
+        Me.txtAproFunNombre.Name = "txtAproFunNombre"
+        Me.txtAproFunNombre.Size = New System.Drawing.Size(295, 20)
+        Me.txtAproFunNombre.TabIndex = 20
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Location = New System.Drawing.Point(488, 84)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(47, 13)
+        Me.Label54.TabIndex = 19
+        Me.Label54.Text = "Nombre:"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(14, 12)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(100, 13)
+        Me.Label44.TabIndex = 0
+        Me.Label44.Text = "Código Aprobación:"
+        '
+        'txtAproResoFunOSCE
+        '
+        Me.txtAproResoFunOSCE.Location = New System.Drawing.Point(343, 81)
+        Me.txtAproResoFunOSCE.Name = "txtAproResoFunOSCE"
+        Me.txtAproResoFunOSCE.Size = New System.Drawing.Size(130, 20)
+        Me.txtAproResoFunOSCE.TabIndex = 18
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Enabled = False
+        Me.TextBox8.Location = New System.Drawing.Point(120, 9)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(108, 20)
+        Me.TextBox8.TabIndex = 1
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Location = New System.Drawing.Point(261, 84)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(78, 13)
+        Me.Label52.TabIndex = 17
+        Me.Label52.Text = "N° Resolución:"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(261, 12)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(104, 13)
+        Me.Label45.TabIndex = 2
+        Me.Label45.Text = "Tipo de Documento:"
+        '
+        'Button16
+        '
+        Me.Button16.Location = New System.Drawing.Point(223, 79)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(26, 23)
+        Me.Button16.TabIndex = 16
+        Me.Button16.Text = "..."
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'cboAproTipDoc
+        '
+        Me.cboAproTipDoc.FormattingEnabled = True
+        Me.cboAproTipDoc.Items.AddRange(New Object() {"RESOLUCIÓN", "MEMORANDUM", "OFICIO", "CARTA", "OTROS"})
+        Me.cboAproTipDoc.Location = New System.Drawing.Point(369, 8)
+        Me.cboAproTipDoc.Name = "cboAproTipDoc"
+        Me.cboAproTipDoc.Size = New System.Drawing.Size(206, 21)
+        Me.cboAproTipDoc.TabIndex = 3
+        '
+        'txtAproCodFunOSCE
+        '
+        Me.txtAproCodFunOSCE.Location = New System.Drawing.Point(140, 81)
+        Me.txtAproCodFunOSCE.Name = "txtAproCodFunOSCE"
+        Me.txtAproCodFunOSCE.Size = New System.Drawing.Size(77, 20)
+        Me.txtAproCodFunOSCE.TabIndex = 15
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(620, 11)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(97, 13)
+        Me.Label46.TabIndex = 4
+        Me.Label46.Text = "Fecha Aprobación:"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Location = New System.Drawing.Point(14, 84)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(120, 13)
+        Me.Label51.TabIndex = 14
+        Me.Label51.Text = "Funcionario Encargado:"
+        '
+        'dtFechaAprobacion
+        '
+        Me.dtFechaAprobacion.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtFechaAprobacion.Location = New System.Drawing.Point(723, 9)
+        Me.dtFechaAprobacion.Name = "dtFechaAprobacion"
+        Me.dtFechaAprobacion.Size = New System.Drawing.Size(115, 20)
+        Me.dtFechaAprobacion.TabIndex = 5
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Location = New System.Drawing.Point(180, 121)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(28, 13)
+        Me.Label50.TabIndex = 13
+        Me.Label50.Text = "días"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(14, 46)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(65, 13)
+        Me.Label47.TabIndex = 6
+        Me.Label47.Text = "Documento:"
+        '
+        'numAproPlazoObra
+        '
+        Me.numAproPlazoObra.Location = New System.Drawing.Point(104, 119)
+        Me.numAproPlazoObra.Maximum = New Decimal(New Integer() {365, 0, 0, 0})
+        Me.numAproPlazoObra.Name = "numAproPlazoObra"
+        Me.numAproPlazoObra.Size = New System.Drawing.Size(72, 20)
+        Me.numAproPlazoObra.TabIndex = 12
+        '
+        'txtDocAprobacion
+        '
+        Me.txtDocAprobacion.Location = New System.Drawing.Point(83, 43)
+        Me.txtDocAprobacion.Name = "txtDocAprobacion"
+        Me.txtDocAprobacion.Size = New System.Drawing.Size(390, 20)
+        Me.txtDocAprobacion.TabIndex = 7
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Location = New System.Drawing.Point(17, 121)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(77, 13)
+        Me.Label49.TabIndex = 11
+        Me.Label49.Text = "Plazo de Obra:"
+        '
+        'Button15
+        '
+        Me.Button15.Location = New System.Drawing.Point(480, 41)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(26, 23)
+        Me.Button15.TabIndex = 8
+        Me.Button15.Text = "..."
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'txtAreAprobacion
+        '
+        Me.txtAreAprobacion.Location = New System.Drawing.Point(633, 45)
+        Me.txtAreAprobacion.Name = "txtAreAprobacion"
+        Me.txtAreAprobacion.Size = New System.Drawing.Size(203, 20)
+        Me.txtAreAprobacion.TabIndex = 10
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(521, 47)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(106, 13)
+        Me.Label48.TabIndex = 9
+        Me.Label48.Text = "Área de Elaboración:"
+        '
+        'oDexploradorArchivos
+        '
+        Me.oDexploradorArchivos.FileName = "OpenFileDialog1"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Location = New System.Drawing.Point(773, 19)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(25, 13)
+        Me.Label63.TabIndex = 23
+        Me.Label63.Text = ".pdf"
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Location = New System.Drawing.Point(773, 20)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(25, 13)
+        Me.Label64.TabIndex = 24
+        Me.Label64.Text = ".pdf"
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Location = New System.Drawing.Point(773, 17)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(25, 13)
+        Me.Label65.TabIndex = 25
+        Me.Label65.Text = ".pdf"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Location = New System.Drawing.Point(773, 16)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(25, 13)
+        Me.Label66.TabIndex = 33
+        Me.Label66.Text = ".pdf"
         '
         'Convocatoria
         '
@@ -1707,27 +1811,27 @@ Partial Class Convocatoria
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
-        Me.pnPresupuesto.ResumeLayout(False)
-        Me.pnPresupuesto.PerformLayout()
-        Me.pnAnalisis.ResumeLayout(False)
-        Me.pnAnalisis.PerformLayout()
-        Me.pnPolinomicas.ResumeLayout(False)
-        Me.pnPolinomicas.PerformLayout()
-        Me.pnRiesgos.ResumeLayout(False)
-        Me.pnRiesgos.PerformLayout()
-        Me.pnDocOpcional.ResumeLayout(False)
-        Me.pnDocOpcional.PerformLayout()
         Me.pnConsultora.ResumeLayout(False)
         Me.pnConsultora.PerformLayout()
+        Me.pnDocOpcional.ResumeLayout(False)
+        Me.pnDocOpcional.PerformLayout()
+        Me.pnRiesgos.ResumeLayout(False)
+        Me.pnRiesgos.PerformLayout()
+        Me.pnPolinomicas.ResumeLayout(False)
+        Me.pnPolinomicas.PerformLayout()
+        Me.pnAnalisis.ResumeLayout(False)
+        Me.pnAnalisis.PerformLayout()
+        Me.pnPresupuesto.ResumeLayout(False)
+        Me.pnPresupuesto.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.pnAprobacion.ResumeLayout(False)
-        Me.pnAprobacion.PerformLayout()
-        Me.pnTerreno.ResumeLayout(False)
-        Me.pnTerreno.PerformLayout()
         Me.pnEstudiosTec.ResumeLayout(False)
         Me.pnEstudiosTec.PerformLayout()
+        Me.pnTerreno.ResumeLayout(False)
+        Me.pnTerreno.PerformLayout()
+        Me.pnAprobacion.ResumeLayout(False)
+        Me.pnAprobacion.PerformLayout()
+        CType(Me.numAproPlazoObra, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1804,90 +1908,102 @@ Partial Class Convocatoria
     Friend WithEvents pnPolinomicas As Panel
     Friend WithEvents Label34 As Label
     Friend WithEvents Button11 As Button
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtFormulas As TextBox
     Friend WithEvents Label33 As Label
     Friend WithEvents pnAnalisis As Panel
     Friend WithEvents Button10 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtAnalisis As TextBox
     Friend WithEvents Label31 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents pnPresupuesto As Panel
-    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents dtRegistroPresupuesto As DateTimePicker
     Friend WithEvents Label25 As Label
     Friend WithEvents Label18 As Label
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents txtPresupuesto As TextBox
+    Friend WithEvents dtPresupuesto As DateTimePicker
     Friend WithEvents Label17 As Label
     Friend WithEvents Label35 As Label
     Friend WithEvents pnRiesgos As Panel
     Friend WithEvents Button12 As Button
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtRiesgos As TextBox
     Friend WithEvents Label36 As Label
     Friend WithEvents DateTimePicker3 As DateTimePicker
     Friend WithEvents Label43 As Label
     Friend WithEvents Label39 As Label
     Friend WithEvents pnConsultora As Panel
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents txtRepresentanteConsultora As TextBox
     Friend WithEvents Label42 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtNameConsultora As TextBox
     Friend WithEvents Label41 As Label
     Friend WithEvents Button14 As Button
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtRUConsultora As TextBox
     Friend WithEvents Label40 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents pnDocOpcional As Panel
     Friend WithEvents Button13 As Button
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtOtrosDoc As TextBox
     Friend WithEvents Label38 As Label
     Friend WithEvents TabPage3 As TabPage
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cboAproTipDoc As ComboBox
     Friend WithEvents Label45 As Label
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label44 As Label
     Friend WithEvents Label53 As Label
     Friend WithEvents pnAprobacion As Panel
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents txtAproFunNombre As TextBox
     Friend WithEvents Label54 As Label
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents txtAproResoFunOSCE As TextBox
     Friend WithEvents Label52 As Label
     Friend WithEvents Button16 As Button
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents txtAproCodFunOSCE As TextBox
     Friend WithEvents Label46 As Label
     Friend WithEvents Label51 As Label
-    Friend WithEvents DateTimePicker4 As DateTimePicker
+    Friend WithEvents dtFechaAprobacion As DateTimePicker
     Friend WithEvents Label50 As Label
     Friend WithEvents Label47 As Label
-    Friend WithEvents NumericUpDown1 As NumericUpDown
-    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents numAproPlazoObra As NumericUpDown
+    Friend WithEvents txtDocAprobacion As TextBox
     Friend WithEvents Label49 As Label
     Friend WithEvents Button15 As Button
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents txtAreAprobacion As TextBox
     Friend WithEvents Label48 As Label
     Friend WithEvents pnEstudiosTec As Panel
     Friend WithEvents Label56 As Label
     Friend WithEvents pnTerreno As Panel
     Friend WithEvents Label58 As Label
     Friend WithEvents Button17 As Button
-    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents txTerrenoCod As TextBox
     Friend WithEvents Label57 As Label
     Friend WithEvents Label55 As Label
     Friend WithEvents Label61 As Label
-    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents txtEstudioNombre As TextBox
     Friend WithEvents Label60 As Label
     Friend WithEvents Button19 As Button
     Friend WithEvents Button18 As Button
-    Friend WithEvents ListView1 As ListView
-    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents lsTerreno As ListView
+    Friend WithEvents txTerrenoObser As TextBox
     Friend WithEvents Label59 As Label
-    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents txTerrenoDes As TextBox
     Friend WithEvents Button22 As Button
-    Friend WithEvents ListView2 As ListView
+    Friend WithEvents lstEstudio As ListView
     Friend WithEvents Button21 As Button
-    Friend WithEvents DateTimePicker5 As DateTimePicker
+    Friend WithEvents dtEstudioFecha As DateTimePicker
     Friend WithEvents Label62 As Label
     Friend WithEvents Button20 As Button
-    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents txtEstudioDoc As TextBox
     Friend WithEvents Button23 As Button
     Friend WithEvents Button24 As Button
+    Friend WithEvents ckFunApro As CheckBox
+    Friend WithEvents ColumnHeader1 As ColumnHeader
+    Friend WithEvents ColumnHeader5 As ColumnHeader
+    Friend WithEvents ColumnHeader6 As ColumnHeader
+    Friend WithEvents ColumnHeader7 As ColumnHeader
+    Friend WithEvents ColumnHeader8 As ColumnHeader
+    Friend WithEvents ColumnHeader9 As ColumnHeader
+    Friend WithEvents oDexploradorArchivos As OpenFileDialog
+    Friend WithEvents Label66 As Label
+    Friend WithEvents Label65 As Label
+    Friend WithEvents Label64 As Label
+    Friend WithEvents Label63 As Label
 End Class

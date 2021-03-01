@@ -5,6 +5,33 @@ Public Class listaEntidades
     Private ruc As String
     Private ubigeo As String
     Private nombre As String
+    Private idDepa As Integer
+    Private idProv As Integer
+    Private idDist As Integer
+    Public Property distrito() As Integer
+        Get
+            Return idDist
+        End Get
+        Set(ByVal value As Integer)
+            idDist = value
+        End Set
+    End Property
+    Public Property provincia() As Integer
+        Get
+            Return idProv
+        End Get
+        Set(ByVal value As Integer)
+            idProv = value
+        End Set
+    End Property
+    Public Property departamento() As Integer
+        Get
+            Return idDepa
+        End Get
+        Set(ByVal value As Integer)
+            idDepa = value
+        End Set
+    End Property
     Public Property nombreEntidad() As String
         Get
             Return nombre
@@ -50,6 +77,10 @@ Public Class listaEntidades
         ubigeoEntidad = dtgEntidades.CurrentRow.Cells(0).Value.ToString
         rucEntidad = dtgEntidades.CurrentRow.Cells(1).Value.ToString
         nombreEntidad = dtgEntidades.CurrentRow.Cells(2).Value.ToString
+        departamento = dtgEntidades.CurrentRow.Cells(7).Value.ToString
+        provincia = dtgEntidades.CurrentRow.Cells(8).Value.ToString
+        distrito = dtgEntidades.CurrentRow.Cells(9).Value.ToString
+
         Close()
     End Sub
 

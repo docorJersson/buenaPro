@@ -11,7 +11,19 @@ Public Class Convocatoria
     Dim cronogramaConv As New List(Of cronogramaDE)
     Dim newCronograma As cronogramaDE
     Dim entidadConvocante As CapaEntidad.entidadPublica
+    Dim expeTecnicoDE As expedienteTecnicoDE
+    Dim aprobacionDE As aprobacionPublicaDE
+    Dim terrenoExpeDE As terrenoExpedienteDE
+    Dim listTerrenoExpe As New List(Of terrenoExpedienteDE)
+    Dim estudioTecDE As estudioTecnicoDE
+    Dim listEstudioTec As New List(Of estudioTecnicoDE)
+    Dim expeTecnicoDL As New expedienTecnicoDL()
     Private idFinanciera_Entidad As Integer
+    Private autogenerado As Boolean = True
+    Private idDepa As Integer
+    Private idProv As Integer
+    Private idDist As Integer
+
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -130,45 +142,31 @@ Public Class Convocatoria
 
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
-        newConvocatoria = New convocatoriaPublicaDE()
         Try
             Dim code As String
-            Dim autogenerado As Boolean = True
+            funOSCEAccion = New funcionarioOSCEDE()
             code = user.accionUser(session.Instance.getUser(), session.Instance.getTipo())
             funOSCEAccion = funOSCEDL.buscarCodigo(code)
             newConvocatoria.funcionarioOSCE = funOSCEAccion
-            newConvocatoria.numeroConvocatoria = txtNConvocatoria.Text
-            newConvocatoria.tipoSeleccion = cboTiSeleccion.SelectedItem.ToString.ToUpper
-            newConvocatoria.normaConvocatoria = txtNormativa.Text.ToUpper
-            newConvocatoria.nomenclaturaConvo = txtNomenclatura.Text.ToUpper
-            newConvocatoria.modoConvocatoria = cboModoDeber.SelectedValue.ToString
-            newConvocatoria.descripcionConvocatoria = txtDesConvocatoria.Text.ToUpper
-            If cboCostParticipacion.Checked = True Then
-                newConvocatoria.costoParticipacion = 0
-            Else
-                newConvocatoria.costoParticipacion = txtParticipacion.Text
+            If ckFunApro.Checked Then
+                aprobacionDE.funcionariOSCE = funOSCEAccion
             End If
-            newConvocatoria.tipoMoneda = cboMoneda.SelectedItem.ToString
-            newConvocatoria.costoBases = txtBases.Text
-            newConvocatoria.fechaPublicacion = dtFPublicacion.Value.Date
-            newConvocatoria.entidadConvocante = Me.entidadConvocante
-            newConvocatoria.financieraPublica = Me.idFinanciera_Entidad
-            If ckGenerar.Checked = False Then
-                autogenerado = False
-                newConvocatoria.cronogramaConvoatoria = Me.cronogramaConv
-            End If
+
             Dim cConvocatoria As Integer
             cConvocatoria = convoDL.insertConvo(newConvocatoria, autogenerado)
-            MsgBox("Convocatoria N°" + cConvocatoria.ToString)
+            newConvocatoria.codigoConvocatoria = cConvocatoria
+
+            expeTecnicoDE.convocatoriaPublica = newConvocatoria
+
+            expeTecnicoDL.insertExpe(expeTecnicoDE)
+            expeTecnicoDE.aprobacionPublica = aprobacionDE
+            expeTecnicoDL.insertAprobacion(expeTecnicoDE)
+
+            MsgBox("Convocatoria N°" & cConvocatoria.ToString)
 
         Catch ex As Exception
             Debug.WriteLine(ex)
         End Try
-
-
-
-
-
     End Sub
 
     Private Sub cboTiSeleccion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTiSeleccion.SelectedIndexChanged
@@ -189,7 +187,9 @@ Public Class Convocatoria
         entidadConvocante = New CapaEntidad.entidadPublica()
         entidadConvocante.ubigeoEntidad = listForm.ubigeoEntidad
         entidadConvocante.rucEntidad = listForm.rucEntidad
-
+        idDepa = listForm.departamento
+        idProv = listForm.provincia
+        idDist = listForm.distrito
 
     End Sub
 
@@ -231,8 +231,35 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        tbDetallesConvo.SelectedIndex = 1
-        expeTecnico(True)
+        newConvocatoria = New convocatoriaPublicaDE()
+        Try
+            newConvocatoria.numeroConvocatoria = txtNConvocatoria.Text
+            newConvocatoria.tipoSeleccion = cboTiSeleccion.SelectedItem.ToString.ToUpper
+            newConvocatoria.normaConvocatoria = txtNormativa.Text.ToUpper
+            newConvocatoria.nomenclaturaConvo = txtNomenclatura.Text.ToUpper
+            newConvocatoria.modoConvocatoria = cboModoDeber.SelectedValue.ToString
+            newConvocatoria.descripcionConvocatoria = txtDesConvocatoria.Text.ToUpper
+            If cboCostParticipacion.Checked = True Then
+                newConvocatoria.costoParticipacion = 0
+            Else
+                newConvocatoria.costoParticipacion = txtParticipacion.Text
+            End If
+            newConvocatoria.tipoMoneda = cboMoneda.SelectedItem.ToString
+            newConvocatoria.costoBases = txtBases.Text
+            newConvocatoria.fechaPublicacion = dtFPublicacion.Value.Date
+            newConvocatoria.entidadConvocante = Me.entidadConvocante
+            newConvocatoria.financieraPublica = Me.idFinanciera_Entidad
+            If ckGenerar.Checked = False Then
+                autogenerado = False
+                newConvocatoria.cronogramaConvoatoria = Me.cronogramaConv
+            End If
+
+            tbDetallesConvo.SelectedIndex = 1
+            expeTecnico(True)
+        Catch ex As Exception
+            Debug.WriteLine(ex)
+        End Try
+
     End Sub
 
     Private Sub expeTecnico(estado As Boolean)
@@ -245,19 +272,188 @@ Public Class Convocatoria
     End Sub
 
     Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        expeTecnicoDE = New expedienteTecnicoDE()
+        expeTecnicoDE.presupuestObra = txtPresupuesto.Text
+        expeTecnicoDE.fechaPresupuesto = dtPresupuesto.Value.Date
+        expeTecnicoDE.fRegistroPresupuesto = dtRegistroPresupuesto.Value.Date
+        expeTecnicoDE.docAnalisis = txtAnalisis.Text
+        expeTecnicoDE.docFormulasPoli = txtFormulas.Text
+        expeTecnicoDE.docGestionRiesgos = txtRiesgos.Text
+        expeTecnicoDE.docOtros = txtOtrosDoc.Text
+        expeTecnicoDE.fRegistroExpediente = DateTime.Now.Date
+        expeTecnicoDE.consultoraObras.rucConsultoraObra = txtRUConsultora.Text
+
         tbDetallesConvo.SelectedIndex = 2
         pnAprobacion.Enabled = True
     End Sub
 
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        aprobacionDE = New aprobacionPublicaDE()
+        aprobacionDE.tipoDocumento = cboAproTipDoc.SelectedItem.ToString
+        aprobacionDE.fechaAprobacion = dtFechaAprobacion.Value.Date
+        aprobacionDE.documentoAprobacion = txtDocAprobacion.Text
+        aprobacionDE.areaElaboracion = txtAreAprobacion.Text
+        aprobacionDE.plazoObra = numAproPlazoObra.Value.ToString
+        If ckFunApro.Checked = False Then
+            funOSCEAccion = New funcionarioOSCEDE()
+            funOSCEAccion.codFOSCE = txtAproCodFunOSCE.Text
+            funOSCEAccion.numResolucion = txtAproResoFunOSCE.Text
+            aprobacionDE.funcionariOSCE = funOSCEAccion
+        End If
         pnTerreno.Enabled = True
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        expeTecnicoDE.terrenosExpediente = listTerrenoExpe
         pnEstudiosTec.Enabled = True
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        expeTecnicoDE.estudioTecnico = listEstudioTec
         btnGuardar.Enabled = True
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles ckFunApro.CheckedChanged
+        If ckFunApro.Checked Then
+            funAprobacion(False)
+        Else
+            funAprobacion(True)
+        End If
+    End Sub
+    Private Sub funAprobacion(estado As Boolean)
+        txtAproFunNombre.Text = ""
+        txtAproResoFunOSCE.Text = ""
+        txtAproCodFunOSCE.Text = ""
+        txtAproCodFunOSCE.Enabled = estado
+        txtAproFunNombre.Enabled = estado
+        txtAproResoFunOSCE.Enabled = estado
+    End Sub
+
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lsTerreno.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        Dim codTerreno As String = txTerrenoCod.Text
+        Dim descripcion As String = txTerrenoDes.Text.ToUpper
+        Dim observacion As String = txTerrenoObser.Text.ToUpper
+
+        Dim terreno As ListViewItem
+        terreno = New ListViewItem(codTerreno)
+        terreno.SubItems.Add(descripcion)
+        terreno.SubItems.Add(observacion)
+        lsTerreno.Items.Add(terreno)
+
+        terrenoExpeDE = New terrenoExpedienteDE()
+        terrenoExpeDE.terrenoExpe.codTerreno = codTerreno
+        terrenoExpeDE.fechaRegistro = DateTime.Now.Date
+        listTerrenoExpe.Add(terrenoExpeDE)
+        limpiaTerreno()
+
+
+    End Sub
+
+    Private Sub limpiaTerreno()
+        txTerrenoCod.Text = ""
+        txTerrenoDes.Text = ""
+        txTerrenoObser.Text = ""
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        Dim nombrEstudio As String = txtEstudioNombre.Text.ToUpper
+        Dim docEstudio As String = txtEstudioDoc.Text
+        Dim fEstudio As Date = dtEstudioFecha.Value.Date
+
+        Dim estudio As ListViewItem
+        estudio = New ListViewItem(nombrEstudio)
+        estudio.SubItems.Add(docEstudio)
+        estudio.SubItems.Add(fEstudio.ToString("d"))
+        lstEstudio.Items.Add(estudio)
+
+        estudioTecDE = New estudioTecnicoDE()
+        estudioTecDE.nombreEstudio = nombrEstudio
+        estudioTecDE.documentoEstudio = docEstudio
+        estudioTecDE.fechaEstudio = fEstudio
+        estudioTecDE.fechaRegistro = DateTime.Now.Date
+        listEstudioTec.Add(estudioTecDE)
+        limpiaEstudio()
+
+    End Sub
+    Private Sub limpiaEstudio()
+        txtEstudioDoc.Text = ""
+        txtEstudioNombre.Text = ""
+        dtEstudioFecha.Value = DateTime.Now
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Dim nombreDoc As String = seleccionDocumento("analisisPrecio")
+        txtAnalisis.Text = nombreDoc
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+    End Sub
+    Private Function seleccionDocumento(docActividad As String) As String
+        oDexploradorArchivos.Title = "Seleccione Documento"
+        oDexploradorArchivos.Filter = "PDF|*.pdf"
+        If oDexploradorArchivos.ShowDialog() = DialogResult.OK Then
+            Dim extension As String = IO.Path.GetExtension(oDexploradorArchivos.FileName)
+            If extension = ".pdf" Then
+                Dim nombreOriginal = IO.Path.GetFileNameWithoutExtension(oDexploradorArchivos.FileName)
+                Dim fecha As String = Date.Today()
+                fecha = fecha.Replace("/", "-")
+                Dim aleatorio As Integer = CInt(Int((999999 * Rnd()) + 1))
+                Dim nombreFinal As String = aleatorio & "_" & fecha & "_" & nombreOriginal & "_" & docActividad & ".pdf"
+                MsgBox("EL ARCHIVO HA SIDO SELECCIONADO CORRECTAMENTE")
+                IO.File.Copy(oDexploradorArchivos.FileName, "./documentosBUENA_PRO/" & nombreFinal)
+                Return nombreFinal
+            Else
+                MsgBox("EL FORMATO ES INCORRECTO")
+            End If
+        Else
+            MsgBox("Error, Seleccion Vacía")
+        End If
+    End Function
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Dim nombreDoc As String = seleccionDocumento("formulasPolinomicas")
+        txtFormulas.Text = nombreDoc
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        Dim nombreDoc As String = seleccionDocumento("gestionRiesgos")
+        txtRiesgos.Text = nombreDoc
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Dim nombreDoc As String = seleccionDocumento("otrosDocumentos")
+        txtOtrosDoc.Text = nombreDoc
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        Dim nombreDoc As String = seleccionDocumento("aprobaciónPública")
+        txtDocAprobacion.Text = nombreDoc
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        Dim listConObras As New listConsultoraObra()
+        listConObras.ShowDialog()
+        txtRUConsultora.Text = listConObras.rucConsultora
+        txtNameConsultora.Text = listConObras.nombreConsultora
+        txtRepresentanteConsultora.Text = listConObras.representanteConsultora
+
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Dim listFun As New listFuncionariOSCE()
+        listFun.ShowDialog()
+        txtAproCodFunOSCE.Text = listFun.codigoFunOSCE
+        txtAproResoFunOSCE.Text = listFun.resoFunOSCE
+        txtAproFunNombre.Text = listFun.nombreFunOSCE
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+
     End Sub
 End Class

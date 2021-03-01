@@ -56,7 +56,6 @@ Public Class convocatoria
                     insertConvo.ExecuteNonQuery()
                     Dim cConvocatoria As Integer = insertConvo.Parameters("@cConvocatoria").Value
                     newConvocatoria.codigoConvocatoria = cConvocatoria
-                    Console.WriteLine(newConvocatoria.codigoConvocatoria.ToString)
                     insertCronograma(newConvocatoria, autogeneado)
                     Return cConvocatoria
                 Catch ex As Exception

@@ -6,4 +6,8 @@ Public Class funcionarioOSCEDL
         Return funcOSDA.buscarFun(codigo)
     End Function
 
+    Public Function listFunOsce() As DataTable
+        Return funcOSDA.listFunOSCE()
+    End Function
+
 End Class

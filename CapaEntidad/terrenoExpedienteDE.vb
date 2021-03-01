@@ -1,7 +1,27 @@
 ﻿Public Class terrenoExpedienteDE
+    Private cConvocatoria As Integer
+    Private cExpeTecnico As Integer
     Private terreno As terrenoDE
     Private observacion As String
     Private fRegistro As Date
+
+    Public Property codExpedienteTecnico() As Integer
+        Get
+            Return cExpeTecnico
+        End Get
+        Set(ByVal value As Integer)
+            cExpeTecnico = value
+        End Set
+    End Property
+    Public Property convocatoriaPublica() As Integer
+        Get
+            Return cConvocatoria
+        End Get
+        Set(ByVal value As Integer)
+            cConvocatoria = value
+        End Set
+    End Property
+
     Public Property fechaRegistro() As Date
         Get
             Return fRegistro

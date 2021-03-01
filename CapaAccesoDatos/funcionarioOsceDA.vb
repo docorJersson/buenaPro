@@ -34,4 +34,25 @@ Public Class funcionarioOsceDA
         End Try
         Return funcOSCE
     End Function
+
+    Public Function listFunOSCE() As DataTable
+        Using cBuenaPro As New SqlConnection(My.Settings.ConexionBUENAPRO)
+            cBuenaPro.Open()
+            Using funOSCE As New SqlCommand("select * from  listFunOSCE", cBuenaPro)
+                Try
+                    funOSCE.CommandType = CommandType.Text
+                    Using adapter As New SqlDataAdapter(funOSCE)
+                        Dim table As New DataTable
+                        adapter.Fill(table)
+                        Return table
+                    End Using
+
+                Catch ex As Exception
+                    Console.WriteLine(ex)
+                End Try
+            End Using
+            cBuenaPro.Close()
+        End Using
+    End Function
+
 End Class
